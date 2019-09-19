@@ -1,0 +1,13 @@
+{
+  "universal": {
+    "under_construction": "紧张编写中......"
+  },
+  "navbar": {
+    "my_blog": "我的博客",
+    "home": "主页",
+    "login": "登录",
+    "articles": "文章",
+    "about_me": "关于博主",
+    "language": "语言"
+  }
+}

@@ -1,34 +1,28 @@
 <template>
-  <div id="app" class="row">
-<!--    <div id="nav">-->
-<!--      <router-link to="/">Home</router-link> |-->
-<!--      <router-link to="/about">About</router-link>-->
-<!--    </div>-->
-    <div class="col-12">
-      <router-view/>
+  <div id="app" class="height-100">
+    <top-nav-bar></top-nav-bar>
+    <div class="container-fluid">
+      <div class="row height-100">
+        <div class="col-12 height-100">
+          <router-view/>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+  import TopNavBar from '@/components/TopNavBar.vue';
+  export default {
+    name: 'app',
+    components: {
+      TopNavBar
+    },
+  }
+</script>
 
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+<style scoped>
+  .container-fluid {
+    height: 80%;
+  }
 </style>

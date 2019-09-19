@@ -1,5 +1,5 @@
 <template>
-  <div class="row align-items-center height-100" id="about">
+  <div class="row align-items-center height-100" id="login">
     <div class="col-12">
       <construction-notice></construction-notice>
     </div>
@@ -9,7 +9,7 @@
 <script>
   import ConstructionNotice from '@/components/ConstructionNotice.vue'
   export default {
-    name: 'about',
+    name: 'login',
     components: {
       ConstructionNotice
     },

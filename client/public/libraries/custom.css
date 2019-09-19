@@ -1,0 +1,39 @@
+html {
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: url('../images/bg_image.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+.height-100 {
+  height: 100%;
+}
+.bg-main {
+  background-color: #F5DEB3;
+}
+.cursor-default {
+  cursor: default;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.transparent-card {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-left: .25rem solid #F5DEB3;
+  border-radius: .25rem;
+  background-color: rgba(255, 255, 240, .30);
+  background-clip: padding-box;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
