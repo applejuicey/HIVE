@@ -3,6 +3,7 @@ const Model = Sequelize.Model;
 const sequelize = require('../database/sequelize');
 
 class User extends Model {}
+User.writableFieldsKeyNamesArray = ['username', 'password'];
 User.init({
   id: {
     filed: 'id',

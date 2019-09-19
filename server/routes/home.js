@@ -1,24 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/User');
-const Article = require('../models/Article');
 
 router.get('/', function(req, res, next) {
-  res.send('Hello World! get')
+  res.send('Hello World! get home')
 });
 
-
-
 router.post('/', function (req, res) {
-  res.send('Got a POST request')
+  res.send('Got a POST request home')
 });
 
 router.put('/', function (req, res) {
-  res.send('Got a PUT request')
+  res.send('Got a PUT request home')
 });
 
 router.delete('/', function (req, res) {
-  res.send('Got a DELETE request')
+  res.send('Got a DELETE request home')
 });
 
 module.exports = router;

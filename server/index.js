@@ -1,13 +1,14 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
-// const bodyParser = require('body-parser');
-const index = require('./routes/index');
-// const users = require('./routes/users');
-
-// app.use(bodyParser.json());
+app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/', index);
-// app.use('/users', users);
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+// routes
+const home = require('./routes/home');
+const user = require('./routes/user');
+app.use('/', home);
+app.use('/user', user);
+
+app.listen(3000, () => console.log('后端应用正在端口3000上运行!'));
