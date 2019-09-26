@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "the server of my personal website",
+  "description": "the server of HIVE",
   "main": "index.js",
   "scripts": {
     "serve": "nodemon index.js",

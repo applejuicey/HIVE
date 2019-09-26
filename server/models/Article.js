@@ -3,6 +3,7 @@ const Model = Sequelize.Model;
 const sequelize = require('../database/sequelize');
 
 class Article extends Model {}
+Article.writableFieldsKeyNamesArray = ['username', 'password'];
 Article.init({
   id: {
     filed: 'id',
@@ -11,13 +12,21 @@ Article.init({
     primaryKey: true,
     allowNull: false,
   },
-  articleTitle: {
+  title: {
     type: Sequelize.STRING,
     allowNull: false,
   },
-  authorName: {
-    type: Sequelize.STRING,
+  createdTime: {
+    type: Sequelize.DATE,
     allowNull: false,
+  },
+  updatedTime: {
+    type: Sequelize.DATE,
+    allowNull: false,
+  },
+  content: {
+    type: Sequelize.TEXT,
+    allowNull: true,
   }
 }, {
   sequelize,

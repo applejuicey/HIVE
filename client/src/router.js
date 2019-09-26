@@ -10,7 +10,7 @@ Vue.use(Router);
 
 const router = new Router({
   mode: 'history',
-  base: '/blog/',
+  base: '/hive/',
   // base: process.env.BASE_URL,
   routes: [
     {

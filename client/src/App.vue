@@ -1,9 +1,9 @@
 <template>
-  <div id="app" class="height-100">
+  <div id="app" class="height-percentage-100">
     <top-nav-bar></top-nav-bar>
     <div class="container-fluid">
-      <div class="row height-100">
-        <div class="col-12 height-100">
+      <div class="row height-percentage-100">
+        <div class="col-12 height-percentage-100">
           <router-view/>
         </div>
       </div>

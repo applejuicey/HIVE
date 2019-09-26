@@ -1,5 +1,5 @@
 <template>
-  <div class="row align-items-center height-100" id="home">
+  <div class="row align-items-center height-percentage-100" id="home">
     <div class="col-12">
       <construction-notice></construction-notice>
     </div>

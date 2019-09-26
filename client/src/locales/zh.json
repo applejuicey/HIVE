@@ -1,13 +1,13 @@
 {
   "universal": {
-    "under_construction": "紧张编写中......"
+    "under_construction": "HIVE正在紧张编写中......"
   },
   "navbar": {
-    "my_blog": "我的博客",
+    "hive": "HIVE",
     "home": "主页",
     "login": "登录",
     "articles": "文章",
-    "about_me": "关于博主",
+    "about": "关于HIVE",
     "language": "语言"
   }
 }

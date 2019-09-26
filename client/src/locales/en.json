@@ -1,13 +1,13 @@
 {
   "universal": {
-    "under_construction": "UNDER CONSTRUCTION NOW......"
+    "under_construction": "HIVE IS UNDER CONSTRUCTION NOW......"
   },
   "navbar": {
-    "my_blog": "MY BLOG",
+    "hive": "HIVE",
     "home": "HOME",
     "login": "LOGIN",
     "articles": "ARTICLES",
-    "about_me": "ABOUT ME",
+    "about": "ABOUT HIVE",
     "language": "LANGUAGE"
   }
 }

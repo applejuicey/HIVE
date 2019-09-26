@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-md sticky-top navbar-light bg-main">
+  <nav class="navbar navbar-expand-md sticky-top background-color-main">
     <div class="navbar-brand cursor-default">
-      <i class="fas fa-blog"></i>&nbsp;
-      <span>{{ $t('navbar.my_blog') }}</span>
+      <i class="fas fa-th"></i>&nbsp;
+      <span>{{ $t('navbar.hive') }}</span>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
@@ -21,13 +21,13 @@
         </li>
         <li class="nav-item cursor-pointer">
           <span class="nav-link" @click="navigate('about')">
-            <i class="fas fa-question-circle"></i>&nbsp;{{ $t('navbar.about_me') }}
+            <i class="fas fa-question-circle"></i>&nbsp;{{ $t('navbar.about') }}
           </span>
         </li>
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" data-toggle="dropdown">
             <i class="fas fa-language"></i>&nbsp;{{ $t('navbar.language') }}
           </a>
           <div class="dropdown-menu">
