@@ -3,21 +3,44 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  height: 100%;
 }
 body {
   padding: 0;
   margin: 0;
-  background: url('../images/bg_image.jpg');
+  background: url('../images/bg_image2.jpg');
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
 }
-.height-percentage-100 {
-  height: 100%;
+.navbar {
+  height: 5rem;
+  padding: 0.5rem 2rem;
+  background-color: rgba(250, 250, 250, .55);
+  background-clip: padding-box;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
-.background-color-main {
-  background-color: #F5DEB3;
+.navbar-brand {
+  font-size: 2.5rem;
+}
+@media (min-width: 1200px) {
+  .side-column-xl {
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(5rem);
+    z-index: 1000;
+    height: calc(100vh - 5rem);
+    overflow: auto;
+  }
+}
+@media (min-width: 992px) {
+  .side-column-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(5rem);
+    z-index: 1000;
+    height: calc(100vh - 5rem);
+    overflow: auto;
+  }
 }
 .cursor-default {
   cursor: default;
@@ -29,11 +52,21 @@ body {
   padding: 1.25rem;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-  border-left: .25rem solid #F5DEB3;
+  border-left: .25rem solid rgb(250, 250, 250);
   border-radius: .25rem;
-  background-color: rgba(255, 255, 240, .30);
+  background-color: rgba(250, 250, 250, .50);
   background-clip: padding-box;
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .1);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.bottom-card {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: .25rem;
+  background-color: rgba(250, 250, 250, .50);
+  background-clip: padding-box;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }

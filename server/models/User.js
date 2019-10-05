@@ -3,33 +3,40 @@ const Model = Sequelize.Model;
 const sequelize = require('../database/sequelize');
 
 class User extends Model {}
-User.writableFieldsKeyNamesArray = ['username', 'password'];
+User.writableFieldsKeyNamesArray = ['userAccountName', 'userPassword', 'userEmail'];
+User.defaultAccessibleFieldsKeyNamesArray = ['userUUID', 'userAccountName', 'userPassword', 'userEmail'];
 User.init({
-  id: {
-    filed: 'id',
-    type: Sequelize.INTEGER,
-    autoIncrement: true,
+  userUUID: {
+    type: Sequelize.UUID,
+    defaultValue: Sequelize.UUIDV4,
     primaryKey: true,
-    allowNull: false,
   },
-  username: {
-    filed: 'username',
+  userAccountName: {
     type: Sequelize.STRING(100),
     unique: true,
     allowNull: false,
     validate: {
       notNull: {
-        msg: 'a username should be specified'
+        msg: 'a unique username should be specified'
       },
     },
   },
-  password: {
-    filed: 'password',
+  userPassword: {
     type: Sequelize.STRING(100),
     allowNull: false,
     validate: {
       notNull: {
         msg: 'a password should be specified'
+      },
+    },
+  },
+  userEmail: {
+    type: Sequelize.STRING(100),
+    unique: true,
+    allowNull: false,
+    validate: {
+      notNull: {
+        msg: 'an unique email address should be specified'
       },
     },
   },
@@ -39,14 +46,6 @@ User.init({
   tableName: 'user',
   freezeTableName: true,
   timestamps: true,
-});
-
-User.sync({
-  force: false,
-}).then(() => {
-  console.log('user表初始化完毕');
-}).catch((error) => {
-  console.log('user表初始化出错：', error);
 });
 
 module.exports = User;

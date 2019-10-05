@@ -1,13 +1,48 @@
 {
   "universal": {
-    "under_construction": "HIVE正在紧张编写中......"
-  },
-  "navbar": {
+    "under_construction": "HIVE正在紧张编写中...",
     "hive": "HIVE",
     "home": "主页",
     "login": "登录",
-    "articles": "文章",
-    "about": "关于HIVE",
-    "language": "语言"
+    "logout": "注销",
+    "logging": "登录中...",
+    "login_failed": "登录失败",
+    "confirm": "确定",
+    "search": "搜索",
+    "language": "语言",
+    "user": "用户",
+    "query": "查询",
+    "querying": "查询中...",
+    "waiting": "等待中...",
+    "waiting_to_be_initialized": "正在等待初始化流程执行...",
+    "loading": "加载中...",
+    "please_wait_while_loading": "正在从服务器加载数据，请等待...",
+    "error_occurred": "发生错误",
+    "error_detail": "错误的详细信息如下： ",
+    "number_of_records_per_page": "每页记录数：",
+    "current_page_number": "当前页码：",
+    "click_to_sort": "点击以排序"
+  },
+  "navbar": {
+    "about": "关于HIVE"
+  },
+  "users": {
+    "users_filter_form": "用户筛选表单",
+    "users_query_result": "用户查询结果",
+    "username": "用户名",
+    "please_enter_username": "请输入用户名",
+    "email": "电子邮箱",
+    "please_enter_email": "请输入电子邮箱",
+    "get_users_failed": "获取users失败",
+    "is_admin": "是否为管理员",
+    "can_create_article": "能否创建文章"
+  },
+  "bee": {
+    "bee_uniqueName": "唯一蜜蜂名",
+    "bee_nickname": "蜜蜂昵称",
+    "bee_email": "邮箱地址",
+    "enter_bee_email": "请输入邮箱地址",
+    "bee_password": "密码",
+    "bee_gender": "蜜蜂性别"
   }
 }

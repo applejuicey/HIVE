@@ -3,7 +3,7 @@ const Model = Sequelize.Model;
 const sequelize = require('../database/sequelize');
 
 class Article extends Model {}
-Article.writableFieldsKeyNamesArray = ['username', 'password'];
+Article.writableFieldsKeyNamesArray = ['title', 'createdTime', 'updatedTime', 'content'];
 Article.init({
   id: {
     filed: 'id',
@@ -37,7 +37,7 @@ Article.init({
 });
 
 Article.sync({
-  force: false,
+  force: true,
 }).then(() => {
   console.log('article表初始化完毕');
 }).catch((error) => {

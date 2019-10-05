@@ -1,12 +1,8 @@
 <template>
-  <div id="app" class="height-percentage-100">
+  <div id="app">
     <top-nav-bar></top-nav-bar>
     <div class="container-fluid">
-      <div class="row height-percentage-100">
-        <div class="col-12 height-percentage-100">
-          <router-view/>
-        </div>
-      </div>
+      <router-view/>
     </div>
   </div>
 </template>
@@ -20,9 +16,3 @@
     },
   }
 </script>
-
-<style scoped>
-  .container-fluid {
-    height: 80%;
-  }
-</style>

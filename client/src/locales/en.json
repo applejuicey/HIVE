@@ -1,13 +1,48 @@
 {
   "universal": {
-    "under_construction": "HIVE IS UNDER CONSTRUCTION NOW......"
+    "under_construction": "HIVE IS UNDER CONSTRUCTION NOW......",
+    "hive": "HIVE",
+    "home": "Home",
+    "login": "Login",
+    "logout": "Logout",
+    "logging": "Logging...",
+    "login_failed": "Login Failed",
+    "confirm": "Confirm",
+    "search": "Search",
+    "language": "Language",
+    "user": "user",
+    "query": "Query",
+    "querying": "Querying...",
+    "waiting": "Waiting...",
+    "waiting_to_be_initialized": "Waiting for the initialization process to be executed...",
+    "loading": "Loading...",
+    "please_wait_while_loading": "Please wait while loading data from the server...",
+    "error_occurred": "An error occurred",
+    "error_detail": "The details of the error are listed as follows: ",
+    "number_of_records_per_page": "Records number per page: ",
+    "current_page_number": "Current page number: ",
+    "click_to_sort": "Click to sort"
   },
   "navbar": {
-    "hive": "HIVE",
-    "home": "HOME",
-    "login": "LOGIN",
-    "articles": "ARTICLES",
-    "about": "ABOUT HIVE",
-    "language": "LANGUAGE"
+    "about": "About HIVE"
+  },
+  "users": {
+    "users_filter_form": "Users Filter Form",
+    "users_query_result": "Users Query Result",
+    "username": "Username",
+    "please_enter_username": "Please enter username",
+    "email": "Email",
+    "please_enter_email": "Please enter email",
+    "get_users_failed": "Get users failed",
+    "is_admin": "Is administrator",
+    "can_create_article": "Can create article"
+  },
+  "bee": {
+    "bee_uniqueName": "Bee Unique Name",
+    "bee_nickname": "Bee Nickname",
+    "bee_email": "Email",
+    "enter_bee_email": "Please Enter Bee Email",
+    "bee_password": "Password",
+    "bee_gender": "Bee Gender"
   }
 }

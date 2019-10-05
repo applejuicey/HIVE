@@ -1,10 +1,14 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import store from './store';
 
 import Home from './views/Home.vue';
-import Login from './views/Login.vue';
+import Search from './views/Search.vue';
 import About from './views/About.vue';
-import Articles from './views/article/Articles.vue';
+import Users from './views/User/Users.vue';
+import Login from './views/Login.vue';
+
+import Articles from './views/Article/Articles.vue';
 
 Vue.use(Router);
 
@@ -18,15 +22,15 @@ const router = new Router({
       name: 'home',
       component: Home,
       meta: {
-        needAuth: false,
+        needLogin: false,
       },
     },
     {
-      path: '/login',
-      name: 'login',
-      component: Login,
+      path: '/search',
+      name: 'search',
+      component: Search,
       meta: {
-        needAuth: false,
+        needLogin: false,
       },
     },
     {
@@ -34,25 +38,41 @@ const router = new Router({
       name: 'about',
       component: About,
       meta: {
-        needAuth: false,
+        needLogin: false,
       },
     },
+    {
+      path: '/users',
+      name: 'users',
+      component: Users,
+      meta: {
+        needLogin: true,
+      },
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login,
+      meta: {
+        needLogin: false,
+      },
+    },
+
     {
       path: '/articles',
       name: 'articles',
       component: Articles,
       meta: {
-        needAuth: false,
+        needLogin: false,
       },
     },
   ]
 });
 
 router.beforeEach((to, from, next) => {
-  //根据meta.needAuth判断是否需要登录
-  if (to.matched.some(route => route.meta.needAuth)) {
+  if (to.matched.some(route => route.meta.needLogin)) {
     //点击的是需要登录的页面
-    if (localStorage.getItem('userInfo') !== null) {
+    if (store.state.token !== '') {
       // 已经登录过
       next();
     } else {

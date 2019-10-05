@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const config = require("./config");
+const { config } = require("./config");
 
 console.log('开始初始化sequelize');
 

@@ -1,9 +1,11 @@
+const { databaseConfiguration } = require('../config/private');
+
 const config = {
   host: 'localhost',
-  database: 'blog',
-  username: 'root',
-  password: 'fan19940428f',
+  database: databaseConfiguration.database,
+  username: databaseConfiguration.username,
+  password: databaseConfiguration.password,
   port: 3306,
 };
 
-module.exports = config;
+module.exports = { config };
