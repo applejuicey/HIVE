@@ -3,8 +3,9 @@ const Model = Sequelize.Model;
 const sequelize = require('../database/sequelize');
 
 class Authority extends Model {}
-Authority.writableFieldsKeyNamesArray = ['authorityCanCreateArticle'];
-Authority.defaultAccessibleFieldsKeyNamesArray = ['authorityUUID', 'authorityIsAdmin', 'authorityCanCreateArticle'];
+Authority.writableFieldsKeyNamesArray = ['authorityCanCreateArticle', 'authorityCanCreateCV'];
+Authority.defaultAccessibleFieldsKeyNamesArray = ['authorityUUID', 'authorityIsAdmin', 'authorityCanCreateArticle',
+  'authorityCanCreateCV'];
 Authority.init({
   authorityUUID: {
     type: Sequelize.UUID,
@@ -17,6 +18,10 @@ Authority.init({
     allowNull: true,
   },
   authorityCanCreateArticle: {
+    type: Sequelize.BOOLEAN,
+    allowNull: true,
+  },
+  authorityCanCreateCV: {
     type: Sequelize.BOOLEAN,
     allowNull: true,
   },

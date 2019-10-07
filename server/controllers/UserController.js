@@ -26,6 +26,7 @@ const getIncludeArray = function () {
   ];
 };
 
+// 查找所有用户，根据offset和limit返回用户数据（包括子表的字段）
 const getAllUsers = async function(offset, limit) {
    return User.findAndCountAll({
      distinct: true,
@@ -35,6 +36,7 @@ const getAllUsers = async function(offset, limit) {
    });
 };
 
+// 查找一个User
 const getOneUser = async function(where) {
   return User.findOne({
     where: getType(where) === 'Object'? where : {},
@@ -42,6 +44,7 @@ const getOneUser = async function(where) {
   });
 };
 
+// 创建一个User
 const createUser = async function(newUser) {
   return User.create(
       getType(newUser) === 'Object' ? newUser : {},
@@ -51,6 +54,7 @@ const createUser = async function(newUser) {
   );
 };
 
+// 修改一个User
 const updateUser = async function(where, newUserInformation) {
   return User.update(
       getType(newUserInformation) === 'Object'? newUserInformation : {},
@@ -61,6 +65,7 @@ const updateUser = async function(where, newUserInformation) {
   );
 };
 
+// 删除一个User
 const deleteUser = async function(where) {
   return User.destroy({
     where: where,

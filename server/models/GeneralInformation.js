@@ -3,15 +3,16 @@ const Model = Sequelize.Model;
 const sequelize = require('../database/sequelize');
 
 class GeneralInformation extends Model {}
-GeneralInformation.writableFieldsKeyNamesArray = ['generalInformationChineseName', 'generalInformationBirthday',
-  'generalInformationCurrentLocation', 'generalInformationCurrentPosition', 'generalInformationDescription',
-  'generalInformationGender', 'generalInformationPhotoPath', 'generalInformationEmailAddress',
-  'generalInformationPhoneNumber', 'generalInformationPersonalWebsiteURL', 'generalInformationGithubURL'];
-GeneralInformation.defaultAccessibleFieldsKeyNamesArray = ['generalInformationUUID', 'generalInformationChineseName',
+GeneralInformation.writableFieldsKeyNamesArray = ['generalInformationChineseName', 'generalInformationEnglishName',
   'generalInformationBirthday', 'generalInformationCurrentLocation', 'generalInformationCurrentPosition',
   'generalInformationDescription', 'generalInformationGender', 'generalInformationPhotoPath',
   'generalInformationEmailAddress', 'generalInformationPhoneNumber', 'generalInformationPersonalWebsiteURL',
   'generalInformationGithubURL'];
+GeneralInformation.defaultAccessibleFieldsKeyNamesArray = ['generalInformationUUID', 'generalInformationChineseName',
+  'generalInformationEnglishName', 'generalInformationBirthday', 'generalInformationCurrentLocation',
+  'generalInformationCurrentPosition', 'generalInformationDescription', 'generalInformationGender',
+  'generalInformationPhotoPath', 'generalInformationEmailAddress', 'generalInformationPhoneNumber',
+  'generalInformationPersonalWebsiteURL', 'generalInformationGithubURL'];
 GeneralInformation.init({
   generalInformationUUID: {
     type: Sequelize.UUID,
