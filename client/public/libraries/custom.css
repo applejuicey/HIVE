@@ -22,6 +22,10 @@ body {
 .navbar-brand {
   font-size: 2.5rem;
 }
+.nav-pills .nav-link.active {
+  color: #fff;
+  background-color: #343a40;
+}
 @media (min-width: 1200px) {
   .side-column-xl {
     position: -webkit-sticky;

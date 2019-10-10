@@ -21,21 +21,69 @@
     "error_detail": "The details of the error are listed as follows: ",
     "number_of_records_per_page": "Records number per page: ",
     "current_page_number": "Current page number: ",
-    "click_to_sort": "Click to sort"
+    "jump_to_page": "Jump to page...",
+    "click_to_sort": "Click to sort",
+    "actions": "Actions"
   },
   "navbar": {
-    "about": "About HIVE"
+    "about": "About HIVE",
+    "cv": "CV"
   },
   "users": {
     "users_filter_form": "Users Filter Form",
     "users_query_result": "Users Query Result",
+    "user_uuid": "User UUID",
+    "userAccountName": "User account name",
     "username": "Username",
     "please_enter_username": "Please enter username",
     "email": "Email",
     "please_enter_email": "Please enter email",
+    "password": "Password",
+    "please_enter_password": "Please enter password",
     "get_users_failed": "Get users failed",
+    "get_user_failed": "Get user failed",
     "is_admin": "Is administrator",
-    "can_create_article": "Can create article"
+    "can_create_article": "Can create article",
+    "can_create_cv": "Can create CV",
+    "get_all_users_error": "Error occurred when get all users",
+    "user_data_field": "User data field",
+    "field_details": "Field details",
+    "instructions": "Instructions",
+    "user": "User information",
+    "authority": "User authority",
+    "general_information": "CV general information",
+    "experience": "CV experiences",
+    "publication": "CV publications",
+    "customization": "CV customizations",
+    "select_a_field": "Select a field",
+    "please_select_a_field": "Please select a field in the pane and fill in the forms and click submit"
+  },
+  "cv": {
+    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain CV.",
+    "title": "Input Access Code",
+    "label": "Access Code:",
+    "placeholder": "Please enter the access code here.",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "modal_title": "Error",
+    "modal_button_text": "Confirm",
+    "validation_error": "An error occurred during validation: "
+  },
+  "cvtype1": {
+    "description_title": "Profile",
+    "contact_title": "Contact",
+    "email": "Email:",
+    "phone": "Phone:",
+    "github": "Github:",
+    "website": "Website:",
+    "skill_title": "Skill Analysis",
+    "canvas_fallback_desc": "I'm sorry but your browser does not support the canvas element.",
+    "education_title": "Educational Experiences",
+    "project_title": "Project Participation",
+    "social_title": "Social Practice",
+    "internship_title": "Internships",
+    "award_title": "Awards",
+    "publication_title": "Publications"
   },
   "bee": {
     "bee_uniqueName": "Bee Unique Name",

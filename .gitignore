@@ -2,6 +2,7 @@
 node_modules
 /dist
 /server/config/private.js
+accessRecord.txt
 
 # local env files
 .env.local

@@ -5,7 +5,12 @@ import store from './store';
 import Home from './views/Home.vue';
 import Search from './views/Search.vue';
 import About from './views/About.vue';
+import CVView from './views/CV/CVView.vue';
 import Users from './views/User/Users.vue';
+import UserView from './views/User/UserView.vue';
+import UserCreate from './views/User/UserCreate.vue';
+import UserUpdate from './views/User/UserUpdate.vue';
+import UserDelete from './views/User/UserDelete.vue';
 import Login from './views/Login.vue';
 
 import Articles from './views/Article/Articles.vue';
@@ -42,9 +47,49 @@ const router = new Router({
       },
     },
     {
+      path: '/cv/view',
+      name: 'cv_view',
+      component: CVView,
+      meta: {
+        needLogin: false,
+      },
+    },
+    {
       path: '/users',
       name: 'users',
       component: Users,
+      meta: {
+        needLogin: true,
+      },
+    },
+    {
+      path: '/user/view/:userUUID',
+      name: 'user_view',
+      component: UserView,
+      meta: {
+        needLogin: true,
+      },
+    },
+    {
+      path: '/user/create/:userUUID',
+      name: 'user_create',
+      component: UserCreate,
+      meta: {
+        needLogin: true,
+      },
+    },
+    {
+      path: '/user/update/:userUUID',
+      name: 'user_update',
+      component: UserUpdate,
+      meta: {
+        needLogin: true,
+      },
+    },
+    {
+      path: '/user/delete/:userUUID',
+      name: 'user_delete',
+      component: UserDelete,
       meta: {
         needLogin: true,
       },

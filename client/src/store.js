@@ -12,6 +12,13 @@ const store = new Vuex.Store({
       userAccountName: '',
       authority: {},
     },
+    userInstance: {
+      authority: {},
+      generalInformation: {},
+      experiences: [],
+      publications: [],
+      customizations: [],
+    },
   },
   mutations: {
     setToken: (state, payload) => {
@@ -19,6 +26,9 @@ const store = new Vuex.Store({
     },
     setUserInfo: (state, payload) => {
       state.userInfo = payload.userInfo;
+    },
+    setUserInstance: (state, payload) => {
+      state.userInstance = payload.userInstance;
     },
   },
   actions: {
@@ -28,11 +38,14 @@ const store = new Vuex.Store({
     commitSetUserInfoMutation: ({ commit }, payload) => {
       commit('setUserInfo', payload);
     },
+    commitSetUserInstance: ({ commit }, payload) => {
+      commit('setUserInstance', payload);
+    },
   },
   plugins: [createVuexAlong({
     name: 'hive-vuex-saver',
     local: {
-      list: ['token', 'userInfo'],
+      list: ['token', 'userInfo', 'userInstance'],
     },
   })]
 });

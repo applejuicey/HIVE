@@ -7,18 +7,18 @@
           <form>
             <div class="form-group row">
               <label for="email" class="col-md-4 col-form-label text-md-right text-left">
-                {{ $t('bee.bee_email') }}
+                {{ $t('users.email') }}
               </label>
               <div class="col-md-8">
-                <input type="email" class="form-control border-color-main" id="email" :placeholder="$t('bee.enter_bee_email')" v-model="formValues.userEmail" @keyup.enter="login">
+                <input type="email" class="form-control border-color-main" id="email" :placeholder="$t('users.please_enter_email')" v-model="formValues.userEmail" @keyup.enter="login">
               </div>
             </div>
             <div class="form-group row">
               <label for="password" class="col-md-4 col-form-label text-md-right text-left">
-                {{ $t('bee.bee_password') }}
+                {{ $t('users.password') }}
               </label>
               <div class="col-md-8">
-                <input type="password" class="form-control border-color-main" id="password" :placeholder="$t('bee.bee_password')" v-model="formValues.userPassword" @keyup.enter="login">
+                <input type="password" class="form-control border-color-main" id="password" :placeholder="$t('users.please_enter_password')" v-model="formValues.userPassword" @keyup.enter="login">
               </div>
             </div>
             <div class="col-12 text-center">

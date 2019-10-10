@@ -31,14 +31,10 @@
     <div class="col-xl-9">
       <bottom-card :cardTitle="$t('users.users_query_result')">
         <template v-slot:card-body>
-
-          <horizontal-table :tableHeaders="tableHeaders" :tableValues="tableValues"></horizontal-table>
-
-          <status-card :statusObject="statusObject">
-            <template v-slot:content>
-              <p>kino</p>
-            </template>
-          </status-card>
+          <div>query description & vague query to be done</div>
+          <horizontal-table :tableHeaders="tableHeaders" :statusObject="statusObject" :tableData="tableData"
+                            @offsetChanged="changeOffset($event)" @limitChanged="changeLimit($event)"
+          ></horizontal-table>
 
         </template>
       </bottom-card>
@@ -49,13 +45,11 @@
 
 <script>
   import BottomCard from '@/components/BottomCard.vue';
-  import StatusCard from '@/components/StatusCard.vue';
   import HorizontalTable from '@/components/HorizontalTable.vue';
   export default {
     name: 'users',
     components: {
       BottomCard,
-      StatusCard,
       HorizontalTable,
     },
     data: function () {
@@ -69,11 +63,14 @@
         tableHeaders: [
           {
             key: 'userUUID',
-            value: this.$i18n.t('users.username'),
+            value: this.$i18n.t('users.user_uuid'),
           }, {
             key: 'userAccountName',
-            value: this.$i18n.t('users.username'),
+            value: this.$i18n.t('users.userAccountName'),
           }, {
+            key: 'userPassword',
+            value: this.$i18n.t('users.password'),
+          },{
             key: 'userEmail',
             value: this.$i18n.t('users.email'),
           }, {
@@ -82,87 +79,40 @@
           }, {
             key: 'authority.authorityCanCreateArticle',
             value: this.$i18n.t('users.can_create_article'),
+          }, {
+            key: 'authority.authorityCanCreateCV',
+            value: this.$i18n.t('users.can_create_cv'),
           },
         ],
-        tableValues: [{
-          username: 'fy',
-          email: '18dsfagdsfg0',
-          isAdmin: true,
-          canCreateArticle: true
-        }, {
-          username: 'htt',
-          email: 'asdfdfgdg',
-          isAdmin: false,
-          canCreateArticle: true
-        }, {
-        username: 'fy',
-            email: '18dsfagdsfg0',
-            isAdmin: true,
-            canCreateArticle: true
-      }, {
-        username: 'htt',
-            email: 'asdfdfgdg',
-            isAdmin: false,
-            canCreateArticle: true
-      }, {
-          username: 'fy',
-          email: '18dsfagdsfg0',
-          isAdmin: true,
-          canCreateArticle: true
-        }, {
-          username: 'htt',
-          email: 'asdfdfgdg',
-          isAdmin: false,
-          canCreateArticle: true
-        }, {
-          username: 'fy',
-          email: '18dsfagdsfg0',
-          isAdmin: true,
-          canCreateArticle: true
-        }, {
-          username: 'htt',
-          email: 'asdfdfgdg',
-          isAdmin: false,
-          canCreateArticle: true
-        }, {
-          username: 'fy',
-          email: '18dsfagdsfg0',
-          isAdmin: true,
-          canCreateArticle: true
-        }, {
-          username: 'htt',
-          email: 'asdfdfgdg',
-          isAdmin: false,
-          canCreateArticle: true
-        }, {
-          username: 'fy',
-          email: '18dsfagdsfg0',
-          isAdmin: true,
-          canCreateArticle: true
-        }, {
-          username: 'htt',
-          email: 'asdfdfgdg',
-          isAdmin: false,
-          canCreateArticle: true
-        } ,{
-          username: 'fy',
-          email: '18dsfagdsfg0',
-          isAdmin: true,
-          canCreateArticle: true
-        }, {
-          username: 'htt',
-          email: 'asdfdfgdg',
-          isAdmin: false,
-          canCreateArticle: true
-        }],
         statusObject: {
           status: '',
           title: '',
           message: '',
         },
+        tableData: [],
+        offset: 0,
+        limit: 10,
       };
     },
+    watch: {
+      offset: {
+        handler: function () {
+          this.query();
+        }
+      },
+      limit: {
+        handler: function () {
+          this.query();
+        }
+      }
+    },
     methods: {
+      changeOffset: function (offset) {
+        this.offset = offset;
+      },
+      changeLimit: function (limit) {
+        this.limit = limit;
+      },
       query: function () {
         this.queryLoading = true;
         this.statusObject = {
@@ -170,10 +120,15 @@
           title: this.$i18n.t('universal.loading'),
           message: this.$i18n.t('universal.please_wait_while_loading'),
         };
-        this.$axios.get('/users', this.formValues).then((response) => {
+        this.$axios.get('/user/all', {
+          params: {
+            offset: this.offset,
+            limit: this.limit
+          }
+        }).then((response) => {
           try {
             if (response.data.statusCode === '1') {
-              // OK
+              this.tableData = response.data.users.rows;
               this.statusObject = {
                 status: 'loaded',
               };

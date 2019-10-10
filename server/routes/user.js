@@ -75,7 +75,7 @@ router.get('/', async function (req, res) {
   try {
     result = await (async function () {
       // 解析token
-      const tokenVerificationResult = verifyAndGetUser(req.get('Authorization'));
+      const tokenVerificationResult = await verifyAndGetUser(req.get('Authorization'));
       // 1.token无效
       if (!tokenVerificationResult.valid) {
         return {
@@ -134,7 +134,7 @@ router.post('/', async function (req, res) {
   try {
     result = await (async function () {
       // 解析token
-      const tokenVerificationResult = verifyAndGetUser(req.get('Authorization'));
+      const tokenVerificationResult = await verifyAndGetUser(req.get('Authorization'));
       // 1.token无效
       if (!tokenVerificationResult.valid) {
         return {
@@ -191,7 +191,7 @@ router.put('/', async function (req, res) {
   try {
     result = await (async function () {
       // 解析token
-      const tokenVerificationResult = verifyAndGetUser(req.get('Authorization'));
+      const tokenVerificationResult = await verifyAndGetUser(req.get('Authorization'));
       // 1.token无效
       if (!tokenVerificationResult.valid) {
         return {
@@ -250,7 +250,7 @@ router.delete('/', async function (req, res) {
   try {
     result = await (async function () {
       // 解析token
-      const tokenVerificationResult = verifyAndGetUser(req.get('Authorization'));
+      const tokenVerificationResult = await verifyAndGetUser(req.get('Authorization'));
       // 1.token无效
       if (!tokenVerificationResult.valid) {
         return {

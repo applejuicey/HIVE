@@ -6,6 +6,7 @@ const generalInformation = require('./generalInformation');
 const experience = require('./experience');
 const publication = require('./publication');
 const customization = require('./customization');
+const cv = require('./cv');
 
 module.exports = function (app) {
   // routes
@@ -17,4 +18,5 @@ module.exports = function (app) {
   app.use('/api/user/experience', experience);
   app.use('/api/user/publication', publication);
   app.use('/api/user/customization', customization);
+  app.use('/api/cv', cv);
 };

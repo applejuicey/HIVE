@@ -23,6 +23,11 @@
             <i class="fas fa-question-circle"></i>&nbsp;{{ $t('navbar.about') }}
           </span>
         </li>
+        <li class="nav-item cursor-pointer">
+          <span class="nav-link" @click="navigate('cv_view')">
+            <i class="fas fa-file-alt"></i>&nbsp;{{ $t('navbar.cv') }}
+          </span>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" data-toggle="dropdown">
             <i class="fas fa-language"></i>&nbsp;{{ $t('universal.language') }}

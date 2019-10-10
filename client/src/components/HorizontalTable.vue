@@ -1,10 +1,125 @@
 <template>
   <div class="row">
     <div class="col-12">
-      {{tableColumns}}
-      <br>
-      <table id="horizontal-table"></table>
-      <button @click="get">aaa</button>
+      <!--表格-->
+      <div class="row">
+        <div class="col-12">
+          <div class="table-responsive">
+            <table class="table table-bordered text-nowrap text-center font-weight-light">
+              <tbody>
+              <tr>
+                <td>
+                  {{ $t('universal.actions') }}
+                </td>
+                <td v-for="header in tableHeaders">
+                  {{ header.value }}
+                </td>
+              </tr>
+              <tr v-if="statusObject.status === 'loading'">
+                <td :colspan="tableHeaders.length + 1">
+                  <div class="row">
+                    <div class="col-xl-6 offset-xl-3">
+                      <div class="alert alert-primary text-center mb-0">
+                        <h4 class="alert-heading">{{ statusObject.title }}</h4>
+                        <p>
+                          <span class="spinner-border spinner-border-sm text-primary"></span>&nbsp;{{ statusObject.message }}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr v-else-if="statusObject.status === 'error'">
+                <td :colspan="tableHeaders.length + 1">
+                  <div class="row">
+                    <div class="col-xl-6 offset-xl-3">
+                      <div class="alert alert-danger text-center mb-0">
+                        <h4 class="alert-heading">{{ statusObject.title }}</h4>
+                        <p>
+                          {{ statusObject.message }}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr v-else-if="statusObject.status === 'loaded'" v-for="item in tableData">
+                <td>
+                  <span class="cursor-pointer text-primary" @click="changeRoute(tableHeaders[0]['key'], item[tableHeaders[0]['key']], 'view', item)">
+                    <i class="fas fa-search"></i>&nbsp;
+                  </span>
+                  <span class="cursor-pointer text-success" @click="changeRoute(tableHeaders[0]['key'], item[tableHeaders[0]['key']], 'update', item)">
+                    <i class="fas fa-edit"></i>&nbsp;
+                  </span>
+                  <span class="cursor-pointer text-danger" @click="changeRoute(tableHeaders[0]['key'], item[tableHeaders[0]['key']], 'delete', item)">
+                    <i class="fas fa-trash"></i>&nbsp;
+                  </span>
+                </td>
+                <td v-for="header in tableHeaders">
+                  {{
+                  header.key.split('.')[1]? item[header.key.split('.')[0]][header.key.split('.')[1]] :
+                  item[header.key.split('.')[0]]
+                  }}
+                </td>
+              </tr>
+              <tr v-else>
+                <td :colspan="tableHeaders.length + 1">
+                  <div class="row">
+                    <div class="col-xl-6 offset-xl-3">
+                      <div class="alert alert-info text-center mb-0">
+                        <h4 class="alert-heading">{{ $t('universal.waiting') }}</h4>
+                        <p>
+                          {{ $t('universal.waiting_to_be_initialized') }}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!--当前页码-->
+      <div class="row">
+        <div class="col-12 font-weight-light">
+          <span>
+            {{ $t('universal.current_page_number') }}
+            {{ currentPageNumber }}
+          </span>
+        </div>
+      </div>
+      <!--每页记录数-->
+      <div class="row">
+        <div class="col-12 font-weight-light">
+          <span>
+            {{ $t('universal.number_of_records_per_page') }}
+            {{ recordNumberPerPageCurrent }}
+          </span>
+        </div>
+      </div>
+      <!--分页器-->
+      <div class="row">
+        <div class="col-12 font-weight-light">
+          <form class="form-row my-2">
+            <div class="col-auto">
+              <label class="sr-only" for="pageNumberInput">{{ $t('universal.jump_to_page') }}</label>
+              <input type="text" class="d-none">
+              <input type="text" class="form-control" id="pageNumberInput"
+                     v-model="jumpToPageNumber" :placeholder="$t('universal.jump_to_page')"
+                     onkeypress='return(/^[1-9]\d*$/.test(String.fromCharCode(event.keyCode)))'
+                     @keyup.enter="jumpToPage">
+            </div>
+            <div class="col-auto">
+              <label class="sr-only" for="recordNumberPerPage">{{ $t('universal.number_of_records_per_page') }}</label>
+              <select v-model="recordNumberPerPageCurrent" class="form-control" id="recordNumberPerPage">
+                <option v-for="number in recordNumberPerPageArray" :value="number">{{ number }}</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -17,108 +132,58 @@
         type: Array,
         required: true,
       },
+      statusObject: {
+        type: Object,
+        required: true,
+      },
+      tableData: {
+        type: Array,
+        required: true,
+      },
     },
     data: function () {
       return {
-
+        recordNumberPerPageArray: [10, 20, 50],
+        recordNumberPerPageCurrent: 10,
+        jumpToPageNumber: null,
+        currentPageNumber: 1,
       };
     },
     computed: {
-      tableColumns: function () {
-        let columns = [];
-        let column = {};
-        for (let item of this.tableHeaders) {
-          column = {
-            title: item.value,
-            field: item.key,
-            titleTooltip: this.$i18n.t('universal.click_to_sort'),
-            align: 'center',
-            valign: 'middle',
-            sortable: true,
-            searchable: true,
-          };
-          columns.push(column);
-        }
-        return columns;
+      offset: function () {
+        return (this.currentPageNumber - 1) * this.recordNumberPerPageCurrent;
+      },
+      limit: function () {
+        return this.recordNumberPerPageCurrent;
       },
     },
-    mounted: function () {
-      const self = this;
-      this.$nextTick(function () {
-        $(function () {
-          $('#horizontal-table').bootstrapTable({
-            sidePagination: 'server',
-            url: 'http://localhost:5888/api/user/all',
-            method: 'get',
-            contentType: "application/x-www-form-urlencoded",
-            ajaxOptions: {
-              headers: {
-                "Authorization": self.$store.state.token
-              }
-            },
-            queryParams: function (params) {
-              return {
-                offset: params.offset,
-                limit: params.limit,
-                includeAttributes: 'userUUID, userAccountName, userPassword, userEmail, authorityIsAdmin, authorityCanCreateArticle'
-              };
-            },
-            responseHandler: function (res) {
-              return {
-                "total": res.users.count,
-                "rows": res.users.rows,
-              };
-            },
-            buttonsPrefix: '',
-            buttonsClass: 'btn btn-dark',
-            cache: false,
-            classes: 'table table-hover table-bordered table-striped',
-            columns: self.tableColumns,
-            iconsPrefix: 'fas',
-            icons: {
-              columns: 'fa-check-square',
-              refresh: 'fa-redo',
-            },
-            locale: 'zh-CN',
-            onLoadSuccess: function () {
-              console.log('success')
-            },
-            onLoadError: function () {
-              console.log('error')
-            },
-            pageList: [10, 20, 50, 100],
-            pageNumber: 1,
-            pageSize: 10,
-            pagination: true,
-            paginationLoop: false,
-            paginationPreText: '<i class="fas fa-angle-double-left"></i>',
-            paginationNextText: '<i class="fas fa-angle-double-right"></i>',
-            search: true,
-            showColumns: true,
-            showRefresh: true,
-            silentSort: false,
-            sortClass: 'table-active',
-            undefinedText: 'NA',
-          });
-        })
-      });
+    watch: {
+      offset: {
+        handler: function () {
+          this.$emit('offsetChanged', this.offset);
+        }
+      },
+      limit: {
+        handler: function () {
+          this.$emit('limitChanged', this.limit);
+        }
+      }
     },
     methods: {
-      get: function () {
-        console.log($('#horizontal-table').bootstrapTable('getOptions'));
+      changeRoute: function (UUIDString, UUIDValue, identifier, rowInstance) {
+        this.$store.dispatch('commitSetUserInstance', {
+          userInstance: rowInstance
+        });
+        let paramsObject = {};
+        paramsObject[UUIDString] = UUIDValue;
+        this.$router.push({
+          name: `user_${identifier}`,
+          params: paramsObject,
+        });
       },
-      setCurrentPageNumber: function (currentPageNumber) {
-        this.currentPageNumber = currentPageNumber;
-        this.offset = currentPageNumber * this.limit;
-        this.$emit('paginationChanged', this.offset, this.limit);
-      },
-      addNewPage: function () {
-        this.pageNumbers.push(this.pageNumbers[this.pageNumbers.length - 1] + 1);
-      },
-      setRecordsNumberPerPage: function (recordsNumberPerPage) {
-        this.limit = recordsNumberPerPage;
-        this.offset = this.currentPageNumber * this.limit;
-        this.$emit('paginationChanged', this.offset, this.limit);
+      jumpToPage: function () {
+        this.currentPageNumber = this.jumpToPageNumber;
+        this.jumpToPageNumber = null;
       },
     },
   }

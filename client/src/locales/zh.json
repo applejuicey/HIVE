@@ -21,21 +21,69 @@
     "error_detail": "错误的详细信息如下： ",
     "number_of_records_per_page": "每页记录数：",
     "current_page_number": "当前页码：",
-    "click_to_sort": "点击以排序"
+    "jump_to_page": "跳转至第...页",
+    "click_to_sort": "点击以排序",
+    "actions": "操作"
   },
   "navbar": {
-    "about": "关于HIVE"
+    "about": "关于HIVE",
+    "cv": "简历"
   },
   "users": {
     "users_filter_form": "用户筛选表单",
     "users_query_result": "用户查询结果",
+    "user_uuid": "用户UUID",
+    "userAccountName": "用户账户名称",
     "username": "用户名",
     "please_enter_username": "请输入用户名",
     "email": "电子邮箱",
     "please_enter_email": "请输入电子邮箱",
+    "password": "密码",
+    "please_enter_password": "请输入密码",
     "get_users_failed": "获取users失败",
+    "get_user_failed": "获取user失败",
     "is_admin": "是否为管理员",
-    "can_create_article": "能否创建文章"
+    "can_create_article": "能否创建文章",
+    "can_create_cv": "能否创建简历",
+    "get_all_users_error": "GetAllUsers时发生错误",
+    "user_data_field": "用户数据字段",
+    "field_details": "字段详情",
+    "instructions": "提示",
+    "user": "用户信息",
+    "authority": "用户权限",
+    "general_information": "简历中的一般资料",
+    "experience": "简历中的个人经历",
+    "publication": "简历中的个人出版物",
+    "customization": "简历中的自定义项",
+    "select_a_field": "请选择一个字段",
+    "please_select_a_field": "请在选择面板中选择一个字段，填写表单然后点击提交以保存数据"
+  },
+  "cv": {
+    "instruction": "请在下方输入框中输入5位访问码，点击提交以获取简历。",
+    "title": "请输入访问码",
+    "label": "访问码：",
+    "placeholder": "请在这里输入访问码。",
+    "submit": "提交",
+    "loading": "加载中...",
+    "modal_title": "错误",
+    "modal_button_text": "确定",
+    "validation_error": "在验证访问码时产生了错误："
+  },
+  "cvtype1": {
+    "description_title": "个人简述",
+    "contact_title": "联系方式",
+    "email": "电子邮件：",
+    "phone": "手机号码：",
+    "github": "Github：",
+    "website": "个人网站:",
+    "skill_title": "技能分析",
+    "canvas_fallback_desc": "很遗憾，您的浏览器当前不支持<canvas>元素。",
+    "education_title": "教育经历",
+    "project_title": "项目经历",
+    "social_title": "社会实践经历",
+    "internship_title": "实习经历",
+    "award_title": "曾获奖励",
+    "publication_title": "出版物"
   },
   "bee": {
     "bee_uniqueName": "唯一蜜蜂名",

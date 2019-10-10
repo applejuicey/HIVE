@@ -28,7 +28,7 @@ GeneralInformation.init({
     allowNull: true,
   },
   generalInformationBirthday: {
-    type: Sequelize.DATEONLY,
+    type: Sequelize.STRING(100),
     allowNull: true,
   },
   generalInformationCurrentLocation: {
@@ -40,7 +40,7 @@ GeneralInformation.init({
     allowNull: true,
   },
   generalInformationDescription: {
-    type: Sequelize.STRING,
+    type: Sequelize.TEXT,
     allowNull: true,
   },
   generalInformationGender: {
@@ -49,7 +49,7 @@ GeneralInformation.init({
     allowNull: true,
   },
   generalInformationPhotoPath: {
-    type: Sequelize.STRING(100),
+    type: Sequelize.TEXT,
     allowNull: true,
   },
   generalInformationEmailAddress: {
