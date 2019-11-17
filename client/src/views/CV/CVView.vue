@@ -12,7 +12,8 @@
                     {{ $t('cv.label') }}
                   </label>
                   <div class="col-md-8">
-                    <input v-model="accessCode" type="text" class="form-control" id="accessCode" :placeholder="$t('cv.placeholder')">
+                    <input type="text" value="" class="d-none">
+                    <input v-model="accessCode" type="text" class="form-control" id="accessCode" :placeholder="$t('cv.placeholder')" @keyup.enter="submit">
                   </div>
                 </div>
                 <div class="form-group row">

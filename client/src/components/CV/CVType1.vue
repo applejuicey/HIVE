@@ -17,16 +17,19 @@
             </div>
             <div>
               <span class="secondary-box">
-                <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;{{ person.location }}
+                <i class="fas fa-map-marker-alt"></i>&nbsp;{{ person.location }}
               </span>
-              <span class="secondary-box">{{ person.position }}</span>
+              <span class="secondary-box">
+                <i class="fas fa-user-graduate"></i>&nbsp;
+                {{ person.position }}
+              </span>
             </div>
           </div>
         </div>
 
         <!--个人陈述+联系方式-->
         <div class="row mb-2">
-          <div class="col-md-8">
+          <div class="col-md-7">
             <div class="section-title">
               <span>{{ $t('cvtype1.description_title') }}</span>
             </div>
@@ -34,27 +37,45 @@
               <span>{{ person.description }}</span>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-5">
             <div class="section-title">
               <span>{{ $t('cvtype1.contact_title') }}</span>
             </div>
             <div class="section-content">
-              <div>
-                <i class="fas fa-envelope"></i>
-                <span>&nbsp;&nbsp;{{ $t('cvtype1.email') }}&nbsp;{{ person.email }}</span>
-              </div>
-              <div>
-                <i class="fas fa-phone-alt"></i>
-                <span>&nbsp;&nbsp;{{ $t('cvtype1.phone') }}&nbsp;{{ person.phone }}</span>
-              </div>
-              <div>
-                <i class="fab fa-github"></i>
-                <span>&nbsp;&nbsp;{{ $t('cvtype1.github') }}&nbsp;{{ person.github }}</span>
-              </div>
-              <div>
-                <i class="fas fa-globe"></i>
-                <span>&nbsp;&nbsp;{{ $t('cvtype1.website') }}&nbsp;{{ person.website }}</span>
-              </div>
+              <table class="table table-borderless table-sm">
+                <tr>
+                  <td>
+                    <i class="fas fa-envelope"></i>&nbsp;{{ $t('cvtype1.email') }}
+                  </td>
+                  <td>
+                    {{ person.email }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fas fa-phone-alt"></i>&nbsp;{{ $t('cvtype1.phone') }}
+                  </td>
+                  <td>
+                    {{ person.phone }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fab fa-github"></i>&nbsp;{{ $t('cvtype1.github') }}
+                  </td>
+                  <td>
+                    {{ person.github }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fas fa-globe"></i>&nbsp;{{ $t('cvtype1.website') }}
+                  </td>
+                  <td>
+                    {{ person.website }}
+                  </td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
@@ -89,31 +110,74 @@
             </div>
             <div class="section-content">
               <template v-for="item in person.educational">
-                <div class="row mb-2">
+                <div class="row">
                   <div class="col-12">
                     <div class="row">
-                      <div class="col-6">
-                        <div class="experience-title">{{ item.experienceName }}</div>
+                      <div class="col-md-6">
+                        <div class="experience-title">
+                          <i class="fas fa-graduation-cap"></i>&nbsp;{{ item.experienceName }}
+                        </div>
                         <div>
                           <template v-for="keyword in item.experienceKeywords.split(',')">
-                            <span class="badge badge-secondary">{{ keyword }}</span>&nbsp;
+                            <span class="badge badge-light">{{ keyword }}</span>&nbsp;
                           </template>
                         </div>
                       </div>
-                      <div class="col-6 experience-accessory">
-                        <div class="text-right">{{ item.experienceOrganizationName }}</div>
-                        <div class="text-right">{{ item.experiencePosition }}</div>
-                        <div class="text-right">{{ item.experienceStartYearMonth }}--{{ item.experienceEndYearMonth }}</div>
+                      <div class="col-md-6 experience-accessory">
+                        <table class="table table-borderless table-sm">
+                          <tr>
+                            <td class="d-flex justify-content-md-end">
+                              <span class="order-md-2"><i class="fas fa-university"></i></span>
+                              <span class="order-md-1">&nbsp;</span>
+                              <span class="order-md-0">{{ item.experienceOrganizationName }}</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="d-flex justify-content-md-end">
+                              <span class="order-md-2"><i class="fas fa-book"></i></span>
+                              <span class="order-md-1">&nbsp;</span>
+                              <span class="order-md-0">{{ item.experiencePosition }}</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="d-flex justify-content-md-end">
+                              <span class="order-md-2"><i class="far fa-calendar-alt"></i></span>
+                              <span class="order-md-1">&nbsp;</span>
+                              <span class="order-md-0">{{ item.experienceStartYearMonth }}--{{ item.experienceEndYearMonth }}</span>
+                            </td>
+                          </tr>
+                        </table>
                       </div>
                     </div>
-                    <div>
-                      地址：{{ item.experienceLocation }}
-                    </div>
-                    <div>
-                      描述：{{ item.experienceDescription }}
+                    <div class="row">
+                      <div class="col-12">
+                        <table class="table table-borderless table-sm">
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="fas fa-map-marked-alt"></i>
+                              {{ $t('cvtype1.education_address') }}
+                            </td>
+                            <td>
+                              {{ item.experienceLocation }}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="far fa-comment-dots"></i>
+                              {{ $t('cvtype1.education_description') }}
+                            </td>
+                            <td>
+                              {{ item.experienceDescription }}
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-4 offset-md-8 col-sm-6 offset-sm-6">
+                      <div class="col-md-4 offset-md-8 d-none d-md-block">
+                        <div class="dotted-line">&nbsp;</div>
+                      </div>
+                      <div class="col-8 offset-2 d-md-none">
                         <div class="dotted-line">&nbsp;</div>
                       </div>
                     </div>
@@ -124,36 +188,174 @@
           </div>
         </div>
 
-        <!--项目+社会实践-->
+        <!--项目-->
         <div class="row mb-2">
-          <div class="col-md-6">
+          <div class="col-12">
             <div class="section-title">
               <span>{{ $t('cvtype1.project_title') }}</span>
             </div>
             <div class="section-content">
               <template v-for="item in person.project">
-                <div class="row mb-4">
+                <div class="row">
                   <div class="col-12">
-                    <div>
-                      <div class="experience-title">{{ item.experienceName }}</div>
-                      <div class="experience-accessory">
-                        <span>
-                          {{ item.experienceOrganizationName }}&nbsp;
-                          {{ item.experiencePosition }}&nbsp;
-                          {{ item.experienceStartYearMonth }}--{{ item.experienceEndYearMonth }}
-                        </span>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="experience-title">
+                          <i class="fas fa-caret-right"></i>&nbsp;{{ item.experienceName }}
+                        </div>
+                        <div>
+                          <template v-for="keyword in item.experienceKeywords.split(',')">
+                            <span class="badge badge-light">{{ keyword }}</span>&nbsp;
+                          </template>
+                        </div>
                       </div>
-                      <div class="mb-2">
-                        <template v-for="keyword in item.experienceKeywords.split(',')">
-                          <span class="badge badge-secondary">{{ keyword }}</span>&nbsp;
-                        </template>
+                      <div class="col-md-6">
+                        <div class="experience-accessory">
+                          <table class="table table-borderless table-sm">
+                            <tr>
+                              <td class="d-flex justify-content-md-end">
+                                <span class="order-md-2"><i class="fas fa-university"></i></span>
+                                <span class="order-md-1">&nbsp;</span>
+                                <span class="order-md-0">{{ item.experienceOrganizationName }}</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="d-flex justify-content-md-end">
+                                <span class="order-md-2"><i class="fas fa-map-marker-alt"></i></span>
+                                <span class="order-md-1">&nbsp;</span>
+                                <span class="order-md-0">{{ item.experiencePosition }}</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="d-flex justify-content-md-end">
+                                <span class="order-md-2"><i class="far fa-calendar-alt"></i></span>
+                                <span class="order-md-1">&nbsp;</span>
+                                <span class="order-md-0">{{ item.experienceStartYearMonth }}--{{ item.experienceEndYearMonth }}</span>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
                       </div>
                     </div>
-                    <div>
-                      地址：{{ item.experienceLocation }}
+                    <div class="row">
+                      <div class="col-12">
+                        <table class="table table-borderless table-sm">
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="fas fa-link"></i>
+                              {{ $t('cvtype1.project_access') }}
+                            </td>
+                            <td>
+                              {{ item.experienceLocation }}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="far fa-comment-dots"></i>
+                              {{ $t('cvtype1.project_description') }}
+                            </td>
+                            <td>
+                              {{ item.experienceDescription }}
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
                     </div>
-                    <div>
-                      描述：{{ item.experienceDescription }}
+                    <div class="row">
+                      <div class="col-md-4 offset-md-8 d-none d-md-block">
+                        <div class="dotted-line">&nbsp;</div>
+                      </div>
+                      <div class="col-8 offset-2 d-md-none">
+                        <div class="dotted-line">&nbsp;</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </template>
+            </div>
+          </div>
+        </div>
+
+        <!--实习+社会实践-->
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="section-title">
+              <span>{{ $t('cvtype1.internship_title') }}</span>
+            </div>
+            <div class="section-content">
+              <template v-for="item in person.internship">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="experience-title">
+                          <i class="fas fa-caret-right"></i>&nbsp;{{ item.experienceName }}
+                        </div>
+                        <div>
+                          <template v-for="keyword in item.experienceKeywords.split(',')">
+                            <span class="badge badge-light">{{ keyword }}</span>&nbsp;
+                          </template>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="experience-accessory">
+                          <table class="table table-borderless table-sm">
+                            <tr>
+                              <td>
+                                <span><i class="fas fa-university"></i></span>
+                                <span>&nbsp;</span>
+                                <span>{{ item.experienceOrganizationName }}</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <span><i class="fas fa-user-tie"></i></span>
+                                <span>&nbsp;</span>
+                                <span>{{ item.experiencePosition }}</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <span><i class="far fa-calendar-alt"></i></span>
+                                <span>&nbsp;</span>
+                                <span>{{ item.experienceStartYearMonth }}--{{ item.experienceEndYearMonth }}</span>
+                              </td>
+                            </tr>
+                          </table>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <table class="table table-borderless table-sm">
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="fas fa-map-marked-alt"></i>
+                              {{ $t('cvtype1.internship_address') }}
+                            </td>
+                            <td>
+                              {{ item.experienceLocation }}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="far fa-comment-dots"></i>
+                              {{ $t('cvtype1.internship_description') }}
+                            </td>
+                            <td>
+                              {{ item.experienceDescription }}
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-8 offset-2">
+                        <div class="dotted-line">&nbsp;</div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -166,100 +368,78 @@
             </div>
             <div class="section-content">
               <template v-for="item in person.social">
-                <div class="row mb-4">
+                <div class="row">
                   <div class="col-12">
-                    <div>
-                      <div class="experience-title">{{ item.experienceName }}</div>
-                      <div class="experience-accessory">
-                        <span>
-                          {{ item.experienceOrganizationName }}&nbsp;
-                          {{ item.experiencePosition }}&nbsp;
-                          {{ item.experienceStartYearMonth }}--{{ item.experienceEndYearMonth }}
-                        </span>
-                      </div>
-                      <div class="mb-2">
-                        <template v-for="keyword in item.experienceKeywords.split(',')">
-                          <span class="badge badge-secondary">{{ keyword }}</span>&nbsp;
-                        </template>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="experience-title">
+                          <i class="fas fa-caret-right"></i>&nbsp;{{ item.experienceName }}
+                        </div>
+                        <div>
+                          <template v-for="keyword in item.experienceKeywords.split(',')">
+                            <span class="badge badge-light">{{ keyword }}</span>&nbsp;
+                          </template>
+                        </div>
                       </div>
                     </div>
-                    <div>
-                      地址：{{ item.experienceLocation }}
-                    </div>
-                    <div>
-                      描述：{{ item.experienceDescription }}
-                    </div>
-                  </div>
-                </div>
-              </template>
-            </div>
-          </div>
-        </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="experience-accessory">
+                          <table class="table table-borderless table-sm">
+                            <tr>
+                              <td>
+                                <span><i class="fas fa-university"></i></span>
+                                <span>&nbsp;</span>
+                                <span>{{ item.experienceOrganizationName }}</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <span><i class="fas fa-user-tie"></i></span>
+                                <span>&nbsp;</span>
+                                <span>{{ item.experiencePosition }}</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <span><i class="far fa-calendar-alt"></i></span>
+                                <span>&nbsp;</span>
+                                <span>{{ item.experienceStartYearMonth }}--{{ item.experienceEndYearMonth }}</span>
+                              </td>
+                            </tr>
+                          </table>
 
-        <!--实习经历+获奖-->
-        <div class="row mb-2">
-          <div class="col-md-6">
-            <div class="section-title">
-              <span>{{ $t('cvtype1.internship_title') }}</span>
-            </div>
-            <div class="section-content">
-              <template v-for="item in person.internship">
-                <div class="row mb-4">
-                  <div class="col-12">
-                    <div>
-                      <div class="experience-title">{{ item.experienceName }}</div>
-                      <div class="experience-accessory">
-                        <span>
-                          {{ item.experienceOrganizationName }}&nbsp;
-                          {{ item.experiencePosition }}&nbsp;
-                          {{ item.experienceStartYearMonth }}--{{ item.experienceEndYearMonth }}
-                        </span>
-                      </div>
-                      <div class="mb-2">
-                        <template v-for="keyword in item.experienceKeywords.split(',')">
-                          <span class="badge badge-secondary">{{ keyword }}</span>&nbsp;
-                        </template>
+                        </div>
                       </div>
                     </div>
-                    <div>
-                      地址：{{ item.experienceLocation }}
-                    </div>
-                    <div>
-                      描述：{{ item.experienceDescription }}
-                    </div>
-                  </div>
-                </div>
-              </template>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="section-title">
-              <span>{{ $t('cvtype1.award_title') }}</span>
-            </div>
-            <div class="section-content">
-              <template v-for="item in person.award">
-                <div class="row mb-4">
-                  <div class="col-12">
-                    <div>
-                      <div class="experience-title">{{ item.experienceName }}</div>
-                      <div class="experience-accessory">
-                        <span>
-                          {{ item.experienceOrganizationName }}&nbsp;
-                          {{ item.experiencePosition }}&nbsp;
-                          {{ item.experienceStartYearMonth }}--{{ item.experienceEndYearMonth }}
-                        </span>
-                      </div>
-                      <div class="mb-2">
-                        <template v-for="keyword in item.experienceKeywords.split(',')">
-                          <span class="badge badge-secondary">{{ keyword }}</span>&nbsp;
-                        </template>
+                    <div class="row">
+                      <div class="col-12">
+                        <table class="table table-borderless table-sm">
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="fas fa-map-marked-alt"></i>
+                              {{ $t('cvtype1.social_address') }}
+                            </td>
+                            <td>
+                              {{ item.experienceLocation }}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="far fa-comment-dots"></i>
+                              {{ $t('cvtype1.social_description') }}
+                            </td>
+                            <td>
+                              {{ item.experienceDescription }}
+                            </td>
+                          </tr>
+                        </table>
                       </div>
                     </div>
-                    <div>
-                      地址：{{ item.experienceLocation }}
-                    </div>
-                    <div>
-                      描述：{{ item.experienceDescription }}
+                    <div class="row">
+                      <div class="col-8 offset-2">
+                        <div class="dotted-line">&nbsp;</div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -276,15 +456,70 @@
             </div>
             <div class="section-content">
               <template v-for="item in person.publication">
-                <div class="row mb-4">
+                <div class="row">
                   <div class="col-12">
-                    <div>
-                      {{ item.publicationName }}
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="experience-title">
+                          <i class="fas fa-caret-right"></i>&nbsp;{{ item.publicationName }}
+                        </div>
+                        <div>
+                          <template v-for="keyword in item.publicationKeywords.split(',')">
+                            <span class="badge badge-light">{{ keyword }}</span>&nbsp;
+                          </template>
+                        </div>
+                      </div>
                     </div>
-                    <div>
-                      <template v-for="keyword in item.publicationKeywords.split(',')">
-                        <span class="badge badge-secondary">{{ keyword }}</span>&nbsp;
-                      </template>
+                    <div class="row">
+                      <div class="col-12">
+                        <table class="table table-borderless table-sm">
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="far fa-calendar-alt"></i>
+                              {{ $t('cvtype1.publication_year') }}
+                            </td>
+                            <td>
+                              {{ item.publicationYear }}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="fas fa-link"></i>
+                              {{ $t('cvtype1.publication_link') }}
+                            </td>
+                            <td>
+                              {{ item.publicationLink }}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="fas fa-book-open"></i>
+                              {{ $t('cvtype1.publication_journal') }}
+                            </td>
+                            <td>
+                              {{ item.publicationJournalName }}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="fas fa-user-edit"></i>
+                              {{ $t('cvtype1.publication_authors') }}
+                            </td>
+                            <td>
+                              {{ item.publicationAuthorNames }}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="text-ellipsis">
+                              <i class="far fa-comment-dots"></i>
+                              {{ $t('cvtype1.publication_description') }}
+                            </td>
+                            <td>
+                              {{ item.publicationDescription }}
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -371,7 +606,7 @@
   }
   .primary-box {
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 500;
     margin-right: 1rem;
   }
   .secondary-box {
@@ -384,7 +619,7 @@
     border-bottom: 0.05rem dashed #323232;
     margin-bottom: 1rem;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 500;
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
@@ -394,14 +629,23 @@
     font-weight: 200;
   }
   .dotted-line {
-    border-bottom: 0.05rem dotted #ada8a8;
+    border-bottom: 0.05rem dotted #000000;
   }
   .experience-title {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
   }
   .experience-accessory {
     font-size: 1rem;
     font-weight: 200;
+  }
+  .text-ellipsis {
+    width: 100px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis
+  }
+  .table {
+    margin-bottom: 0;
   }
 </style>

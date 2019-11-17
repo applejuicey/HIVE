@@ -1,6 +1,9 @@
 {
   "universal": {
-    "under_construction": "HIVE正在紧张编写中...",
+    "under_construction": "HIVE正在备案中...",
+    "under_verification": "根据相关法律政策，HIVE正处于备案审核阶段，其内容将在审核通过后重新开放。",
+    "policy_links": "相关政策可参见：",
+    "more_links": "更多链接...",
     "hive": "HIVE",
     "home": "主页",
     "login": "登录",
@@ -79,11 +82,24 @@
     "skill_title": "技能分析",
     "canvas_fallback_desc": "很遗憾，您的浏览器当前不支持<canvas>元素。",
     "education_title": "教育经历",
+    "education_address": "地址：",
+    "education_description": "描述：",
     "project_title": "项目经历",
+    "project_access": "链接：",
+    "project_description": "描述：",
     "social_title": "社会实践经历",
+    "social_address": "地址： ",
+    "social_description": "描述： ",
     "internship_title": "实习经历",
+    "internship_address": "地址： ",
+    "internship_description": "描述： ",
     "award_title": "曾获奖励",
-    "publication_title": "出版物"
+    "publication_title": "出版物",
+    "publication_authors": "作者：",
+    "publication_journal": "刊物：",
+    "publication_link": "链接：",
+    "publication_year": "年份：",
+    "publication_description": "描述："
   },
   "bee": {
     "bee_uniqueName": "唯一蜜蜂名",

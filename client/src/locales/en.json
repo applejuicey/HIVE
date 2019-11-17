@@ -1,6 +1,9 @@
 {
   "universal": {
-    "under_construction": "HIVE IS UNDER CONSTRUCTION NOW......",
+    "under_construction": "CONTENTS OF HIVE ARE UNDER REVIEW BY THE AUTHORITIES ......",
+    "under_verification": "According to the regulations and policies issued by the related Chinese administrative departments, contents provided by HIVE are under the obligatory verification process and will be open to the public again once passed.",
+    "policy_links": "The polices can be accessed here: ",
+    "more_links": "More Links...",
     "hive": "HIVE",
     "home": "Home",
     "login": "Login",
@@ -78,12 +81,25 @@
     "website": "Website:",
     "skill_title": "Skill Analysis",
     "canvas_fallback_desc": "I'm sorry but your browser does not support the canvas element.",
-    "education_title": "Educational Experiences",
+    "education_title": "Education",
+    "education_address": "Address: ",
+    "education_description": "Description: ",
     "project_title": "Project Participation",
+    "project_access": "Access: ",
+    "project_description": "Description: ",
     "social_title": "Social Practice",
+    "social_address": "Address: ",
+    "social_description": "Description: ",
     "internship_title": "Internships",
+    "internship_address": "Address: ",
+    "internship_description": "Description: ",
     "award_title": "Awards",
-    "publication_title": "Publications"
+    "publication_title": "Publications",
+    "publication_authors": "Authors: ",
+    "publication_journal": "Journal Name: ",
+    "publication_link": "Link: ",
+    "publication_year": "Year: ",
+    "publication_description": "Description: "
   },
   "bee": {
     "bee_uniqueName": "Bee Unique Name",
