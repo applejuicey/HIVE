@@ -10,27 +10,37 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item cursor-pointer">
           <span class="nav-link" @click="navigate('home')">
-            <i class="fas fa-home"></i>&nbsp;{{ $t('universal.home') }}
+            <mark>
+              <i class="fas fa-home"></i>&nbsp;{{ $t('universal.home') }}
+            </mark>
           </span>
         </li>
         <li class="nav-item cursor-pointer">
           <span class="nav-link" @click="navigate('search')">
-            <i class="fas fa-search"></i>&nbsp;{{ $t('universal.search') }}
+            <mark>
+              <i class="fas fa-search"></i>&nbsp;{{ $t('universal.search') }}
+            </mark>
           </span>
         </li>
         <li class="nav-item cursor-pointer">
           <span class="nav-link" @click="navigate('about')">
-            <i class="fas fa-question-circle"></i>&nbsp;{{ $t('navbar.about') }}
+            <mark>
+              <i class="fas fa-question-circle"></i>&nbsp;{{ $t('navbar.about') }}
+            </mark>
           </span>
         </li>
         <li class="nav-item cursor-pointer">
           <span class="nav-link" @click="navigate('cv_view')">
-            <i class="fas fa-file-alt"></i>&nbsp;{{ $t('navbar.cv') }}
+            <mark>
+              <i class="fas fa-file-alt"></i>&nbsp;{{ $t('navbar.cv') }}
+            </mark>
           </span>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" data-toggle="dropdown">
-            <i class="fas fa-language"></i>&nbsp;{{ $t('universal.language') }}
+            <mark>
+              <i class="fas fa-language"></i>&nbsp;{{ $t('universal.language') }}
+            </mark>
           </a>
           <div class="dropdown-menu">
             <button class="dropdown-item" @click="changeLanguage('en')">
@@ -43,17 +53,23 @@
         </li>
         <li class="nav-item cursor-pointer" v-if="isAdmin">
           <span class="nav-link" @click="navigate('users')">
-            <i class="fas fa-users"></i>&nbsp;{{ $t('universal.user') }}
+            <mark>
+              <i class="fas fa-users"></i>&nbsp;{{ $t('universal.user') }}
+            </mark>
           </span>
         </li>
         <li class="nav-item cursor-pointer" v-if="!hasLoggedIn">
           <span class="nav-link" @click="navigate('login')">
-            <i class="fas fa-sign-in-alt"></i>&nbsp;{{ $t('universal.login') }}
+            <mark>
+              <i class="fas fa-sign-in-alt"></i>&nbsp;{{ $t('universal.login') }}
+            </mark>
           </span>
         </li>
         <li class="nav-item cursor-pointer" v-else>
           <span class="nav-link" @click="logout">
-            <i class="fas fa-sign-in-alt"></i>&nbsp;{{ $t('universal.logout') }}
+            <mark>
+              <i class="fas fa-sign-in-alt"></i>&nbsp;{{ $t('universal.logout') }}
+            </mark>
           </span>
         </li>
       </ul>
@@ -100,3 +116,16 @@
     },
   }
 </script>
+
+<style scoped>
+  @media (max-width: 768px) {
+    mark {
+      background-color: rgba(250, 250, 250, 1);
+    }
+  }
+  @media (min-width: 768px) {
+    mark {
+      background-color: rgba(250, 250, 250, 0);
+    }
+  }
+</style>

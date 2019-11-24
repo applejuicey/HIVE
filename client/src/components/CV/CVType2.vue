@@ -1,51 +1,62 @@
 <template>
-  <!--start-->
   <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       <div class="transparent-card">
 
         <!--标题-->
-        <div class="row mb-2">
+        <div class="row no-gutters align-items-center mb-2">
           <div class="col-12 cv-title">
-            <div>
-              <span class="primary-box">{{ person.cname }}&nbsp;{{ person.ename }}</span>
-              <span class="secondary-box">
-                <i class="fas fa-mars" v-if="person.gender === 'M'"></i>
-                <i class="fas fa-venus" v-if="person.gender === 'F'"></i>
-              </span>
-              <span class="secondary-box">{{ person.birthday }}</span>
+            <div class="row">
+              <div class="col-12">
+                <span class="primary-box">{{ person.ename }}&nbsp;</span>
+                <span class="secondary-box">{{ person.cname }}</span>
+              </div>
             </div>
-            <div>
-              <span class="secondary-box">
-                <i class="fas fa-map-marker-alt"></i>&nbsp;{{ person.location }}
-              </span>
-              <span class="secondary-box">
+            <div class="row">
+              <div class="col-12 col-sm-11 offset-sm-1 col-md-9 offset-md-3 col-xl-8 offset-xl-4 secondary-box text-left">
+                <i class="fas fa-mars" v-if="person.gender === 'M'"></i>
+                <i class="fas fa-venus" v-if="person.gender === 'F'"></i>&nbsp;
+                {{ person.birthday }}
+              </div>
+              <div class="col-12 col-sm-11 offset-sm-1 col-md-9 offset-md-3 col-xl-8 offset-xl-4 secondary-box text-left">
+                <i class="fas fa-map-marker-alt"></i>&nbsp;
+                {{ person.location }}
+              </div>
+              <div class="col-12 col-sm-11 offset-sm-1 col-md-9 offset-md-3 col-xl-8 offset-xl-4 secondary-box text-left">
                 <i class="fas fa-user-graduate"></i>&nbsp;
                 {{ person.position }}
-              </span>
+              </div>
             </div>
           </div>
+<!--          <div class="col-2 text-center">-->
+<!--            <img :src="require('../../assets/timg.jpg')" class="img-fluid rounded" alt="My Photo">-->
+<!--          </div>-->
         </div>
 
         <!--个人陈述+联系方式-->
         <div class="row mb-2">
           <div class="col-md-7">
             <div class="section-title">
-              <span>{{ $t('cvtype1.description_title') }}</span>
+              <span>{{ $t('cvtype2.description_title') }}</span>
             </div>
             <div class="section-content">
-              <span>{{ person.description }}</span>
+              <template v-for="phrase in person.description.split('*').slice(1)">
+                <div>
+                  <i class="fas fa-genderless"></i>
+                  {{ phrase.trim() }}
+                </div>
+              </template>
             </div>
           </div>
           <div class="col-md-5">
             <div class="section-title">
-              <span>{{ $t('cvtype1.contact_title') }}</span>
+              <span>{{ $t('cvtype2.contact_title') }}</span>
             </div>
             <div class="section-content">
               <table class="table table-borderless table-sm">
                 <tr>
                   <td>
-                    <i class="fas fa-envelope"></i>&nbsp;{{ $t('cvtype1.email') }}
+                    <i class="fas fa-envelope"></i>&nbsp;{{ $t('cvtype2.email') }}
                   </td>
                   <td>
                     {{ person.email }}
@@ -53,7 +64,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <i class="fas fa-phone-alt"></i>&nbsp;{{ $t('cvtype1.phone') }}
+                    <i class="fas fa-phone-alt"></i>&nbsp;{{ $t('cvtype2.phone') }}
                   </td>
                   <td>
                     {{ person.phone }}
@@ -61,7 +72,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <i class="fab fa-github"></i>&nbsp;{{ $t('cvtype1.github') }}
+                    <i class="fab fa-github"></i>&nbsp;{{ $t('cvtype2.github') }}
                   </td>
                   <td>
                     {{ person.github }}
@@ -69,7 +80,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <i class="fas fa-globe"></i>&nbsp;{{ $t('cvtype1.website') }}
+                    <i class="fas fa-globe"></i>&nbsp;{{ $t('cvtype2.website') }}
                   </td>
                   <td>
                     {{ person.website }}
@@ -80,33 +91,11 @@
           </div>
         </div>
 
-        <!--照片+个人技能-->
-        <div class="row mb-2 align-items-center">
-          <div class="col-md-2 text-center">
-            <img :src="person.photo" class="img-fluid rounded" alt="My Photo">
-          </div>
-          <div class="col-md-10">
-            <div class="section-title">
-              <span>{{ $t('cvtype1.skill_title') }}</span>
-            </div>
-            <div class="section-content row align-items-center">
-              <div class="col-md-6">
-                <span>{{ JSON.parse(person.customization[0].customizationJSONData).skillDescription }}</span>
-              </div>
-              <div class="col-md-6">
-                <canvas id="myChart">
-                  <p>{{ $t('cvtype1.canvas_fallback_desc') }}</p>
-                </canvas>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <!--教育经历-->
         <div class="row mb-2">
           <div class="col-12">
             <div class="section-title">
-              <span>{{ $t('cvtype1.education_title') }}</span>
+              <span>{{ $t('cvtype2.education_title') }}</span>
             </div>
             <div class="section-content">
               <template v-for="item in person.educational">
@@ -136,7 +125,7 @@
                             <td class="d-flex justify-content-md-end">
                               <span class="order-md-2"><i class="fas fa-book"></i></span>
                               <span class="order-md-1">&nbsp;</span>
-                              <span class="order-md-0">{{ item.experiencePosition }}</span>
+                              <span class="order-md-0 font-weight-normal">{{ item.experiencePosition }}</span>
                             </td>
                           </tr>
                           <tr>
@@ -155,7 +144,7 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="fas fa-map-marked-alt"></i>
-                              {{ $t('cvtype1.education_address') }}
+                              {{ $t('cvtype2.education_address') }}
                             </td>
                             <td>
                               {{ item.experienceLocation }}
@@ -164,21 +153,15 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="far fa-comment-dots"></i>
-                              {{ $t('cvtype1.education_description') }}
+                              {{ $t('cvtype2.education_description') }}
                             </td>
                             <td>
-                              {{ item.experienceDescription }}
+                              <template v-for="phrase in item.experienceDescription.split('*').slice(1)">
+                                <div>-{{ phrase.trim() }}</div>
+                              </template>
                             </td>
                           </tr>
                         </table>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4 offset-md-8 d-none d-md-block">
-                        <div class="dotted-line">&nbsp;</div>
-                      </div>
-                      <div class="col-8 offset-2 d-md-none">
-                        <div class="dotted-line">&nbsp;</div>
                       </div>
                     </div>
                   </div>
@@ -192,7 +175,7 @@
         <div class="row mb-2">
           <div class="col-12">
             <div class="section-title">
-              <span>{{ $t('cvtype1.project_title') }}</span>
+              <span>{{ $t('cvtype2.project_title') }}</span>
             </div>
             <div class="section-content">
               <template v-for="item in person.project">
@@ -243,10 +226,10 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="fas fa-link"></i>
-                              {{ $t('cvtype1.project_access') }}
+                              {{ $t('cvtype2.project_access') }}
                             </td>
                             <td>
-                              <template v-for="phrase in item.experienceLocation.split('-').slice(1)">
+                              <template v-for="phrase in item.experienceLocation.split('*').slice(1)">
                                 <div>-{{ phrase.trim() }}</div>
                               </template>
                             </td>
@@ -254,23 +237,15 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="far fa-comment-dots"></i>
-                              {{ $t('cvtype1.project_description') }}
+                              {{ $t('cvtype2.project_description') }}
                             </td>
                             <td>
-                              <template v-for="phrase in item.experienceDescription.split('-').slice(1)">
+                              <template v-for="phrase in item.experienceDescription.split('*').slice(1)">
                                 <div>-{{ phrase.trim() }}</div>
                               </template>
                             </td>
                           </tr>
                         </table>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4 offset-md-8 d-none d-md-block">
-                        <div class="dotted-line">&nbsp;</div>
-                      </div>
-                      <div class="col-8 offset-2 d-md-none">
-                        <div class="dotted-line">&nbsp;</div>
                       </div>
                     </div>
                   </div>
@@ -284,7 +259,7 @@
         <div class="row mb-2">
           <div class="col-md-6">
             <div class="section-title">
-              <span>{{ $t('cvtype1.internship_title') }}</span>
+              <span>{{ $t('cvtype2.internship_title') }}</span>
             </div>
             <div class="section-content">
               <template v-for="item in person.internship">
@@ -338,7 +313,7 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="fas fa-map-marked-alt"></i>
-                              {{ $t('cvtype1.internship_address') }}
+                              {{ $t('cvtype2.internship_address') }}
                             </td>
                             <td>
                               {{ item.experienceLocation }}
@@ -347,20 +322,15 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="far fa-comment-dots"></i>
-                              {{ $t('cvtype1.internship_description') }}
+                              {{ $t('cvtype2.internship_description') }}
                             </td>
                             <td>
-                              <template v-for="phrase in item.experienceDescription.split('-').slice(1)">
+                              <template v-for="phrase in item.experienceDescription.split('*').slice(1)">
                                 <div>-{{ phrase.trim() }}</div>
                               </template>
                             </td>
                           </tr>
                         </table>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-8 offset-2">
-                        <div class="dotted-line">&nbsp;</div>
                       </div>
                     </div>
                   </div>
@@ -370,7 +340,7 @@
           </div>
           <div class="col-md-6">
             <div class="section-title">
-              <span>{{ $t('cvtype1.social_title') }}</span>
+              <span>{{ $t('cvtype2.volunteer_title') }}</span>
             </div>
             <div class="section-content">
               <template v-for="item in person.social">
@@ -424,7 +394,7 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="fas fa-map-marked-alt"></i>
-                              {{ $t('cvtype1.social_address') }}
+                              {{ $t('cvtype2.volunteer_address') }}
                             </td>
                             <td>
                               {{ item.experienceLocation }}
@@ -433,20 +403,15 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="far fa-comment-dots"></i>
-                              {{ $t('cvtype1.social_description') }}
+                              {{ $t('cvtype2.volunteer_description') }}
                             </td>
                             <td>
-                              <template v-for="phrase in item.experienceDescription.split('-').slice(1)">
+                              <template v-for="phrase in item.experienceDescription.split('*').slice(1)">
                                 <div>-{{ phrase.trim() }}</div>
                               </template>
                             </td>
                           </tr>
                         </table>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-8 offset-2">
-                        <div class="dotted-line">&nbsp;</div>
                       </div>
                     </div>
                   </div>
@@ -460,7 +425,7 @@
         <div class="row">
           <div class="col-12">
             <div class="section-title">
-              <span>{{ $t('cvtype1.publication_title') }}</span>
+              <span>{{ $t('cvtype2.publication_title') }}</span>
             </div>
             <div class="section-content">
               <template v-for="item in person.publication">
@@ -484,7 +449,7 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="far fa-calendar-alt"></i>
-                              {{ $t('cvtype1.publication_year') }}
+                              {{ $t('cvtype2.publication_year') }}
                             </td>
                             <td>
                               {{ item.publicationYear }}
@@ -493,7 +458,7 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="fas fa-link"></i>
-                              {{ $t('cvtype1.publication_link') }}
+                              {{ $t('cvtype2.publication_link') }}
                             </td>
                             <td>
                               {{ item.publicationLink }}
@@ -502,7 +467,7 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="fas fa-book-open"></i>
-                              {{ $t('cvtype1.publication_journal') }}
+                              {{ $t('cvtype2.publication_journal') }}
                             </td>
                             <td>
                               {{ item.publicationJournalName }}
@@ -511,7 +476,7 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="fas fa-user-edit"></i>
-                              {{ $t('cvtype1.publication_authors') }}
+                              {{ $t('cvtype2.publication_authors') }}
                             </td>
                             <td>
                               {{ item.publicationAuthorNames }}
@@ -520,10 +485,10 @@
                           <tr>
                             <td class="text-ellipsis">
                               <i class="far fa-comment-dots"></i>
-                              {{ $t('cvtype1.publication_description') }}
+                              {{ $t('cvtype2.publication_description') }}
                             </td>
                             <td>
-                              <template v-for="phrase in item.publicationDescription.split('-').slice(1)">
+                              <template v-for="phrase in item.publicationDescription.split('*').slice(1)">
                                 <div>-{{ phrase.trim() }}</div>
                               </template>
                             </td>
@@ -541,12 +506,11 @@
       </div>
     </div>
   </div>
-  <!--end-->
 </template>
 
 <script>
   export default {
-    name: 'cv_type1',
+    name: 'cv_type2',
     props: {
       userData: {
         type: Object,
@@ -591,39 +555,24 @@
         customization: this.userData.customizations,
       };
     },
-    mounted() {
-      this.$nextTick(() =>{
-        try {
-          const JSONData = JSON.parse( this.userData.customizations[0].customizationJSONData);
-          const ctx = document.getElementById('myChart').getContext('2d');
-          const myRadarChart = new this.$Chart(ctx, {
-            type: 'radar',
-            data: JSONData.radarPlot.data,
-            options: JSONData.radarPlot.options,
-          });
-        } catch (error) {
-          console.error('aa',error);
-        }
-      });
-    },
   }
 </script>
 
 <style scoped>
   .cv-title {
-    margin-bottom: 1rem;
     text-align: center;
   }
   .primary-box {
     font-size: 2.5rem;
     font-weight: 500;
-    margin-right: 1rem;
   }
   .secondary-box {
     color: #323232;
     font-size: 1.2rem;
     font-weight: 200;
-    margin-right: 0.7rem;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis
   }
   .section-title {
     border-bottom: 0.05rem dashed #323232;
@@ -637,9 +586,6 @@
   .section-content {
     font-size: 1.2rem;
     font-weight: 200;
-  }
-  .dotted-line {
-    border-bottom: 0.05rem dotted #000000;
   }
   .experience-title {
     font-size: 1.5rem;

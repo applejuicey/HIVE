@@ -49,6 +49,9 @@
         </div>
       </div>
       <c-v-type1 :userData="userData" v-if="showType === 'cvtype1'"></c-v-type1>
+      <c-v-type2 :userData="userData" v-if="showType === 'cvtype2'"></c-v-type2>
+      <c-v-type3 v-if="showType === 'cvtype3'"></c-v-type3>
+      <c-v-type4 v-if="showType === 'cvtype4'"></c-v-type4>
     </div>
   </div>
 </template>
@@ -56,11 +59,17 @@
 <script>
   import BottomCard from '@/components/BottomCard.vue';
   import CVType1 from '@/components/CV/CVType1.vue';
+  import CVType2 from '@/components/CV/CVType2.vue';
+  import CVType3 from '@/components/CV/CVType3.vue';
+  import CVType4 from '@/components/CV/CVType4.vue';
   export default {
     name: 'cv_view',
     components: {
       BottomCard,
       CVType1,
+      CVType2,
+      CVType3,
+      CVType4
     },
     data: function () {
       return {
@@ -69,6 +78,16 @@
         submitLoading: false,
         userData: {},
         responseMessage: '',
+        accessCodeArray: {
+          // fy
+          'V3WN9': 'cvtype2',  // UCL
+          '43TC5': 'cvtype3',  // ICL-AI
+          // 'NWFQC',
+          // 'KRV3Q'
+          // htt
+          '8FPQD': 'cvtype4',  //
+        },
+        // accessCodeArray4HTT: ['8FPQD', 'JK6QM', 'HVC8X', 'QFKTQ'],
       };
     },
     methods: {
@@ -82,7 +101,7 @@
           try {
             if (response.data.statusCode === '1') {
               this.userData = response.data.user;
-              this.showType = 'cvtype1';
+              this.showType = this.accessCodeArray[this.accessCode];
             }
             if (response.data.statusCode === '0') {
               console.error(`${this.$i18n.t('cv.validation_error')}: `, response.data.error.message);
