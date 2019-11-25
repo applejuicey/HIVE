@@ -52,6 +52,7 @@
       <c-v-type2 :userData="userData" v-if="showType === 'cvtype2'"></c-v-type2>
       <c-v-type3 v-if="showType === 'cvtype3'"></c-v-type3>
       <c-v-type4 v-if="showType === 'cvtype4'"></c-v-type4>
+      <c-v-type5 v-if="showType === 'cvtype5'"></c-v-type5>
     </div>
   </div>
 </template>
@@ -62,6 +63,7 @@
   import CVType2 from '@/components/CV/CVType2.vue';
   import CVType3 from '@/components/CV/CVType3.vue';
   import CVType4 from '@/components/CV/CVType4.vue';
+  import CVType5 from '@/components/CV/CVType5.vue';
   export default {
     name: 'cv_view',
     components: {
@@ -69,7 +71,8 @@
       CVType1,
       CVType2,
       CVType3,
-      CVType4
+      CVType4,
+      CVType5,
     },
     data: function () {
       return {
@@ -82,7 +85,7 @@
           // fy
           'V3WN9': 'cvtype2',  // UCL
           '43TC5': 'cvtype3',  // ICL-AI
-          // 'NWFQC',
+          'NWFQC': 'cvtype5',  // phd workshop
           // 'KRV3Q'
           // htt
           '8FPQD': 'cvtype4',  //

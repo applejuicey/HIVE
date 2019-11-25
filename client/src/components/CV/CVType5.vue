@@ -17,12 +17,12 @@
                 <table class="table table-borderless table-sm text-right">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For '<a href="https://ai4health.io/overview/">AI and Machine Learning</a>',
+                      For '<a href="https://www.phdchina.org/phd/english/general/general_info.html">PhD Workshop China 2019</a>',
                     </td>
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      Imperial College London
+                      Shanghai
                     </td>
                   </tr>
                 </table>
@@ -83,7 +83,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <i class="fas fa-genderless"></i>&nbsp;Proficient with programming language(e.g. JavaScript, Python, Java), statistical analysis language(R), structured querying languages(e.g. MySQL, PostgreSQL);
+                    <i class="fas fa-genderless"></i>&nbsp;Proficient with programming language (e.g. JavaScript, Python, Java), statistical analysis language (R), structured querying languages (e.g. MySQL, PostgreSQL);
                   </td>
                 </tr>
                 <tr>
@@ -145,7 +145,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Master Candidate(Master of Medicine)</span>&nbsp;
+                          <span class="keyword">Master Candidate (Master of Medicine)</span>&nbsp;
                           <span class="keyword">
                             <a href="https://en.wikipedia.org/wiki/Project_985">Project 985&211</a>
                           </span>&nbsp;
@@ -202,7 +202,7 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -The three-year master training programme is composed of both a taught lessons module(the first year) and a research module(the next two years).
+                                -The three-year master training programme is composed of both a taught lessons module (the first year) and a research module (the next two years).
                               </td>
                             </tr>
                             <tr>
@@ -212,7 +212,7 @@
                             </tr>
                             <tr>
                               <td>
-                                -The research project aims to solve the problems arose in the design and the implementation of Bayesian adaptive randomization for clinical trials, followed by the development of a series of related responsive web applications(interacting with R).
+                                -The research project aims to solve the problems arose in the design and the implementation of Bayesian adaptive randomization for clinical trials, followed by the development of a series of related responsive web applications (interacting with R).
                               </td>
                             </tr>
                             <tr>
@@ -340,8 +340,8 @@
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
                           <span class="keyword">CTMS</span>&nbsp;
-                          <span class="keyword">JavaScript(Vue.js)</span>&nbsp;
-                          <span class="keyword">Python(Flask)</span>&nbsp;
+                          <span class="keyword">JavaScript (Vue.js)</span>&nbsp;
+                          <span class="keyword">Python (Flask)</span>&nbsp;
                           <span class="keyword">Nginx</span>&nbsp;
                           <span class="keyword">Frontend</span>&nbsp;
                         </td>
@@ -415,7 +415,7 @@
                             </tr>
                             <tr>
                               <td>
-                                -Designed the application architecture and drafted an API document for interaction between client and server(JavaScript for frontend, Python for backend, PostgreSQL for persistent storage);
+                                -Designed the application architecture and drafted an API document for interaction between client and server (JavaScript for frontend, Python for backend, PostgreSQL for persistent storage);
                               </td>
                             </tr>
                             <tr>
@@ -438,13 +438,13 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Development of a Saponins Mass Spectrometry Database(SMSD)
+                          <i class="fas fa-caret-right"></i>&nbsp;Development of a Saponins Mass Spectrometry Database (SMSD)
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
                           <span class="keyword">OnlineDB</span>&nbsp;
-                          <span class="keyword">JavaScript(Vue.js)</span>&nbsp;
+                          <span class="keyword">JavaScript (Vue.js)</span>&nbsp;
                           <span class="keyword">Prisma</span>&nbsp;
                           <span class="keyword">GraphQL</span>&nbsp;
                           <span class="keyword">Docker</span>&nbsp;
@@ -543,13 +543,13 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Development of a personal website(HIVE)
+                          <i class="fas fa-caret-right"></i>&nbsp;Development of a personal website (HIVE)
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
                           <span class="keyword">Personal Website</span>&nbsp;
-                          <span class="keyword">JavaScript(Vue.js+Express+Sequelize)</span>&nbsp;
+                          <span class="keyword">JavaScript (Vue.js+Express+Sequelize)</span>&nbsp;
                           <span class="keyword">RESTful API</span>&nbsp;
                         </td>
                       </tr>
@@ -617,7 +617,7 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -HIVE is a personal website deployed to share my experiences during learning(e.g. health statistics, web app development, machine learning) and is hoped to be further developed into a website where one can own an account and share his/her knowledge;
+                                -HIVE is a personal website deployed to share my experiences during learning (e.g. health statistics, web app development, machine learning) and is hoped to be further developed into a website where one can own an account and share his/her knowledge;
                               </td>
                             </tr>
                             <tr>
@@ -645,13 +645,13 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Development of a Electronic Data Capture System(InterClin)
+                          <i class="fas fa-caret-right"></i>&nbsp;Development of a Electronic Data Capture System (InterClin)
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
                           <span class="keyword">EDC</span>&nbsp;
-                          <span class="keyword">JAVA(Spring+JSP+Hibernate)</span>&nbsp;
+                          <span class="keyword">JAVA (Spring+JSP+Hibernate)</span>&nbsp;
                           <span class="keyword">Redevelopment</span>&nbsp;
                         </td>
                       </tr>
@@ -719,7 +719,7 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -InterClin is an electronic data capture system for clinical trials(redeveloped based on OpenClinica);
+                                -InterClin is an electronic data capture system for clinical trials (redeveloped based on OpenClinica);
                               </td>
                             </tr>
                             <tr>
@@ -844,7 +844,7 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Clinical Trial Statistical Analysis(Plan & Report) for a Rabies Vaccine
+                          <i class="fas fa-caret-right"></i>&nbsp;Clinical Trial Statistical Analysis (Plan & Report) for a Rabies Vaccine
                         </td>
                       </tr>
                       <tr>
@@ -1009,7 +1009,7 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Participated in the data management work(e.g. project initiation, eCRF generation, data inspection) for the trial;
+                                -Participated in the data management work (e.g. project initiation, eCRF generation, data inspection) for the trial;
                               </td>
                             </tr>
                             <tr>
@@ -1287,7 +1287,7 @@
                             </tr>
                             <tr>
                               <td>
-                                -Coordinated and supported the daily secretarial work for the whole Slovakian delegation(e.g. translation work, athlete routines).
+                                -Coordinated and supported the daily secretarial work for the whole Slovakian delegation (e.g. translation work, athlete routines).
                               </td>
                             </tr>
                           </table>
@@ -1371,7 +1371,7 @@
                             </tr>
                             <tr>
                               <td>
-                                -Supported the daily secretarial work for two Slovakian delegation leaders(J. Gonci&B. Demeter).
+                                -Supported the daily secretarial work for two Slovakian delegation leaders (J. Gonci&B. Demeter).
                               </td>
                             </tr>
                           </table>
@@ -1398,7 +1398,7 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;A preliminary investigation on the methods of predictive evaluation through simulation on Bayesian response-adaptive randomization
+                          <i class="fas fa-caret-right"></i>&nbsp;A Preliminary Investigation on the Methods of Predictive Evaluation through Simulation on Bayesian Response-adaptive Randomization
                         </td>
                       </tr>
                       <tr>
@@ -1563,7 +1563,7 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;A mass spectrometry database for identification of saponins in plants
+                          <i class="fas fa-caret-right"></i>&nbsp;A Mass Spectrometry Database for Identification of Saponins in Plants
                         </td>
                       </tr>
                       <tr>
@@ -1643,7 +1643,7 @@
 
 <script>
   export default {
-    name: 'cv_type3',
+    name: 'cv_type5',
     data: function () {
       return {
 
