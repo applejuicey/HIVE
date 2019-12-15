@@ -6,6 +6,11 @@ import Home from './views/Home.vue';
 import Search from './views/Search.vue';
 import About from './views/About.vue';
 import CVView from './views/CV/CVView.vue';
+import PSView from './views/PS/PSView.vue';
+import RPView from './views/RP/RPView.vue';
+import TBDView from './views/TBD/TBDView.vue';
+import TMDView from './views/TMD/TMDView.vue';
+import ELCView from './views/ELC/ELCView.vue';
 import Users from './views/User/Users.vue';
 import UserView from './views/User/UserView.vue';
 import UserCreate from './views/User/UserCreate.vue';
@@ -50,6 +55,46 @@ const router = new Router({
       path: '/cv/view',
       name: 'cv_view',
       component: CVView,
+      meta: {
+        needLogin: false,
+      },
+    },
+    {
+      path: '/ps/view',
+      name: 'ps_view',
+      component: PSView,
+      meta: {
+        needLogin: false,
+      },
+    },
+    {
+      path: '/rp/view',
+      name: 'rp_view',
+      component: RPView,
+      meta: {
+        needLogin: false,
+      },
+    },
+    {
+      path: '/tbd/view',
+      name: 'tbd_view',
+      component: TBDView,
+      meta: {
+        needLogin: false,
+      },
+    },
+    {
+      path: '/tmd/view',
+      name: 'tmd_view',
+      component: TMDView,
+      meta: {
+        needLogin: false,
+      },
+    },
+    {
+      path: '/elc/view',
+      name: 'elc_view',
+      component: ELCView,
       meta: {
         needLogin: false,
       },

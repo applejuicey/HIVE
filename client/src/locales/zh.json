@@ -29,7 +29,7 @@
     "actions": "操作"
   },
   "navbar": {
-    "about": "关于HIVE",
+    "about": "关于",
     "cv": "简历"
   },
   "users": {
@@ -61,8 +61,84 @@
     "select_a_field": "请选择一个字段",
     "please_select_a_field": "请在选择面板中选择一个字段，填写表单然后点击提交以保存数据"
   },
+  "about": {
+    "select_topic": "请选择",
+    "cv_title": "个人简历",
+    "cv_text": "打开下面的链接，在输入框中输入5位验证码以获取个人简历。（5位验证码位于PDF中的二维码下方）",
+    "cv_button": "查看个人简历",
+    "ps_title": "个人陈述",
+    "ps_text": "打开下面的链接，在输入框中输入5位验证码以获取个人陈述。（5位验证码位于PDF中的二维码下方）",
+    "ps_button": "查看个人陈述",
+    "rp_title": "研究计划",
+    "rp_text": "打开下面的链接，在输入框中输入5位验证码以获取研究计划。（5位验证码位于PDF中的二维码下方）",
+    "rp_button": "查看研究计划",
+    "tbd_title": "本科成绩单",
+    "tbd_text": "打开下面的链接，在输入框中输入5位验证码以获取本科成绩单。（5位验证码位于PDF中的二维码下方）",
+    "tbd_button": "查看本科成绩单",
+    "tmd_title": "硕士成绩单",
+    "tmd_text": "打开下面的链接，在输入框中输入5位验证码以获取硕士成绩单。（5位验证码位于PDF中的二维码下方）",
+    "tmd_button": "查看硕士成绩单",
+    "elc_title": "英语能力证明",
+    "elc_text": "打开下面的链接，在输入框中输入5位验证码以获取英语能力证明。（5位验证码位于PDF中的二维码下方）",
+    "elc_button": "查看英语能力证明"
+  },
   "cv": {
-    "instruction": "请在下方输入框中输入5位访问码，点击提交以获取简历。",
+    "instruction": "请在下方输入框中输入5位访问码，点击提交以获取个人简历。",
+    "title": "请输入访问码",
+    "label": "访问码：",
+    "placeholder": "请在这里输入访问码。",
+    "submit": "提交",
+    "loading": "加载中...",
+    "modal_title": "错误",
+    "modal_button_text": "确定",
+    "validation_error": "在验证访问码时产生了错误："
+  },
+  "ps": {
+    "instruction": "请在下方输入框中输入5位访问码，点击提交以获取个人陈述。",
+    "title": "请输入访问码",
+    "label": "访问码：",
+    "placeholder": "请在这里输入访问码。",
+    "submit": "提交",
+    "loading": "加载中...",
+    "modal_title": "错误",
+    "modal_button_text": "确定",
+    "validation_error": "在验证访问码时产生了错误："
+  },
+  "rp": {
+    "instruction": "请在下方输入框中输入5位访问码，点击提交以获取研究计划。",
+    "title": "请输入访问码",
+    "label": "访问码：",
+    "placeholder": "请在这里输入访问码。",
+    "submit": "提交",
+    "loading": "加载中...",
+    "modal_title": "错误",
+    "modal_button_text": "确定",
+    "validation_error": "在验证访问码时产生了错误："
+  },
+  "tbd": {
+    "instruction": "请在下方输入框中输入5位访问码，点击提交以获取本科成绩单。",
+    "title": "请输入访问码",
+    "label": "访问码：",
+    "placeholder": "请在这里输入访问码。",
+    "submit": "提交",
+    "loading": "加载中...",
+    "modal_title": "错误",
+    "modal_button_text": "确定",
+    "validation_error": "在验证访问码时产生了错误："
+  },
+  "tmd": {
+    "instruction": "请在下方输入框中输入5位访问码，点击提交以获取硕士成绩单。",
+    "title": "请输入访问码",
+    "label": "访问码：",
+    "placeholder": "请在这里输入访问码。",
+    "submit": "提交",
+    "loading": "加载中...",
+    "modal_title": "错误",
+    "modal_button_text": "确定",
+    "validation_error": "在验证访问码时产生了错误："
+  },
+  "elc": {
+    "instruction": "请在下方输入框中输入5位访问码，点击提交以获取英语语言证明。",
     "title": "请输入访问码",
     "label": "访问码：",
     "placeholder": "请在这里输入访问码。",

@@ -29,13 +29,6 @@
             </mark>
           </span>
         </li>
-        <li class="nav-item cursor-pointer">
-          <span class="nav-link" @click="navigate('cv_view')">
-            <mark>
-              <i class="fas fa-file-alt"></i>&nbsp;{{ $t('navbar.cv') }}
-            </mark>
-          </span>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" data-toggle="dropdown">
             <mark>

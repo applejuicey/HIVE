@@ -7,13 +7,21 @@
         <div class="row mb-2">
           <div class="col-12">
             <div class="row">
-              <div class="col-12 order-1 col-md-4 offset-md-4 order-md-0">
-                <div class="text-center">
-                  <span class="font-size-2 font-weight-bold">Tiantian Hua&nbsp;</span>
-                  <span class="font-weight-light">(花田甜)</span>
-                </div>
+              <div class="col-4 order-0 col-md-4 order-md-0">
+                <table class="table table-borderless table-sm text-left">
+                  <tr>
+                    <td class="font-size-0_8 font-weight-light">
+                      For an <router-link :to="{ name: 'cv_view' }">Online Version:</router-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="font-size-0_8 font-weight-light">
+                      Access Code: 8FPQD
+                    </td>
+                  </tr>
+                </table>
               </div>
-              <div class="col-12 order-0 col-md-4 order-md-1">
+              <div class="col-8 order-1 col-md-4 order-md-2">
                 <table class="table table-borderless table-sm text-right">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
@@ -26,6 +34,12 @@
                     </td>
                   </tr>
                 </table>
+              </div>
+              <div class="col-12 order-2 col-md-4 order-md-1">
+                <div class="text-center">
+                  <span class="font-size-2 font-weight-bold">Tiantian Hua&nbsp;</span>
+                  <span class="font-weight-light">(花田甜)</span>
+                </div>
               </div>
             </div>
           </div>
@@ -51,7 +65,7 @@
               </tr>
               <tr>
                 <td>
-                  <i class="fas fa-graduation-cap"></i>&nbsp;Master Candidate Applying for a Biostatistics and Computing Research PhD
+                  <i class="fas fa-graduation-cap"></i>&nbsp;Master Candidate Applying for a Biostatistics and Health Informatics Research PhD
                 </td>
               </tr>
             </table>
@@ -76,7 +90,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Master Candidate(Master of Medicine)</span>&nbsp;
+                          <span class="keyword">Master Candidate (Master of Medicine)</span>&nbsp;
                           <span class="keyword">
                             <a href="https://en.wikipedia.org/wiki/Project_985">Project 985&211</a>
                           </span>&nbsp;
@@ -138,12 +152,14 @@
                             </tr>
                             <tr>
                               <td>
-                                -The core courses in the first year include Matrix Computation, Data Processing Techniques, Medical Statistics, Multivariate Statistics in Medicine, Advanced Biostatistics, Modern Epidemiology, Molecular Epidemiology and Infectious Diseases Epidemiology.
+                                -The core
+                                <router-link :to="{ name: 'tmd_view' }">courses</router-link>
+                                in the first year include Matrix Computation, Data Processing Techniques, Medical Statistics, Multivariate Statistics in Medicine, Advanced Biostatistics, Modern Epidemiology, Molecular Epidemiology and Infectious Diseases Epidemiology.
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -The research project aims to use logistic regression, backpropagation neural network and support vector machine to optimize the prognosis prediction of major depression disorder according to the demographic and clinical information collected in Zhongda Hospital, Nanjing.
+                                -The research project aims to use logistic regression, backpropagation neural network and support vector machine to optimize the prognosis prediction of major depressive disorder according to the demographic and clinical information collected in Zhongda Hospital, Nanjing.
                               </td>
                             </tr>
                             <tr>
@@ -233,12 +249,12 @@
                             </tr>
                             <tr>
                               <td>
-                                -Detailed information about the lessons can be found in the transcript of academic records.
+                                -Detailed information about the lessons can be found in the <router-link :to="{ name: 'tbd_view' }">transcript of academic records</router-link>.
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -AVG: 82.93 GPA: 3.32/4.00
+                                -AVG: 82.93, GPA: 3.32/4.00
                               </td>
                             </tr>
                           </table>
@@ -454,7 +470,7 @@
                             </tr>
                             <tr>
                               <td>
-                                -Accomplished the statistical analysis report including efficacy evaluation and safety evaluation.
+                                -Accomplished the statistical analysis report, including efficacy evaluation and safety evaluation.
                               </td>
                             </tr>
                           </table>
@@ -477,7 +493,8 @@
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Histcite/VOSviewer</span>&nbsp;
+                          <span class="keyword">HistCite</span>&nbsp;
+                          <span class="keyword">VOSviewer</span>&nbsp;
                           <span class="keyword">Biliometrics</span>&nbsp;
                           <span class="keyword">Presentation</span>&nbsp;
                         </td>
@@ -526,12 +543,12 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Employed Histcite and VOSviewer in visualizing the results of literature search;
+                                -Employed HistCite and VOSviewer in visualizing the results of literature search;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Identified the key literature in group sequential design using bibliometrical methods;
+                                -Identified the key literature in group sequential design using bibliometric methods;
                               </td>
                             </tr>
                             <tr>
@@ -629,7 +646,7 @@
                             </tr>
                             <tr>
                               <td>
-                                -Generated the statistical analysis plan and accomplished the statistical analysis report, including trial completeness summary, baseline comparison, efficacy evaluation, safety evaluation and etc.
+                                -Generated the statistical analysis plan and accomplished the statistical analysis report, including trial completeness summary, baseline comparison, efficacy evaluation, safety evaluation, etc.
                               </td>
                             </tr>
                           </table>
@@ -647,12 +664,12 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Course Work on Using STATA for Meta-analysis
+                          <i class="fas fa-caret-right"></i>&nbsp;Course Work on Using Stata for Meta-analysis
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">STATA</span>&nbsp;
+                          <span class="keyword">Stata</span>&nbsp;
                           <span class="keyword">Meta-analysis</span>&nbsp;
                           <span class="keyword">Model Selection</span>&nbsp;
                           <span class="keyword">Subgroup Analysis</span>&nbsp;
@@ -702,12 +719,12 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Summarized core knowledge on the topic including model selection (fixed/random effects), subgroup analysis, meta-regression, etc.
+                                -Summarized core knowledge on the topic, including model selection (fixed and random effects), subgroup analysis, meta-regression, etc.;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Gave a presentation on using STATA for doing meta-analysis in a seminar to the whole faculty of Epidemiology and Health Statistics.
+                                -Gave a presentation on using Stata for doing meta-analysis in a seminar to the whole faculty of Epidemiology and Health Statistics.
                               </td>
                             </tr>
                           </table>
@@ -795,7 +812,7 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Major rotating departments including department of toxicology&risk Assessment, department of key projects and etc.
+                                -Major rotating departments including the Department of Toxicology&Risk Assessment, the Department of Critical Projects, etc.;
                               </td>
                             </tr>
                             <tr>
@@ -805,7 +822,7 @@
                             </tr>
                             <tr>
                               <td>
-                                -Responsible for data collection and statistical description&analysis when rotating in department of key projects.
+                                -Responsible for data collection and statistical description&analysis when rotating in the Department of Critical Projects.
                               </td>
                             </tr>
                           </table>
@@ -885,7 +902,7 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Major rotating departments including department of general surgery, department of respiratory, department of digestive and medical records room;
+                                -Major rotating departments including the Department of General Surgery, the Department of Respiratory Diseases, the Department of Gastroenterology and the Department of Medical Records Managing;
                               </td>
                             </tr>
                             <tr>
@@ -895,7 +912,7 @@
                             </tr>
                             <tr>
                               <td>
-                                -Assisted in dealing with medical disputes when rotating in department of medical administration;
+                                -Assisted in dealing with medical disputes when rotating in the Department of Medical Administration;
                               </td>
                             </tr>
                             <tr>
@@ -978,12 +995,12 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Responsible for teaching entire lessons, grading tests, running classroom related errands;
+                                -Responsible for teaching entire lessons, grading tests, running classroom-related errands;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Courses included specific statistical tests like ANOVA, Chi-square test, non-parametric tests, linear correlation, linear regression, survival analysis and etc.
+                                -Courses included specific statistical tests like ANOVA, Chi-square test, non-parametric tests, linear correlation, linear regression, survival analysis, etc.
                               </td>
                             </tr>
                           </table>
@@ -1061,12 +1078,12 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Presided over my own course of Medical Statistics, with guidance from assigned professor;
+                                -Presided over my own course of Medical Statistics, with guidance from the assigned professor;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Courses included introduction of medical statistics, statistical description (data types, tables and charts, descriptive statistics), statistical inference (probability distributions, parameter estimation, hypothesis testing, confidence intervals), some specific statistical tests(t-test, ANOVA, Chi-square test) and etc.
+                                -Courses included introduction of medical statistics, statistical description (data types, tables and charts, descriptive statistics), statistical inference (probability distributions, parameter estimation, hypothesis testing, confidence intervals), some specific statistical tests (t-test, ANOVA, Chi-square test), etc.
                               </td>
                             </tr>
                           </table>
@@ -1120,17 +1137,8 @@
                       </tr>
                       <tr>
                         <td class="text-ellipsis">
-                          <i class="fas fa-link"></i>
-                          Link:
-                        </td>
-                        <td>
-                          Not available temporarily
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
                           <i class="fas fa-book-open"></i>
-                          Journal Name:
+                          Journal:
                         </td>
                         <td>
                           <a href="https://www.jtcvs.org/">The Journal of Thoracic and Cardiovascular Surgery</a>
@@ -1202,17 +1210,8 @@
                       </tr>
                       <tr>
                         <td class="text-ellipsis">
-                          <i class="fas fa-link"></i>
-                          Link:
-                        </td>
-                        <td>
-                          Not available temporarily
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
                           <i class="fas fa-book-open"></i>
-                          Journal Name:
+                          Journal:
                         </td>
                         <td>
                           <a href="http://zgwstj.paperonce.org/">Chinese Journal of Health Statistics (RCCSE National Core Journal)</a>
@@ -1293,13 +1292,13 @@
                           Link:
                         </td>
                         <td>
-                          https://doi.org/10.1093/icvts/ivz152
+                          <a href="https://doi.org/10.1093/icvts/ivz152">https://doi.org/10.1093/icvts/ivz152</a>
                         </td>
                       </tr>
                       <tr>
                         <td class="text-ellipsis">
                           <i class="fas fa-book-open"></i>
-                          Journal Name:
+                          Journal:
                         </td>
                         <td>
                           <a href="https://academic.oup.com/icvts">Interactive CardioVascular and Thoracic Surgery</a>
@@ -1366,11 +1365,11 @@
                       </tr>
                       <tr>
                         <td class="text-ellipsis">
-                          <i class="fas fa-book-open"></i>
-                          Conference Name:
+                          <i class="fas fa-comments"></i>
+                          Conference:
                         </td>
                         <td>
-                          <a href="http://zgwstj.paperonce.org/">China Health Statistics Annual Conference 2019</a>
+                          <a href="http://cbc2019.cnbiostat.org/schedule.php">China Health Statistics Annual Conference 2019</a>
                         </td>
                       </tr>
                       <tr>
@@ -1414,14 +1413,14 @@
             <div class="row">
               <div class="col-12">
                 <span class="font-size-1_2 font-weight-light">
-                  <i class="fas fa-genderless"></i>&nbsp;Statistical programming ability in SPSS, SAS, Stata and R.
+                  <i class="fas fa-genderless"></i>&nbsp;Statistical programming ability in SPSS, SAS, Stata and R;
                 </span>
               </div>
             </div>
             <div class="row">
               <div class="col-12">
                 <span class="font-size-1_2 font-weight-light">
-                  <i class="fas fa-genderless"></i>&nbsp;Experienced in bibliometrical softwares (Histcite, VOSviewer, CiteSpace).
+                  <i class="fas fa-genderless"></i>&nbsp;Experienced in bibliometric softwares (HistCite, VOSviewer, CiteSpace);
                 </span>
               </div>
             </div>

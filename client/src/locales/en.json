@@ -1,8 +1,8 @@
 {
   "universal": {
-    "under_construction": "CONTENTS OF HIVE ARE UNDER REVIEW BY THE AUTHORITIES ......",
-    "under_verification": "According to the regulations and policies issued by the related Chinese administrative departments, contents provided by HIVE are under the obligatory verification process and will be open to the public again once passed.",
-    "policy_links": "The polices can be accessed here: ",
+    "under_construction": "CONTENTS OF HIVE ARE UNDER REVIEW ......",
+    "under_verification": "According to the regulations and policies issued by the related Chinese administrative authorities, contents provided by HIVE are under the obligatory verification process and will be open to the public again once passed.",
+    "policy_links": "Policy links: ",
     "more_links": "More Links...",
     "hive": "HIVE",
     "home": "Home",
@@ -29,7 +29,7 @@
     "actions": "Actions"
   },
   "navbar": {
-    "about": "About HIVE",
+    "about": "About",
     "cv": "CV"
   },
   "users": {
@@ -61,8 +61,84 @@
     "select_a_field": "Select a field",
     "please_select_a_field": "Please select a field in the pane and fill in the forms and click submit"
   },
+  "about": {
+    "select_topic": "Please Select",
+    "cv_title": "Curriculum Vitae",
+    "cv_text": "Enter the 5-digit code in the input from the link below to get a Curriculum Vitae. (The 5-digit code can be found under the QR code in the PDF) ",
+    "cv_button": "Get a CV",
+    "ps_title": "Personal Statement",
+    "ps_text": "Enter the 5-digit code in the input from the link below to get a Personal Statement. (The 5-digit code can be found under the QR code in the PDF) ",
+    "ps_button": "Get a PS",
+    "rp_title": "Research Proposal",
+    "rp_text": "Enter the 5-digit code in the input from the link below to get a Research Proposal. (The 5-digit code can be found under the QR code in the PDF) ",
+    "rp_button": "Get a RP",
+    "tbd_title": "Transcript for Bachelor Degree",
+    "tbd_text": "Enter the 5-digit code in the input from the link below to get a Transcript for Bachelor Degree. (The 5-digit code can be found under the QR code in the PDF) ",
+    "tbd_button": "Transcript (Bachelor)",
+    "tmd_title": "Transcript for Master Degree",
+    "tmd_text": "Enter the 5-digit code in the input from the link below to get a Transcript for Master Degree. (The 5-digit code can be found under the QR code in the PDF) ",
+    "tmd_button": "Transcript (Master)",
+    "elc_title": "English Language Certificate",
+    "elc_text": "Enter the 5-digit code in the input from the link below to get a English Language Certificate. (The 5-digit code can be found under the QR code in the PDF) ",
+    "elc_button": "Get a Certificate"
+  },
   "cv": {
-    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain CV.",
+    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Curriculum Vitae.",
+    "title": "Input Access Code",
+    "label": "Access Code:",
+    "placeholder": "Please enter the access code here.",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "modal_title": "Error",
+    "modal_button_text": "Confirm",
+    "validation_error": "An error occurred during validation: "
+  },
+  "ps": {
+    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Personal Statement.",
+    "title": "Input Access Code",
+    "label": "Access Code:",
+    "placeholder": "Please enter the access code here.",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "modal_title": "Error",
+    "modal_button_text": "Confirm",
+    "validation_error": "An error occurred during validation: "
+  },
+  "rp": {
+    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Research Proposal.",
+    "title": "Input Access Code",
+    "label": "Access Code:",
+    "placeholder": "Please enter the access code here.",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "modal_title": "Error",
+    "modal_button_text": "Confirm",
+    "validation_error": "An error occurred during validation: "
+  },
+  "tbd": {
+    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Transcript (for Bachelor Degree).",
+    "title": "Input Access Code",
+    "label": "Access Code:",
+    "placeholder": "Please enter the access code here.",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "modal_title": "Error",
+    "modal_button_text": "Confirm",
+    "validation_error": "An error occurred during validation: "
+  },
+  "tmd": {
+    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Transcript (for Master Degree).",
+    "title": "Input Access Code",
+    "label": "Access Code:",
+    "placeholder": "Please enter the access code here.",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "modal_title": "Error",
+    "modal_button_text": "Confirm",
+    "validation_error": "An error occurred during validation: "
+  },
+  "elc": {
+    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain English Language Certificate.",
     "title": "Input Access Code",
     "label": "Access Code:",
     "placeholder": "Please enter the access code here.",

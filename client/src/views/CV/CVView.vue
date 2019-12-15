@@ -88,7 +88,7 @@
           'NWFQC': 'cvtype5',  // phd workshop
           // 'KRV3Q'
           // htt
-          '8FPQD': 'cvtype4',  //
+          '8FPQD': 'cvtype4',  // KCL
         },
         // accessCodeArray4HTT: ['8FPQD', 'JK6QM', 'HVC8X', 'QFKTQ'],
       };
