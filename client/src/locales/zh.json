@@ -62,7 +62,7 @@
     "please_select_a_field": "请在选择面板中选择一个字段，填写表单然后点击提交以保存数据"
   },
   "about": {
-    "select_topic": "请选择",
+    "select_topic": "请选择...",
     "cv_title": "个人简历",
     "cv_text": "打开下面的链接，在输入框中输入5位验证码以获取个人简历。（5位验证码位于PDF中的二维码下方）",
     "cv_button": "查看个人简历",

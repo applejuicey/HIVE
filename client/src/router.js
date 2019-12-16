@@ -2,23 +2,40 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import store from './store';
 
-import Home from './views/Home.vue';
-import Search from './views/Search.vue';
-import About from './views/About.vue';
-import CVView from './views/CV/CVView.vue';
-import PSView from './views/PS/PSView.vue';
-import RPView from './views/RP/RPView.vue';
-import TBDView from './views/TBD/TBDView.vue';
-import TMDView from './views/TMD/TMDView.vue';
-import ELCView from './views/ELC/ELCView.vue';
-import Users from './views/User/Users.vue';
-import UserView from './views/User/UserView.vue';
-import UserCreate from './views/User/UserCreate.vue';
-import UserUpdate from './views/User/UserUpdate.vue';
-import UserDelete from './views/User/UserDelete.vue';
-import Login from './views/Login.vue';
+// import Home from './views/Home.vue';
+// import Search from './views/Search.vue';
+// import About from './views/About.vue';
+// import CVView from './views/CV/CVView.vue';
+// import PSView from './views/PS/PSView.vue';
+// import RPView from './views/RP/RPView.vue';
+// import TBDView from './views/TBD/TBDView.vue';
+// import TMDView from './views/TMD/TMDView.vue';
+// import ELCView from './views/ELC/ELCView.vue';
+// import Users from './views/User/Users.vue';
+// import UserView from './views/User/UserView.vue';
+// import UserCreate from './views/User/UserCreate.vue';
+// import UserUpdate from './views/User/UserUpdate.vue';
+// import UserDelete from './views/User/UserDelete.vue';
+// import Login from './views/Login.vue';
+// import Articles from './views/Article/Articles.vue';
 
-import Articles from './views/Article/Articles.vue';
+const Home = () => import('./views/Home.vue');
+const Search = () => import('./views/Search.vue');
+const About = () => import('./views/About.vue');
+const CVView = () => import('./views/CV/CVView.vue');
+const PSView = () => import('./views/PS/PSView.vue');
+const RPView = () => import('./views/RP/RPView.vue');
+const TBDView = () => import('./views/TBD/TBDView.vue');
+const TMDView = () => import('./views/TMD/TMDView.vue');
+const ELCView = () => import('./views/ELC/ELCView.vue');
+const Users = () => import('./views/User/Users.vue');
+const UserView = () => import('./views/User/UserView.vue');
+const UserCreate = () => import('./views/User/UserCreate.vue');
+const UserUpdate = () => import('./views/User/UserUpdate.vue');
+const UserDelete = () => import('./views/User/UserDelete.vue');
+const Login = () => import('./views/Login.vue');
+const Articles = () => import('./views/Article/Articles.vue');
+
 
 Vue.use(Router);
 

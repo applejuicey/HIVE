@@ -62,29 +62,29 @@
     "please_select_a_field": "Please select a field in the pane and fill in the forms and click submit"
   },
   "about": {
-    "select_topic": "Please Select",
+    "select_topic": "Please Select...",
     "cv_title": "Curriculum Vitae",
     "cv_text": "Enter the 5-digit code in the input from the link below to get a Curriculum Vitae. (The 5-digit code can be found under the QR code in the PDF) ",
-    "cv_button": "Get a CV",
+    "cv_button": "Get",
     "ps_title": "Personal Statement",
     "ps_text": "Enter the 5-digit code in the input from the link below to get a Personal Statement. (The 5-digit code can be found under the QR code in the PDF) ",
-    "ps_button": "Get a PS",
+    "ps_button": "Get",
     "rp_title": "Research Proposal",
     "rp_text": "Enter the 5-digit code in the input from the link below to get a Research Proposal. (The 5-digit code can be found under the QR code in the PDF) ",
-    "rp_button": "Get a RP",
+    "rp_button": "Get",
     "tbd_title": "Transcript for Bachelor Degree",
     "tbd_text": "Enter the 5-digit code in the input from the link below to get a Transcript for Bachelor Degree. (The 5-digit code can be found under the QR code in the PDF) ",
-    "tbd_button": "Transcript (Bachelor)",
+    "tbd_button": "Get",
     "tmd_title": "Transcript for Master Degree",
     "tmd_text": "Enter the 5-digit code in the input from the link below to get a Transcript for Master Degree. (The 5-digit code can be found under the QR code in the PDF) ",
-    "tmd_button": "Transcript (Master)",
+    "tmd_button": "Get",
     "elc_title": "English Language Certificate",
     "elc_text": "Enter the 5-digit code in the input from the link below to get a English Language Certificate. (The 5-digit code can be found under the QR code in the PDF) ",
-    "elc_button": "Get a Certificate"
+    "elc_button": "Get"
   },
   "cv": {
     "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Curriculum Vitae.",
-    "title": "Input Access Code",
+    "title": "Curriculum Vitae",
     "label": "Access Code:",
     "placeholder": "Please enter the access code here.",
     "submit": "Submit",
@@ -95,7 +95,7 @@
   },
   "ps": {
     "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Personal Statement.",
-    "title": "Input Access Code",
+    "title": "Personal Statement",
     "label": "Access Code:",
     "placeholder": "Please enter the access code here.",
     "submit": "Submit",
@@ -106,7 +106,7 @@
   },
   "rp": {
     "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Research Proposal.",
-    "title": "Input Access Code",
+    "title": "Research Proposal",
     "label": "Access Code:",
     "placeholder": "Please enter the access code here.",
     "submit": "Submit",
@@ -117,7 +117,7 @@
   },
   "tbd": {
     "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Transcript (for Bachelor Degree).",
-    "title": "Input Access Code",
+    "title": "Bachelor Degree Transcript",
     "label": "Access Code:",
     "placeholder": "Please enter the access code here.",
     "submit": "Submit",
@@ -128,7 +128,7 @@
   },
   "tmd": {
     "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Transcript (for Master Degree).",
-    "title": "Input Access Code",
+    "title": "Master Degree Transcript",
     "label": "Access Code:",
     "placeholder": "Please enter the access code here.",
     "submit": "Submit",
@@ -139,7 +139,7 @@
   },
   "elc": {
     "instruction": "Type in the 5-digit code in the input box below to gain access to a certain English Language Certificate.",
-    "title": "Input Access Code",
+    "title": "English Language Certificate",
     "label": "Access Code:",
     "placeholder": "Please enter the access code here.",
     "submit": "Submit",

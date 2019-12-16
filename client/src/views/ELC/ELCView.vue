@@ -100,6 +100,6 @@
 
 <style scoped>
   .custom-height {
-    height: calc(100vh - 5rem);
+    height: 80vh;
   }
 </style>

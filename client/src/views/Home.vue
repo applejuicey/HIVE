@@ -36,6 +36,6 @@
 
 <style scoped>
   #home {
-    height: calc(100vh - 5rem)
+    height: 80vh
   }
 </style>
