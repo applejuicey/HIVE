@@ -42,6 +42,17 @@
                         </button>
                       </div>
                     </div>
+                    <div class="card border-light">
+                      <img :src="require('../assets/rf.jpg')" class="card-img-top" alt="Reference Image">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">{{ $t('about.rf_title') }}</h5>
+                        <p class="card-text text-left font-weight-light">{{ $t('about.rf_text') }}</p>
+                        <button @click="navigate('rf_view')" class="btn btn-dark">
+                          <i class="fas fa-hand-pointer"></i>&nbsp;
+                          {{ $t('about.rf_button') }}
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -79,6 +90,17 @@
                         <button @click="navigate('elc_view')" class="btn btn-dark">
                           <i class="fas fa-hand-pointer"></i>&nbsp;
                           {{ $t('about.elc_button') }}
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card border-light">
+                      <img :src="require('../assets/bgc.jpg')" class="card-img-top" alt="Bachelor Graduation Certificate Image">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">{{ $t('about.bgc_title') }}</h5>
+                        <p class="card-text text-left font-weight-light">{{ $t('about.bgc_text') }}</p>
+                        <button @click="navigate('bgc_view')" class="btn btn-dark">
+                          <i class="fas fa-hand-pointer"></i>&nbsp;
+                          {{ $t('about.bgc_button') }}
                         </button>
                       </div>
                     </div>

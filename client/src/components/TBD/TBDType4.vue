@@ -85,8 +85,8 @@
     name: 'tbd_type4',
     data: function () {
       return {
-        TBDEngSrc: 'https://i.postimg.cc/9FhNJwpR/htt-transcript-bd-en.jpg',
-        TBDChnSrc: 'https://i.postimg.cc/KYjZjH32/htt-transcript-bd-chn.jpg',
+        TBDEngSrc: 'https://i.postimg.cc/CKvM1r3V/htt-transcript-bd-en.jpg',
+        TBDChnSrc: 'https://i.postimg.cc/MKk6vQFX/htt-transcript-bd-chn.jpg',
       };
     },
     methods: {
@@ -114,6 +114,7 @@
     font-size: 0.8rem;
   }
   .max-height-300 {
-    max-height: 300px;
+    /*max-height: 300px;*/
+    max-width: 100%;
   }
 </style>

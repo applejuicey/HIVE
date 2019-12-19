@@ -11,7 +11,7 @@
                 <table class="table table-borderless table-sm text-left">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For an <router-link :to="{ name: 'elc_view' }">Online Version:</router-link>
+                      For an <router-link :to="{ name: 'bgc_view' }">Online Version:</router-link>
                     </td>
                   </tr>
                   <tr>
@@ -39,7 +39,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="text-center">
-                  <span class="font-size-2 font-weight-normal">English Language Certificate</span>
+                  <span class="font-size-2 font-weight-normal">Bachelor Graduation Certificate</span>
                 </div>
               </div>
             </div>
@@ -51,12 +51,12 @@
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
-                <a :href="ELCSrc">Scanning Version:</a>
+                <a :href="BDgCEngSrc">Bachelor Degree Certificate Scanning Version (English):</a>
               </span>
             </div>
             <div class="text-center mb-1">
-              <img :src="ELCSrc" class="img-fluid rounded max-height-300 cursor-pointer"
-                   alt="English Language Certificate" @click="viewImage(ELCSrc)">
+              <img :src="BDgCEngSrc" class="img-fluid rounded eng-size cursor-pointer"
+                   alt="Bachelor Degree Certificate Scanning Version English" @click="viewImage(BDgCEngSrc)">
             </div>
           </div>
         </div>
@@ -65,74 +65,40 @@
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
-                HTML Version:
+                <a :href="BDgCChnSrc">Bachelor Degree Certificate Scanning Version (Chinese):</a>
               </span>
             </div>
             <div class="text-center mb-1">
-              <div class="table-responsive">
-                <table class="table table-bordered mb-1">
-                <tr>
-                  <td>
-                    Type
-                  </td>
-                  <td>
-                    Test Taken Date
-                  </td>
-                  <td>
-                    Test Report Form Number
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Academic
-                  </td>
-                  <td>
-                    2019-10-26
-                  </td>
-                  <td>
-                    19CN128624HUAT004A
-                  </td>
-                </tr>
-              </table>
-              </div>
-              <div class="table-responsive">
-                <table class="table table-bordered mb-1">
-                <tr>
-                  <td>
-                    Overall Band Score
-                  </td>
-                  <td>
-                    Listening
-                  </td>
-                  <td>
-                    Reading
-                  </td>
-                  <td>
-                    Writing
-                  </td>
-                  <td>
-                    Speaking
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    6.5
-                  </td>
-                  <td>
-                    7.5
-                  </td>
-                  <td>
-                    7.0
-                  </td>
-                  <td>
-                    6.0
-                  </td>
-                  <td>
-                    6.0
-                  </td>
-                </tr>
-              </table>
-              </div>
+              <img :src="BDgCChnSrc" class="img-fluid rounded chn-size cursor-pointer"
+                   alt="Bachelor Degree Certificate Scanning Version Chinese" @click="viewImage(BDgCChnSrc)">
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-12">
+            <div class="text-left mb-1">
+              <span class="font-size-1_2 font-weight-normal">
+                <a :href="BDpCEngSrc">Bachelor Diploma Certificate Scanning Version (English):</a>
+              </span>
+            </div>
+            <div class="text-center mb-1">
+              <img :src="BDpCEngSrc" class="img-fluid rounded eng-size cursor-pointer"
+                   alt="Bachelor Diploma Certificate Scanning Version English" @click="viewImage(BDpCEngSrc)">
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-12">
+            <div class="text-left mb-1">
+              <span class="font-size-1_2 font-weight-normal">
+                <a :href="BDpCChnSrc">Bachelor Diploma Certificate Scanning Version (Chinese):</a>
+              </span>
+            </div>
+            <div class="text-center mb-1">
+              <img :src="BDpCChnSrc" class="img-fluid rounded chn-size cursor-pointer"
+                   alt="Bachelor Diploma Certificate Scanning Version Chinese" @click="viewImage(BDpCChnSrc)">
             </div>
           </div>
         </div>
@@ -144,10 +110,13 @@
 
 <script>
   export default {
-    name: 'elc_type4',
+    name: 'bgc_type3',
     data: function () {
       return {
-        ELCSrc: 'https://i.postimg.cc/RZLZrZGh/IELTS-REPORT.jpg',
+        BDgCEngSrc: 'https://i.postimg.cc/BvcCrHPy/htt-degree-bd-en.jpg',
+        BDgCChnSrc: 'https://i.postimg.cc/j2xwD3c6/degree-chn.jpg',
+        BDpCEngSrc: 'https://i.postimg.cc/5t1BSyKm/htt-diploma-bd-en.jpg',
+        BDpCChnSrc: 'https://i.postimg.cc/N0SJ1Vzc/htt-diploma-bd-chn.jpg',
       };
     },
     methods: {
@@ -174,7 +143,16 @@
   .font-size-0_8 {
     font-size: 0.8rem;
   }
-  .max-height-300 {
-    /*max-height: 300px;*/
+  /*.eng-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  /*.chn-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  .eng-size {
+    width: 50%;
+  }
+  .chn-size {
+    width: 50%;
   }
 </style>

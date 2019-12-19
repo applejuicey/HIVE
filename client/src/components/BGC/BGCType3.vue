@@ -11,7 +11,7 @@
                 <table class="table table-borderless table-sm text-left">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For an <router-link :to="{ name: 'tbd_view' }">Online Version:</router-link>
+                      For an <router-link :to="{ name: 'bgc_view' }">Online Version:</router-link>
                     </td>
                   </tr>
                   <tr>
@@ -39,7 +39,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="text-center">
-                  <span class="font-size-2 font-weight-normal">Transcript for Bachelor Degree</span>
+                  <span class="font-size-2 font-weight-normal">Bachelor Graduation Certificate</span>
                 </div>
               </div>
             </div>
@@ -51,12 +51,12 @@
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
-                <a :href="TBDEngSrc">Scanning Version (English):</a>
+                <a :href="BDgCEngSrc">Bachelor Degree Certificate Scanning Version (English):</a>
               </span>
             </div>
             <div class="text-center mb-1">
-              <img :src="TBDEngSrc" class="img-fluid rounded max-height-300 cursor-pointer"
-                   alt="Transcript for Bachelor Degree Scanning Version English" @click="viewImage(TBDEngSrc)">
+              <img :src="BDgCEngSrc" class="img-fluid rounded eng-size cursor-pointer"
+                   alt="Bachelor Degree Certificate Scanning Version English" @click="viewImage(BDgCEngSrc)">
             </div>
           </div>
         </div>
@@ -65,12 +65,40 @@
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
-                <a :href="TBDChnSrc">Scanning Version (Chinese):</a>
+                <a :href="BDgCChnSrc">Bachelor Degree Certificate Scanning Version (Chinese):</a>
               </span>
             </div>
             <div class="text-center mb-1">
-              <img :src="TBDChnSrc" class="img-fluid rounded max-height-300 cursor-pointer"
-                   alt="Transcript for Bachelor Degree Scanning Version Chinese" @click="viewImage(TBDChnSrc)">
+              <img :src="BDgCChnSrc" class="img-fluid rounded chn-size cursor-pointer"
+                   alt="Bachelor Degree Certificate Scanning Version Chinese" @click="viewImage(BDgCChnSrc)">
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-12">
+            <div class="text-left mb-1">
+              <span class="font-size-1_2 font-weight-normal">
+                <a :href="BDpCEngSrc">Bachelor Diploma Certificate Scanning Version (English):</a>
+              </span>
+            </div>
+            <div class="text-center mb-1">
+              <img :src="BDpCEngSrc" class="img-fluid rounded eng-size cursor-pointer"
+                   alt="Bachelor Diploma Certificate Scanning Version English" @click="viewImage(BDpCEngSrc)">
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-12">
+            <div class="text-left mb-1">
+              <span class="font-size-1_2 font-weight-normal">
+                <a :href="BDpCChnSrc">Bachelor Diploma Certificate Scanning Version (Chinese):</a>
+              </span>
+            </div>
+            <div class="text-center mb-1">
+              <img :src="BDpCChnSrc" class="img-fluid rounded chn-size cursor-pointer"
+                   alt="Bachelor Diploma Certificate Scanning Version Chinese" @click="viewImage(BDpCChnSrc)">
             </div>
           </div>
         </div>
@@ -82,11 +110,13 @@
 
 <script>
   export default {
-    name: 'tbd_type3',
+    name: 'bgc_type3',
     data: function () {
       return {
-        TBDEngSrc: 'https://i.postimg.cc/44BJgGS3/fy-transcript-bd-en.png',
-        TBDChnSrc: 'https://i.postimg.cc/KvWx1NFS/fy-transcript-bd-chn.png',
+        BDgCEngSrc: 'https://i.postimg.cc/7PCK6CFC/fy-degree-bd-en.png',
+        BDgCChnSrc: 'https://i.postimg.cc/DwHXxgfF/fy-degree-bd-chn.jpg',
+        BDpCEngSrc: 'https://i.postimg.cc/RFWLN8Dr/fy-diploma-bd-en.png',
+        BDpCChnSrc: 'https://i.postimg.cc/pLdq3RNv/fy-diploma-bd-chn.jpg',
       };
     },
     methods: {
@@ -113,8 +143,16 @@
   .font-size-0_8 {
     font-size: 0.8rem;
   }
-  .max-height-300 {
-    /*max-height: 300px;*/
-    max-width: 100%;
+  /*.eng-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  /*.chn-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  .eng-size {
+    width: 50%;
+  }
+  .chn-size {
+    width: 50%;
   }
 </style>

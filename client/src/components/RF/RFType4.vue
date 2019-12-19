@@ -11,7 +11,7 @@
                 <table class="table table-borderless table-sm text-left">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For an <router-link :to="{ name: 'ps_view' }">Online Version:</router-link>
+                      For an <router-link :to="{ name: 'rf_view' }">Online Version:</router-link>
                     </td>
                   </tr>
                   <tr>
@@ -39,7 +39,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="text-center">
-                  <span class="font-size-2 font-weight-normal">Personal Statement</span>
+                  <span class="font-size-2 font-weight-normal">Reference</span>
                 </div>
               </div>
             </div>
@@ -147,7 +147,7 @@
 
 <script>
   export default {
-    name: 'ps_type4',
+    name: 'rf_type4',
     data: function () {
       return {
 

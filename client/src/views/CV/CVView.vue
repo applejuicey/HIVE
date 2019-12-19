@@ -48,31 +48,31 @@
           </div>
         </div>
       </div>
-      <c-v-type1 :userData="userData" v-if="showType === 'cvtype1'"></c-v-type1>
-      <c-v-type2 :userData="userData" v-if="showType === 'cvtype2'"></c-v-type2>
+<!--      <c-v-type1 :userData="userData" v-if="showType === 'cvtype1'"></c-v-type1>-->
+<!--      <c-v-type2 :userData="userData" v-if="showType === 'cvtype2'"></c-v-type2>-->
       <c-v-type3 v-if="showType === 'cvtype3'"></c-v-type3>
       <c-v-type4 v-if="showType === 'cvtype4'"></c-v-type4>
-      <c-v-type5 v-if="showType === 'cvtype5'"></c-v-type5>
+<!--      <c-v-type5 v-if="showType === 'cvtype5'"></c-v-type5>-->
     </div>
   </div>
 </template>
 
 <script>
   import BottomCard from '@/components/BottomCard.vue';
-  import CVType1 from '@/components/CV/CVType1.vue';
-  import CVType2 from '@/components/CV/CVType2.vue';
+  // import CVType1 from '@/components/CV/CVType1.vue';
+  // import CVType2 from '@/components/CV/CVType2.vue';
   import CVType3 from '@/components/CV/CVType3.vue';
   import CVType4 from '@/components/CV/CVType4.vue';
-  import CVType5 from '@/components/CV/CVType5.vue';
+  // import CVType5 from '@/components/CV/CVType5.vue';
   export default {
     name: 'cv_view',
     components: {
       BottomCard,
-      CVType1,
-      CVType2,
+      // CVType1,
+      // CVType2,
       CVType3,
       CVType4,
-      CVType5,
+      // CVType5,
     },
     data: function () {
       return {
@@ -96,32 +96,42 @@
     methods: {
       submit: function () {
         this.submitLoading = true;
-        this.$axios.get('/cv', {
-          params: {
-            accessCode: this.accessCode
-          }
-        }).then((response) => {
-          try {
-            if (response.data.statusCode === '1') {
-              this.userData = response.data.user;
-              this.showType = this.accessCodeArray[this.accessCode];
-            }
-            if (response.data.statusCode === '0') {
-              console.error(`${this.$i18n.t('cv.validation_error')}: `, response.data.error.message);
-              this.responseMessage = `${response.data.error.message}`;
-              $('#errorModal').modal('show');
-            }
-          } catch (error) {
-            throw error;
-          }
-        }).catch((error) => {
-          console.error(`${this.$i18n.t('cv.validation_error')}: `, error);
-          this.responseMessage = `${error}`;
+        if (this.accessCodeArray[this.accessCode]) {
+          this.showType = this.accessCodeArray[this.accessCode];
+        } else {
+          this.responseMessage = `Invalid Access Code!`;
           $('#errorModal').modal('show');
-        }).finally(() => {
-          this.submitLoading = false;
-        });
+        }
+        this.submitLoading = false;
       },
+      // submit: function () {
+      //   this.submitLoading = true;
+      //   this.$axios.get('/cv', {
+      //     params: {
+      //       accessCode: this.accessCode
+      //     }
+      //   }).then((response) => {
+      //     try {
+      //       if (response.data.statusCode === '1') {
+      //         this.userData = response.data.user;
+      //         this.showType = this.accessCodeArray[this.accessCode];
+      //       }
+      //       if (response.data.statusCode === '0') {
+      //         console.error(`${this.$i18n.t('cv.validation_error')}: `, response.data.error.message);
+      //         this.responseMessage = `${response.data.error.message}`;
+      //         $('#errorModal').modal('show');
+      //       }
+      //     } catch (error) {
+      //       throw error;
+      //     }
+      //   }).catch((error) => {
+      //     console.error(`${this.$i18n.t('cv.validation_error')}: `, error);
+      //     this.responseMessage = `${error}`;
+      //     $('#errorModal').modal('show');
+      //   }).finally(() => {
+      //     this.submitLoading = false;
+      //   });
+      // },
     }
   }
 </script>

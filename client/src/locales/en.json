@@ -72,6 +72,9 @@
     "rp_title": "Research Proposal",
     "rp_text": "Enter the 5-digit code in the input from the link below to get a Research Proposal. (The 5-digit code can be found under the QR code in the PDF) ",
     "rp_button": "Get",
+    "rf_title": "Reference",
+    "rf_text": "Enter the 5-digit code in the input from the link below to get a Reference. (The 5-digit code can be found under the QR code in the PDF) ",
+    "rf_button": "Get",
     "tbd_title": "Transcript for Bachelor Degree",
     "tbd_text": "Enter the 5-digit code in the input from the link below to get a Transcript for Bachelor Degree. (The 5-digit code can be found under the QR code in the PDF) ",
     "tbd_button": "Get",
@@ -80,7 +83,10 @@
     "tmd_button": "Get",
     "elc_title": "English Language Certificate",
     "elc_text": "Enter the 5-digit code in the input from the link below to get a English Language Certificate. (The 5-digit code can be found under the QR code in the PDF) ",
-    "elc_button": "Get"
+    "elc_button": "Get",
+    "bgc_title": "Bachelor Graduation Certificate",
+    "bgc_text": "Enter the 5-digit code in the input from the link below to get a Bachelor Graduation Certificate. (The 5-digit code can be found under the QR code in the PDF) ",
+    "bgc_button": "Get"
   },
   "cv": {
     "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Curriculum Vitae.",
@@ -115,6 +121,17 @@
     "modal_button_text": "Confirm",
     "validation_error": "An error occurred during validation: "
   },
+  "rf": {
+    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Reference.",
+    "title": "Reference",
+    "label": "Access Code:",
+    "placeholder": "Please enter the access code here.",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "modal_title": "Error",
+    "modal_button_text": "Confirm",
+    "validation_error": "An error occurred during validation: "
+  },
   "tbd": {
     "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Transcript (for Bachelor Degree).",
     "title": "Bachelor Degree Transcript",
@@ -140,6 +157,17 @@
   "elc": {
     "instruction": "Type in the 5-digit code in the input box below to gain access to a certain English Language Certificate.",
     "title": "English Language Certificate",
+    "label": "Access Code:",
+    "placeholder": "Please enter the access code here.",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "modal_title": "Error",
+    "modal_button_text": "Confirm",
+    "validation_error": "An error occurred during validation: "
+  },
+  "bgc": {
+    "instruction": "Type in the 5-digit code in the input box below to gain access to a certain Bachelor Graduation Certificate.",
+    "title": "Bachelor Graduation Certificate",
     "label": "Access Code:",
     "placeholder": "Please enter the access code here.",
     "submit": "Submit",

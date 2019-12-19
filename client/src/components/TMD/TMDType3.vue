@@ -55,7 +55,7 @@
               </span>
             </div>
             <div class="text-center mb-1">
-              <img :src="TMDEngSrc" class="img-fluid rounded max-height-300 cursor-pointer"
+              <img :src="TMDEngSrc" class="img-fluid rounded eng-size cursor-pointer"
                    alt="Transcript for Master Degree Scanning Version English" @click="viewImage(TMDEngSrc)">
             </div>
           </div>
@@ -69,7 +69,7 @@
               </span>
             </div>
             <div class="text-center mb-1">
-              <img :src="TMDChnSrc" class="img-fluid rounded max-height-300 cursor-pointer"
+              <img :src="TMDChnSrc" class="img-fluid rounded chn-size cursor-pointer"
                    alt="Transcript for Master Degree Scanning Version Chinese" @click="viewImage(TMDChnSrc)">
             </div>
           </div>
@@ -113,7 +113,16 @@
   .font-size-0_8 {
     font-size: 0.8rem;
   }
-  .max-height-300 {
-    max-height: 300px;
+  /*.eng-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  /*.chn-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  .eng-size {
+    width: 100%;
+  }
+  .chn-size {
+    width: 50%;
   }
 </style>

@@ -99,7 +99,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <i class="fas fa-genderless"></i>&nbsp;Have experiences in clinical trial statistical methodologies and applications consultancy (both frequency and Bayesian);
+                    <i class="fas fa-genderless"></i>&nbsp;Have experiences in clinical trial statistical methodologies&applications consultancy (both frequency and Bayesian);
                   </td>
                 </tr>
                 <tr>
@@ -546,7 +546,7 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Development of a personal website (HIVE)
+                          <i class="fas fa-caret-right"></i>&nbsp;Development of a Personal Website (HIVE)
                         </td>
                       </tr>
                       <tr>
@@ -648,7 +648,7 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Development of a Electronic Data Capture System (InterClin)
+                          <i class="fas fa-caret-right"></i>&nbsp;Development of an Electronic Data Capture System (InterClin)
                         </td>
                       </tr>
                       <tr>
@@ -1353,7 +1353,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Accepted&Waiting to be Published</span>&nbsp;
+                          <span class="keyword">Accepted&In Press</span>&nbsp;
                         </td>
                       </tr>
                     </table>

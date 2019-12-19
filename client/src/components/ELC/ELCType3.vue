@@ -69,66 +69,70 @@
               </span>
             </div>
             <div class="text-center mb-1">
-              <table class="table table-bordered table-dark mb-1">
-                <tr>
-                  <td>
-                    Type
-                  </td>
-                  <td>
-                    Test Taken Date
-                  </td>
-                  <td>
-                    Test Report Form Number
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Academic
-                  </td>
-                  <td>
-                    2019-10-26
-                  </td>
-                  <td>
-                    19CN128604FANY004A
-                  </td>
-                </tr>
-              </table>
-              <table class="table table-bordered table-dark mb-1">
-                <tr>
-                  <td>
-                    Overall Band Score
-                  </td>
-                  <td>
-                    Listening
-                  </td>
-                  <td>
-                    Reading
-                  </td>
-                  <td>
-                    Writing
-                  </td>
-                  <td>
-                    Speaking
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    7.5
-                  </td>
-                  <td>
-                    8.5
-                  </td>
-                  <td>
-                    8.0
-                  </td>
-                  <td>
-                    6.5
-                  </td>
-                  <td>
-                    6.0
-                  </td>
-                </tr>
-              </table>
+              <div class="table-responsive">
+                <table class="table table-bordered mb-1">
+                  <tr>
+                    <td>
+                      Type
+                    </td>
+                    <td>
+                      Test Taken Date
+                    </td>
+                    <td>
+                      Test Report Form Number
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Academic
+                    </td>
+                    <td>
+                      2019-10-26
+                    </td>
+                    <td>
+                      19CN128604FANY004A
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="table-responsive">
+                <table class="table table-bordered mb-1">
+                  <tr>
+                    <td>
+                      Overall Band Score
+                    </td>
+                    <td>
+                      Listening
+                    </td>
+                    <td>
+                      Reading
+                    </td>
+                    <td>
+                      Writing
+                    </td>
+                    <td>
+                      Speaking
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      7.5
+                    </td>
+                    <td>
+                      8.5
+                    </td>
+                    <td>
+                      8.0
+                    </td>
+                    <td>
+                      6.5
+                    </td>
+                    <td>
+                      6.0
+                    </td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
         </div>
@@ -171,6 +175,6 @@
     font-size: 0.8rem;
   }
   .max-height-300 {
-    max-height: 300px;
+    /*max-height: 300px;*/
   }
 </style>

@@ -1190,7 +1190,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Accepted&Waiting to be Published</span>&nbsp;
+                          <span class="keyword">Accepted&In Press</span>&nbsp;
                         </td>
                       </tr>
                     </table>
