@@ -48,22 +48,28 @@
           </div>
         </div>
       </div>
+      <b-g-c-type2 v-if="showType === 'bgctype2'"></b-g-c-type2>
       <b-g-c-type3 v-if="showType === 'bgctype3'"></b-g-c-type3>
       <b-g-c-type4 v-if="showType === 'bgctype4'"></b-g-c-type4>
+      <b-g-c-type6 v-if="showType === 'bgctype6'"></b-g-c-type6>
     </div>
   </div>
 </template>
 
 <script>
   import BottomCard from '@/components/BottomCard.vue';
+  import BGCType2 from '@/components/BGC/BGCType2.vue';
   import BGCType3 from '@/components/BGC/BGCType3.vue';
   import BGCType4 from '@/components/BGC/BGCType4.vue';
+  import BGCType6 from '@/components/BGC/BGCType6.vue';
   export default {
-    name: 'rf_view',
+    name: 'bgc_view',
     components: {
       BottomCard,
+      BGCType2,
       BGCType3,
       BGCType4,
+      BGCType6,
     },
     data: function () {
       return {
@@ -78,7 +84,8 @@
           // 'NWFQC': 'cvtype5',  // phd workshop
           // 'KRV3Q'
           // htt
-          '8FPQD': 'bgctype4',  // KCL
+          '8FPQD': 'bgctype4',  // KCL-BH
+          'JK6QM': 'bgctype6',  // UCL-CTM
         },
         // accessCodeArray4HTT: ['8FPQD', 'JK6QM', 'HVC8X', 'QFKTQ'],
       };

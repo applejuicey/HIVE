@@ -16,7 +16,7 @@
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      Access Code: V3WN9
+                      Access Code: JK6QM
                     </td>
                   </tr>
                 </table>
@@ -25,7 +25,7 @@
                 <table class="table table-borderless table-sm text-right">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For '<a href="https://www.ucl.ac.uk/prospective-students/graduate/research-degrees/artifical-intelligence-enabled-healthcare-mres-mphil-phd/">AI Enabled Healthcare</a>',
+                      For '<a href="https://www.ucl.ac.uk/clinical-trials-and-methodology/study/mphilphd-clinical-trials-methodology/">Clinical Trials Methodology</a>',
                     </td>
                   </tr>
                   <tr>
@@ -37,8 +37,8 @@
               </div>
               <div class="col-12 order-2 col-md-4 order-md-1">
                 <div class="text-center">
-                  <span class="font-size-2 font-weight-bold">Yang Fan&nbsp;</span>
-                  <span class="font-weight-light">(范扬)</span>
+                  <span class="font-size-2 font-weight-bold">Tiantian Hua&nbsp;</span>
+                  <span class="font-weight-light">(花田甜)</span>
                 </div>
               </div>
             </div>
@@ -51,16 +51,9 @@
             <table class="table table-borderless table-sm">
               <tr>
                 <td>
-                  <i class="fas fa-envelope"></i>&nbsp;<a href="mailto: yangfan_94@hotmail.com">yangfan_94@hotmail.com</a>; <a href="mailto: yangfan_94@seu.edu.cn">yangfan_94@seu.edu.cn</a>
+                  <i class="fas fa-envelope"></i>&nbsp;<a href="mailto: tt_hua@seu.edu.cn">tt_hua@seu.edu.cn</a>; <a href="mailto: tt_hua@126.com">tt_hua@126.com</a>
                   &nbsp;|&nbsp;
-                  <i class="fas fa-phone-alt"></i>&nbsp;+86 13218018515
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <i class="fab fa-github"></i>&nbsp;<a href="https://github.com/applejuicey">github.com/applejuicey</a>
-                  &nbsp;|&nbsp;
-                  <i class="fas fa-globe"></i>&nbsp;<a href="http://uma77.com/hive">uma77.com/hive</a>
+                  <i class="fas fa-phone-alt"></i>&nbsp;+86 15651803725
                 </td>
               </tr>
               <tr>
@@ -72,58 +65,10 @@
               </tr>
               <tr>
                 <td>
-                  <i class="fas fa-graduation-cap"></i>&nbsp;Master Candidate, Applying for the 'AI Enabled Healthcare' PhD
+                  <i class="fas fa-graduation-cap"></i>&nbsp;Master Candidate Applying for a Clinical Trials Methodology PhD
                 </td>
               </tr>
             </table>
-          </div>
-        </div>
-
-        <!--个人陈述-->
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title">
-              <span class="font-size-2 font-weight-normal">Profile</span>
-            </div>
-            <div class="font-size-1_2 font-weight-light">
-              <table class="table table-borderless table-sm">
-                <tr>
-                  <td>
-                    <i class="fas fa-genderless"></i>&nbsp;An inter-disciplinary student with school research training on epidemiology&health-statistics and learned-by-self skills on computer programming;
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <i class="fas fa-genderless"></i>&nbsp;Contributed to several vaccine clinical trials and experience in clinical trial data management as well as statistical analysis;
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <i class="fas fa-genderless"></i>&nbsp;Have experiences in clinical trial statistical methodologies&applications consultancy (both frequency and Bayesian);
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <i class="fas fa-genderless"></i>&nbsp;A quick learner and a passionate doer: developed&deployed an EDC system, a clinical trial management system and an online querying database supporting for clinical trials;
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <i class="fas fa-genderless"></i>&nbsp;Compatible with teamwork and collaboration, good at listening to others and willing to communicate and share;
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <i class="fas fa-genderless"></i>&nbsp;Proficient with programming languages (e.g. JavaScript, Python, Java), statistical analysis language (R), structured querying languages (e.g. MySQL, PostgreSQL);
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <i class="fas fa-genderless"></i>&nbsp;Particularly interested in learning AI/data science and implementing those techniques into health-related fields.
-                  </td>
-                </tr>
-              </table>
-            </div>
           </div>
         </div>
 
@@ -145,7 +90,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Master of Medicine (Candidate)</span>&nbsp;
+                          <span class="keyword">Master Candidate (Master of Medicine)</span>&nbsp;
                           <span class="keyword">
                             <a href="https://en.wikipedia.org/wiki/Project_985">Project 985&211</a>
                           </span>&nbsp;
@@ -173,7 +118,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-1">
-                          <span class="font-weight-light">2017.09--2020.6</span>
+                          <span class="font-weight-light">2017.08--2020.6</span>
                           <span>&nbsp;</span>
                           <span><i class="far fa-calendar-alt"></i></span>
                         </td>
@@ -190,7 +135,7 @@
                           Address:
                         </td>
                         <td>
-                          <a href="https://goo.gl/maps/SBjTuahH3pt4PeVW8">No. 87 Dingjiaqiao, Nanjing, China</a>
+                          <a href="https://goo.gl/maps/SBjTuahH3pt4PeVW8">No. 87 Dingjiaqiao, Gulou District, Nanjing, Jiangsu, China</a>
                         </td>
                       </tr>
                       <tr>
@@ -214,12 +159,12 @@
                             </tr>
                             <tr>
                               <td>
-                                -My graduate research project aims to solve the problems (adaptive randomization protocol evaluation and trial simulation) arose in the design and practice of Bayesian adaptive randomization for clinical trials, with the development of a related responsive web application (interacting with R).
+                                -The research project aims to use logistic regression, backpropagation neural network and support vector machine to optimize the prognosis prediction of major depressive disorder according to the demographic and clinical information collected in Zhongda Hospital, Nanjing.
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -AVG: 89.45
+                                -AVG: 90.03, GPA: 3.74/4.00
                               </td>
                             </tr>
                           </table>
@@ -242,7 +187,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Bachelor of Medicine (Rewarded)</span>&nbsp;
+                          <span class="keyword">Bachelor of Medicine</span>&nbsp;
                           <span class="keyword">
                             <a href="https://en.wikipedia.org/wiki/Project_985">Project 985&211</a>
                           </span>&nbsp;
@@ -270,7 +215,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-1">
-                          <span class="font-weight-light">2012.09--2017.06</span>
+                          <span class="font-weight-light">2012.08--2017.06</span>
                           <span>&nbsp;</span>
                           <span><i class="far fa-calendar-alt"></i></span>
                         </td>
@@ -287,7 +232,7 @@
                           Address:
                         </td>
                         <td>
-                          <a href="https://goo.gl/maps/SBjTuahH3pt4PeVW8">No. 87 Dingjiaqiao, Nanjing, China</a>
+                          <a href="https://goo.gl/maps/SBjTuahH3pt4PeVW8">No. 87 Dingjiaqiao, Gulou District, Nanjing, Jiangsu, China</a>
                         </td>
                       </tr>
                       <tr>
@@ -299,18 +244,17 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -The five-year bachelor taught-lessons programme features a general education module in the first year, a basic medicine education module in the second year, a clinical medicine education module in the third year and a public health education module in the final two years. Details can be found in the
-                                <router-link :to="{ name: 'tbd_view' }">transcript of academic records</router-link>.
+                                -The five-year taught-lessons programme consists of a general education module in the first year, a basic medicine education module in the second year, a clinical medicine education module in the third year and a public health education module in the final two years.
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Participated in the Student Research Training Programme (on-spot sampling and laboratory analysis of air pollutants) as a team leader of 5.
+                                -Detailed information about the lessons can be found in the <router-link :to="{ name: 'tbd_view' }">transcript of academic records</router-link>.
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -AVG: 83.58
+                                -AVG: 82.93, GPA: 3.32/4.00
                               </td>
                             </tr>
                           </table>
@@ -324,11 +268,56 @@
           </div>
         </div>
 
+        <!--获奖-->
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <span class="font-size-2 font-weight-normal">Awards and Honours</span>
+            </div>
+            <div class="row">
+              <div class="col-sm-8">
+                <span class="font-size-1_2 font-weight-light">
+                  <i class="fas fa-genderless"></i>&nbsp;Award for Merit Student Cadres of Southeast University (Top2%)
+                </span>
+              </div>
+              <div class="col-sm-4 text-right">
+                <span class="font-size-1_2 font-weight-light">
+                  2019
+                </span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8">
+                <span class="font-size-1_2 font-weight-light">
+                  <i class="fas fa-genderless"></i>&nbsp;Award for Merit Students of Southeast University (Top5%)
+                </span>
+              </div>
+              <div class="col-sm-4 text-right">
+                <span class="font-size-1_2 font-weight-light">
+                  2015, 2016, 2018
+                </span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8">
+                <span class="font-size-1_2 font-weight-light">
+                  <i class="fas fa-genderless"></i>&nbsp;Meihua Scholarship of Southeast University Education Foundation (Top3%)
+                </span>
+              </div>
+              <div class="col-sm-4 text-right">
+                <span class="font-size-1_2 font-weight-light">
+                  2015
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!--项目-->
         <div class="row">
           <div class="col-12">
             <div class="section-title">
-              <span class="font-size-2 font-weight-normal">Projects</span>
+              <span class="font-size-2 font-weight-normal">Research Experience</span>
             </div>
             <div class="row">
               <div class="col-12">
@@ -337,16 +326,13 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Development of a Clinical Trial Management System
+                          <i class="fas fa-caret-right"></i>&nbsp;Participated in the Development of <a href="http://222.190.114.42:9090/">an Online Hospital Information Management System</a>
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">CTMS</span>&nbsp;
-                          <span class="keyword">JavaScript (Vue.js)</span>&nbsp;
-                          <span class="keyword">Python (Flask)</span>&nbsp;
-                          <span class="keyword">Nginx</span>&nbsp;
-                          <span class="keyword">Frontend</span>&nbsp;
+                          <span class="keyword">Data Visualization</span>&nbsp;
+                          <span class="keyword">Statistical Charts&Tables</span>&nbsp;
                         </td>
                       </tr>
                     </table>
@@ -356,16 +342,16 @@
                       <tr>
                         <td class="font-size-1">
                           <span class="font-weight-light">
-                            <a href="https://gw.seu.edu.cn/eng/">Southeast University</a>
+                            <a href="www.njglyy.com">Nanjing Drum Tower Hospital</a>
                           </span>
                           <span>&nbsp;</span>
-                          <span><i class="fas fa-university"></i></span>
+                          <span><i class="fas fa-hospital"></i></span>
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-1">
                           <span class="font-weight-light">
-                            <a href="https://goo.gl/maps/SBjTuahH3pt4PeVW8">Nanjing, Jiangsu, China</a>
+                            <a href="https://goo.gl/maps/szrbEQZf1uf2cSNo9">Nanjing, Jiangsu, China</a>
                           </span>
                           <span>&nbsp;</span>
                           <span><i class="fas fa-map-marker-alt"></i></span>
@@ -373,7 +359,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-1">
-                          <span class="font-weight-light">2019.01--2019.10</span>
+                          <span class="font-weight-light">2019.03-2019.10</span>
                           <span>&nbsp;</span>
                           <span><i class="far fa-calendar-alt"></i></span>
                         </td>
@@ -386,24 +372,85 @@
                     <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
                       <tr>
                         <td class="text-ellipsis">
-                          <i class="fas fa-link"></i>
-                          Access:
+                          <i class="far fa-comment-dots"></i>
+                          Description:
                         </td>
                         <td>
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -[Source] CONFIDENTIAL
+                                -Collaborated with <a href="http://www.ambuf.net/">AmBuf CO. Ltd.</a> and Nanjing Drum Tower Hospital;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -[Demo] <a href="http://47.100.168.127:8866/ctms">47.100.168.127:8866/ctms</a>
+                                -Selected appropriate statistical charts and tables to visualize data from different dimensions catering for different needs;
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                -Provided consultancy on the design of online statistical analysis functions for examination scores (e.g. test for normal distribution, t-test, ANOVA, non-parameter test, multivariate test) and questionnaires (e.g. test for reliability and validity).
                               </td>
                             </tr>
                           </table>
                         </td>
                       </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-md-8">
+                    <table class="table table-borderless table-sm">
+                      <tr>
+                        <td class="font-size-1_6 font-weight-normal">
+                          <i class="fas fa-caret-right"></i>&nbsp;Participated in a Clinical Trial of Danhong Injection for Unstable Angina
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-size-0_8 font-weight-light">
+                          <span class="keyword">Imputation</span>&nbsp;
+                          <span class="keyword">SAR</span>&nbsp;
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="col-md-4">
+                    <table class="table table-borderless table-sm text-right">
+                      <tr>
+                        <td class="font-size-1">
+                          <span class="font-weight-light">
+                            <a href="http://www.dzmyy.com.cn/News/Main?siteId=510">Dongzhimen Hospital</a>
+                          </span>
+                          <span>&nbsp;</span>
+                          <span><i class="fas fa-hospital"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-size-1">
+                          <span class="font-weight-light">
+                            <a href="https://goo.gl/maps/61LR8rGFhhUQYsJ1A">Beijing, China</a>
+                          </span>
+                          <span>&nbsp;</span>
+                          <span><i class="fas fa-map-marker-alt"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-size-1">
+                          <span class="font-weight-light">2018.09-2019.04</span>
+                          <span>&nbsp;</span>
+                          <span><i class="far fa-calendar-alt"></i></span>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
                       <tr>
                         <td class="text-ellipsis">
                           <i class="far fa-comment-dots"></i>
@@ -413,17 +460,17 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Summarized demands and formulated the core functions for the management workflow of clinical trials;
+                                -Collaborated with Dongzhimen Hospital Beijing University of Chinese Medicine;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Designed the application architecture and drafted an API document for interaction between client and server (JavaScript for frontend, Python for backend, PostgreSQL for persistent storage);
+                                -Carried out multiple imputation for missing data using SAS;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Developed the client using Vue.js and Bootstrap4.
+                                -Accomplished the statistical analysis report, including efficacy evaluation and safety evaluation.
                               </td>
                             </tr>
                           </table>
@@ -441,221 +488,15 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Development of a Saponins Mass Spectrometry Database (SMSD)
+                          <i class="fas fa-caret-right"></i>&nbsp;Keynote Speech in Group Sequential Design Seminar
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">OnlineDB</span>&nbsp;
-                          <span class="keyword">JavaScript (Vue.js)</span>&nbsp;
-                          <span class="keyword">Prisma</span>&nbsp;
-                          <span class="keyword">GraphQL</span>&nbsp;
-                          <span class="keyword">Docker</span>&nbsp;
-                          <span class="keyword">Full-stack</span>&nbsp;
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="col-md-4">
-                    <table class="table table-borderless table-sm text-right">
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">
-                            <a href="http://zyxyen.cpu.edu.cn/">China Pharmaceutical University</a>
-                          </span>
-                          <span>&nbsp;</span>
-                          <span><i class="fas fa-university"></i></span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">
-                            <a href="https://goo.gl/maps/LBRg1pXkXup9bc9G6">Nanjing, Jiangsu, China</a>
-                          </span>
-                          <span>&nbsp;</span>
-                          <span><i class="fas fa-map-marker-alt"></i></span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">2018.09--2019.09</span>
-                          <span>&nbsp;</span>
-                          <span><i class="far fa-calendar-alt"></i></span>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="fas fa-link"></i>
-                          Access:
-                        </td>
-                        <td>
-                          <table class="table table-borderless table-sm">
-                            <tr>
-                              <td>
-                                -[Source] <a href="https://github.com/applejuicey/SMSDatabase;">github.com/applejuicey/SMSDatabase</a>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -[Demo] <a href="http://47.92.73.208:8082">47.92.73.208:8082</a>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="far fa-comment-dots"></i>
-                          Description:
-                        </td>
-                        <td>
-                          <table class="table table-borderless table-sm">
-                            <tr>
-                              <td>
-                                -Collaborated with School of Traditional Chinese Pharmacy, China Pharmaceutical University;
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -Accomplished full-stack development for a saponins mass spectrometry information database and deployed to a cloud server;
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -Core techniques including Vue.js, Vuetify, Prisma, GraphQL, MySQL, PM2 and Nginx.
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-md-8">
-                    <table class="table table-borderless table-sm">
-                      <tr>
-                        <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Development of a Personal Website (HIVE)
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Personal Website</span>&nbsp;
-                          <span class="keyword">JavaScript (Vue.js+Express+Sequelize)</span>&nbsp;
-                          <span class="keyword">RESTful API</span>&nbsp;
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="col-md-4">
-                    <table class="table table-borderless table-sm text-right">
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">
-                            <a href="http://uma77.com/hive">Personal</a>
-                          </span>
-                          <span>&nbsp;</span>
-                          <span><i class="fas fa-blog"></i></span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">
-                            <a href="https://goo.gl/maps/SBjTuahH3pt4PeVW8">Nanjing, Jiangsu, China</a>
-                          </span>
-                          <span>&nbsp;</span>
-                          <span><i class="fas fa-map-marker-alt"></i></span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">2017.12--2018.09</span>
-                          <span>&nbsp;</span>
-                          <span><i class="far fa-calendar-alt"></i></span>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="fas fa-link"></i>
-                          Access:
-                        </td>
-                        <td>
-                          <table class="table table-borderless table-sm">
-                            <tr>
-                              <td>
-                                -[Source] <a href="https://github.com/applejuicey/HIVE">github.com/applejuicey/HIVE</a>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -[Demo] <a href="http://uma77.com/hive">uma77.com/hive</a>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="far fa-comment-dots"></i>
-                          Description:
-                        </td>
-                        <td>
-                          <table class="table table-borderless table-sm">
-                            <tr>
-                              <td>
-                                -HIVE is a personal website deployed to share my experiences during learning (e.g. health statistics, web app development, machine learning) and is hoped to be further developed into a website where one can own an account and share his/her knowledge;
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -Designed a CV generating and presenting module for HIVE;
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -Core techniques including Vue.js, Bootstrap4, Node.js, Axios, Mysql and Nginx.
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-md-8">
-                    <table class="table table-borderless table-sm">
-                      <tr>
-                        <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Development of an Electronic Data Capture System (InterClin)
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">EDC</span>&nbsp;
-                          <span class="keyword">JAVA (Spring+JSP+Hibernate)</span>&nbsp;
-                          <span class="keyword">Redevelopment</span>&nbsp;
+                          <span class="keyword">HistCite</span>&nbsp;
+                          <span class="keyword">VOSviewer</span>&nbsp;
+                          <span class="keyword">Biliometrics</span>&nbsp;
+                          <span class="keyword">Presentation</span>&nbsp;
                         </td>
                       </tr>
                     </table>
@@ -682,109 +523,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-1">
-                          <span class="font-weight-light">2016.09--2018.01</span>
-                          <span>&nbsp;</span>
-                          <span><i class="far fa-calendar-alt"></i></span>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="fas fa-link"></i>
-                          Access:
-                        </td>
-                        <td>
-                          <table class="table table-borderless table-sm">
-                            <tr>
-                              <td>
-                                -[Source] CONFIDENTIAL
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -[Demo] <a href="http://115.159.125.68:8080/InterClin">115.159.125.68:8080/InterClin</a>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="far fa-comment-dots"></i>
-                          Description:
-                        </td>
-                        <td>
-                          <table class="table table-borderless table-sm">
-                            <tr>
-                              <td>
-                                -InterClin is an electronic data capture system for clinical trials (based on OpenClinica);
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -Directed the demands summarization work and the source code refactor plan;
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -Core techniques including Spring, JSP, Hibernate, Bootstrap3, Tomcat and PostgreSQL.
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-md-8">
-                    <table class="table table-borderless table-sm">
-                      <tr>
-                        <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Clinical Trial Subjects Randomization and Masking for an EV71 Vaccine
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Randomization&Masking</span>&nbsp;
-                          <span class="keyword">R</span>&nbsp;
-                          <span class="keyword">Field Work</span>&nbsp;
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="col-md-4">
-                    <table class="table table-borderless table-sm text-right">
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">
-                            <a href="http://www.wibp.com.cn/Chs/Default.aspx">Wuhan Institute of Biological Products CO.,LTD</a>
-                          </span>
-                          <span>&nbsp;</span>
-                          <span><i class="fas fa-building"></i></span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">
-                            <a href="https://goo.gl/maps/pQcbx54eoRHCZr739">Wuhan, Hubei, China</a>
-                          </span>
-                          <span>&nbsp;</span>
-                          <span><i class="fas fa-map-marker-alt"></i></span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">2019.04--2019.04</span>
+                          <span class="font-weight-light">2018.09-2018.10</span>
                           <span>&nbsp;</span>
                           <span><i class="far fa-calendar-alt"></i></span>
                         </td>
@@ -804,17 +543,22 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Contributed to the subjects masking and allocation work for the trial;
+                                -Employed HistCite and VOSviewer in visualizing the results of literature search;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Implemented stratified block randomization using R;
+                                -Identified the key literature in group sequential design using bibliometric methods;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Coordinated vaccine labelling work in the pharmaceutical factory.
+                                -Summarized core knowledge on group sequential design in a mindmap;
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                -Gave a keynote speech on Group Sequential Design in a seminar to the whole faculty of Epidemiology and Health Statistics.
                               </td>
                             </tr>
                           </table>
@@ -832,14 +576,15 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Clinical Trial Statistical Analysis (Plan & Report) for a Rabies Vaccine
+                          <i class="fas fa-caret-right"></i>&nbsp;Responsible for a Clinical Trial of Qizhi Tongluo Capsules for Ischemic Stroke Recovery Period
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
+                          <span class="keyword">Protocol Seminar</span>&nbsp;
+                          <span class="keyword">DM</span>&nbsp;
                           <span class="keyword">SAP</span>&nbsp;
                           <span class="keyword">SAR</span>&nbsp;
-                          <span class="keyword">Automatic Document Generation</span>&nbsp;
                         </td>
                       </tr>
                     </table>
@@ -849,16 +594,16 @@
                       <tr>
                         <td class="font-size-1">
                           <span class="font-weight-light">
-                            <a href="http://en.biominhai.com/">Minhai Biotechnology CO.,LTD</a>
+                            <a href="http://www.tcmid.cn">China Academy of Chinese Medical Sciences</a>
                           </span>
                           <span>&nbsp;</span>
-                          <span><i class="fas fa-building"></i></span>
+                          <span><i class="fas fa-university"></i></span>
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-1">
                           <span class="font-weight-light">
-                            <a href="https://goo.gl/maps/bjrg6RA6NvUdGnuX8">Beijing, China</a>
+                            <a href="https://goo.gl/maps/oZjvr2D2VjHcdbkWA">Beijing, China</a>
                           </span>
                           <span>&nbsp;</span>
                           <span><i class="fas fa-map-marker-alt"></i></span>
@@ -866,7 +611,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-1">
-                          <span class="font-weight-light">2019.03--2019.03</span>
+                          <span class="font-weight-light">2017.04-2018.10</span>
                           <span>&nbsp;</span>
                           <span><i class="far fa-calendar-alt"></i></span>
                         </td>
@@ -886,17 +631,22 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Generated formatted statistical analysis plan using JavaScript and HTML automatically;
+                                -Collaborated with Institute of Basic Research In Clinical Medicine, China Academy Of Chinese Medical Sciences;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Carried out data analysis with R;
+                                -Participated in research protocol discussion and sample size estimation;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Collated and compiled statistical analysis report.
+                                -Responsible for data management, including database design, double data entry, data cleaning (e.g. blind review, multiple imputation for missing data using SAS, analysis dataset determination using the intention-to-treat principle);
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                -Generated the statistical analysis plan and accomplished the statistical analysis report, including trial completeness summary, baseline comparison, efficacy evaluation, safety evaluation, etc.
                               </td>
                             </tr>
                           </table>
@@ -910,36 +660,38 @@
             <div class="row">
               <div class="col-12">
                 <div class="row">
-                  <div class="col-md-8">
+                  <div class="col-md-6">
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Clinical Trial Data Management for a PV Vaccine
+                          <i class="fas fa-caret-right"></i>&nbsp;Course Work on Using Stata for Meta-analysis
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Data Management</span>&nbsp;
-                          <span class="keyword">Blind Review</span>&nbsp;
+                          <span class="keyword">Stata</span>&nbsp;
+                          <span class="keyword">Meta-analysis</span>&nbsp;
+                          <span class="keyword">Model Selection</span>&nbsp;
+                          <span class="keyword">Subgroup Analysis</span>&nbsp;
                         </td>
                       </tr>
                     </table>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-6">
                     <table class="table table-borderless table-sm text-right">
                       <tr>
                         <td class="font-size-1">
                           <span class="font-weight-light">
-                            <a href="http://en.biominhai.com/">Minhai Biotechnology CO.,LTD</a>
+                            <a href="https://gw.seu.edu.cn/eng/">Southeast University</a>
                           </span>
                           <span>&nbsp;</span>
-                          <span><i class="fas fa-building"></i></span>
+                          <span><i class="fas fa-university"></i></span>
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-1">
                           <span class="font-weight-light">
-                            <a href="https://goo.gl/maps/bjrg6RA6NvUdGnuX8">Beijing, China</a>
+                            <a href="https://goo.gl/maps/SBjTuahH3pt4PeVW8">Nanjing, Jiangsu, China</a>
                           </span>
                           <span>&nbsp;</span>
                           <span><i class="fas fa-map-marker-alt"></i></span>
@@ -947,7 +699,7 @@
                       </tr>
                       <tr>
                         <td class="font-size-1">
-                          <span class="font-weight-light">2018.06--2018.09</span>
+                          <span class="font-weight-light">2017.04-2017.05</span>
                           <span>&nbsp;</span>
                           <span><i class="far fa-calendar-alt"></i></span>
                         </td>
@@ -967,17 +719,12 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Participated in the data management work (e.g. project initiation, eCRF generation, data monitoring&inspection) for the trial;
+                                -Summarized core knowledge on the topic, including model selection (fixed and random effects), subgroup analysis, meta-regression, etc.;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Executed blind review on clinical data after the trial;
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -Organized data entry personnel training.
+                                -Gave a presentation on using Stata for doing meta-analysis in a seminar to the whole faculty of Epidemiology and Health Statistics.
                               </td>
                             </tr>
                           </table>
@@ -992,7 +739,7 @@
         </div>
 
         <!--实习-->
-        <div class="row nextPageWhenPrint">
+        <div class="row">
           <div class="col-12">
             <div class="section-title">
               <span class="font-size-2 font-weight-normal">Internship</span>
@@ -1004,13 +751,14 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Departments Rotating Internship at Nanjing Center for Disease Control and Prevention
+                          <i class="fas fa-caret-right"></i>&nbsp;Departments Rotating Internship at Public Health Research Institute of Jiangsu Province
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
                           <span class="keyword">Departments Rotating</span>&nbsp;
-                          <span class="keyword">Field Work</span>&nbsp;
+                          <span class="keyword">Public Health Practice</span>&nbsp;
+                          <span class="keyword">Team Leader of 4</span>&nbsp;
                         </td>
                       </tr>
                     </table>
@@ -1020,10 +768,10 @@
                       <tr>
                         <td class="font-size-1">
                            <span class="font-weight-light">
-                            <a href="http://www.njcdc.cn">Nanjing Center for Disease Control and Prevention</a>
+                            <a href="http://www.jshealth.com/">Public Health Research Institute of Jiangsu Province</a>
                           </span>
                           <span>&nbsp;</span>
-                          <span><i class="fas fa-hospital"></i></span>
+                          <span><i class="fas fa-university"></i></span>
                         </td>
                       </tr>
                       <tr>
@@ -1052,7 +800,7 @@
                           Address:
                         </td>
                         <td>
-                          <a href="https://goo.gl/maps/cH4AEC5pLktQqc8t6">Nanjing, Jiangsu, China</a>
+                          <a href="https://goo.gl/maps/QLiakdBirGWbjkZo7">Nanjing, Jiangsu, China</a>
                         </td>
                       </tr>
                       <tr>
@@ -1064,12 +812,17 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Major rotating departments including the Department of Non-infectious Chronic Disease Control, the Department of Environmental&Occupational Health and the Department of STD Prevention and Control;
+                                -Major rotating departments including the Department of Toxicology&Risk Assessment, the Department of Critical Projects, etc.;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Participated in field work of workplace particulate matter monitoring in an electric power plant.
+                                -Participated in follow-up surveys of liver cancer patients;
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                -Responsible for data collection and statistical description&analysis when rotating in the Department of Critical Projects.
                               </td>
                             </tr>
                           </table>
@@ -1093,7 +846,9 @@
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
                           <span class="keyword">Departments Rotating</span>&nbsp;
+                          <span class="keyword">Clinical Practice</span>&nbsp;
                           <span class="keyword">Surgical Assistant</span>&nbsp;
+                          <span class="keyword">Team Leader of 6</span>&nbsp;
                         </td>
                       </tr>
                     </table>
@@ -1152,98 +907,17 @@
                             </tr>
                             <tr>
                               <td>
-                                -Took the role of surgical assistant in an external abdominal hernia surgery.
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--社会实践-->
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title">
-              <span class="font-size-2 font-weight-normal">Volunteer Experience</span>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-md-8">
-                    <table class="table table-borderless table-sm">
-                      <tr>
-                        <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;NOC Assistant for the Second Summer Youth Olympic Games
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">NOC Assistants Leader for SVK Delegation</span>&nbsp;
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="col-md-4">
-                    <table class="table table-borderless table-sm text-right">
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">
-                            <a href="https://www.olympic.org/nanjing-2014">International Olympic Committee</a>
-                          </span>
-                          <span>&nbsp;</span>
-                          <span><i class="fas fa-running"></i></span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-normal">NOC Assistant</span>
-                          <span>&nbsp;</span>
-                          <span><i class="fas fa-user-tie"></i></span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-1">
-                          <span class="font-weight-light">2014.08--2014.08</span>
-                          <span>&nbsp;</span>
-                          <span><i class="far fa-calendar-alt"></i></span>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="fas fa-map-marked-alt"></i>
-                          Address:
-                        </td>
-                        <td>
-                          <a href="https://goo.gl/maps/ZFD4KQFUfovrJEvC9">Nanjing, Jiangsu, China</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="far fa-comment-dots"></i>
-                          Description:
-                        </td>
-                        <td>
-                          <table class="table table-borderless table-sm">
-                            <tr>
-                              <td>
-                                -Group leader of six NOC assistants;
+                                -Took the role of surgical assistant in an axillary accessory breast surgery;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Coordinated and supported the daily secretarial work for the whole Slovakian delegation (e.g. translation work, athlete routines).
+                                -Assisted in dealing with medical disputes when rotating in the Department of Medical Administration;
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                -Instructed clinicians on using SPSS for simple statistical tests of quantitative variables.
                               </td>
                             </tr>
                           </table>
@@ -1261,12 +935,13 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;Volunteer for the Chefs de Mission Seminar and Young Ambassadors Seminar for Nanjing 2014
+                          <i class="fas fa-caret-right"></i>&nbsp;Teaching Assistant for Undergraduates on Medical Statistics
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Volunteer for SVK NOC</span>&nbsp;
+                          <span class="keyword">Undergraduate Teaching</span>&nbsp;
+                          <span class="keyword">Course: Medical Statistics</span>&nbsp;
                         </td>
                       </tr>
                     </table>
@@ -1276,22 +951,22 @@
                       <tr>
                         <td class="font-size-1">
                           <span class="font-weight-light">
-                            <a href="https://www.olympic.org/nanjing-2014">Nanjing Youth Olympic Games Organising Committee</a>
+                            <a href="https://www.olympic.org/nanjing-2014">Southeast University</a>
                           </span>
                           <span>&nbsp;</span>
-                          <span><i class="fas fa-running"></i></span>
+                          <span><i class="fas fa-university"></i></span>
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-1">
-                          <span class="font-weight-normal">Volunteer</span>
+                          <span class="font-weight-normal">Teaching Assistant</span>
                           <span>&nbsp;</span>
                           <span><i class="fas fa-user-tie"></i></span>
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-1">
-                          <span class="font-weight-light">2014.03--2014.03</span>
+                          <span class="font-weight-light">2019.04-2019.06</span>
                           <span>&nbsp;</span>
                           <span><i class="far fa-calendar-alt"></i></span>
                         </td>
@@ -1308,7 +983,7 @@
                           Address:
                         </td>
                         <td>
-                          <a href="https://goo.gl/maps/ZFD4KQFUfovrJEvC9">Nanjing, Jiangsu, China</a>
+                          <a href="https://goo.gl/maps/SBjTuahH3pt4PeVW8">Nanjing, Jiangsu, China</a>
                         </td>
                       </tr>
                       <tr>
@@ -1320,8 +995,95 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Supported the daily secretarial work for two Slovakian delegation leaders
-                                (<a href="https://www.olympic.sk/en/organizacna-struktura/office">J. Gonci</a> and <a href="https://www.olympic.sk/en/organizacna-struktura/office">B. Demeter</a>).
+                                -Responsible for teaching entire lessons, grading tests, running classroom-related errands;
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                -Courses included specific statistical tests like ANOVA, Chi-square test, non-parametric tests, linear correlation, linear regression, survival analysis, etc.
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-md-8">
+                    <table class="table table-borderless table-sm">
+                      <tr>
+                        <td class="font-size-1_6 font-weight-normal">
+                          <i class="fas fa-caret-right"></i>&nbsp;Teaching Assistant for Health Vocational College Students on Medical Statistics
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-size-0_8 font-weight-light">
+                          <span class="keyword">Vocational College Students Teaching</span>&nbsp;
+                          <span class="keyword">Course: Medical Statistics</span>&nbsp;
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="col-md-4">
+                    <table class="table table-borderless table-sm text-right">
+                      <tr>
+                        <td class="font-size-1">
+                          <span class="font-weight-light">
+                            <a href="https://www.jssmu.edu.cn">Jiangsu Health Vocational College</a>
+                          </span>
+                          <span>&nbsp;</span>
+                          <span><i class="fas fa-university"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-size-1">
+                          <span class="font-weight-normal">Teaching Assistant</span>
+                          <span>&nbsp;</span>
+                          <span><i class="fas fa-user-tie"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-size-1">
+                          <span class="font-weight-light">2018.08-2019.10</span>
+                          <span>&nbsp;</span>
+                          <span><i class="far fa-calendar-alt"></i></span>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="fas fa-map-marked-alt"></i>
+                          Address:
+                        </td>
+                        <td>
+                          <a href="https://goo.gl/maps/QQ2pDixWM185xdTU6">Nanjing, Jiangsu, China</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="far fa-comment-dots"></i>
+                          Description:
+                        </td>
+                        <td>
+                          <table class="table table-borderless table-sm">
+                            <tr>
+                              <td>
+                                -Presided over my own course of Medical Statistics, with guidance from the assigned professor;
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                -Courses included introduction of medical statistics, statistical description (data types, tables and charts, descriptive statistics), statistical inference (probability distributions, parameter estimation, hypothesis testing, confidence intervals), some specific statistical tests (t-test, ANOVA, Chi-square test), etc.
                               </td>
                             </tr>
                           </table>
@@ -1341,94 +1103,7 @@
             <div class="section-title">
               <span class="font-size-2 font-weight-normal">Publication</span>
             </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-12">
-                    <table class="table table-borderless table-sm">
-                      <tr>
-                        <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;A Preliminary Investigation on the Methods of Predictive Evaluation through Simulation on Bayesian Response-adaptive Randomization
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Accepted&In Press</span>&nbsp;
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="far fa-calendar-alt"></i>
-                          Year:
-                        </td>
-                        <td>
-                          2020
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="fas fa-comments"></i>
-                          Conference:
-                        </td>
-                        <td>
-                          Report on <a href="http://cbc2019.cnbiostat.org/schedule.php">China Health Statistics Annual Conference 2019</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="fas fa-book-open"></i>
-                          Journal:
-                        </td>
-                        <td>
-                          <a href="http://zgwstj.paperonce.org/">Chinese Journal of Health Statistics</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="fas fa-user-edit"></i>
-                          Authors:
-                        </td>
-                        <td>
-                          <span class="font-weight-normal">Yang Fan</span>, Tai-Shun Li, Jia-Ying Yang, Shi-Yuan Wang
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="far fa-comment-dots"></i>
-                          Description:
-                        </td>
-                        <td>
-                          <table class="table table-borderless table-sm">
-                            <tr>
-                              <td>
-                                -Preliminarily investigated the methods of predictive evaluation through simulation of Bayesian response-adaptive randomization;
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -Combined a set of parameters into scenarios and implemented trial simulations by R;
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -Constructed evaluation indexes to assess the effects of scenario parameters.
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
+            <div class="row nextPageWhenPrint">
               <div class="col-12">
                 <div class="row">
                   <div class="col-12">
@@ -1440,7 +1115,8 @@
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">In Revision</span>&nbsp;
+                          <span class="keyword">In revision</span>&nbsp;
+                          <span class="keyword">Co-first Author</span>&nbsp;
                           <span class="keyword">EMID: 6b7d304d4fbd81ae</span>&nbsp;
                         </td>
                       </tr>
@@ -1474,7 +1150,7 @@
                           Authors:
                         </td>
                         <td>
-                          Xiao-Kun Li, Tian-Tian Hua, Yang Xu, <span class="font-weight-normal">Yang Fan</span>, Wen-Jie Wu, Yong Qiang, Yi Shen
+                          Xiao-Kun Li, <span class="font-weight-normal">Tian-Tian Hua</span>, Yang Xu, Yang Fan, Wen-Jie Wu, Yong Qiang, Yi Shen
                         </td>
                       </tr>
                       <tr>
@@ -1486,12 +1162,12 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Responsible for the statistical analysis section and result explanation;
+                                -Collaborated with a clinician;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Implemented the dichotomization and plotted the figures by R.
+                                -Implemented dichotomization on a continuous variable and plotted relevant figures using R due to clinical needs.
                               </td>
                             </tr>
                           </table>
@@ -1509,13 +1185,12 @@
                     <table class="table table-borderless table-sm">
                       <tr>
                         <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;A Mass Spectrometry Database for Identification of Saponins in Plants
+                          <i class="fas fa-caret-right"></i>&nbsp;SAS Implementation of Item Response Theory
                         </td>
                       </tr>
                       <tr>
                         <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Co-first Author</span>&nbsp;
-                          <span class="keyword">To be submitted</span>&nbsp;
+                          <span class="keyword">Accepted&In Press</span>&nbsp;
                         </td>
                       </tr>
                     </table>
@@ -1539,7 +1214,7 @@
                           Journal:
                         </td>
                         <td>
-                          <a href="https://www.nature.com/ncomms/">Nature Communications</a>
+                          <a href="http://zgwstj.paperonce.org/">Chinese Journal of Health Statistics (RCCSE National Core Journal)</a>
                         </td>
                       </tr>
                       <tr>
@@ -1548,7 +1223,7 @@
                           Authors:
                         </td>
                         <td>
-                          Yuan-Ming Fan, Xue-Si Dong, <span class="font-weight-normal">Yang Fan</span>, Chen-Cheng Mao, Xiao-Jian Yin, Feng-Qing Wang, Jing Lia, Wei Zhou
+                          <span class="font-weight-normal">Tian-Tian Hua</span>, Fang-Jing Xu, Bing-Wei Chen
                         </td>
                       </tr>
                       <tr>
@@ -1560,12 +1235,162 @@
                           <table class="table table-borderless table-sm">
                             <tr>
                               <td>
-                                -Developed and deployed the online querying system;
+                                - Introduced the principles and applications of Item Response Theory;
                               </td>
                             </tr>
                             <tr>
                               <td>
-                                -Applied for a Chinese patent.
+                                -Explained <code>PROC IRT</code> in SAS 9.2;
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                -Illustrated an example of Graded Response Model and elaborated the results.
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12">
+                    <table class="table table-borderless table-sm">
+                      <tr>
+                        <td class="font-size-1_6 font-weight-normal">
+                          <i class="fas fa-caret-right"></i>&nbsp;Effect of Different Therapeutic Strategies on the Clinical Outcome of Asymptomatic Intralobar Pulmonary Sequestration
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-size-0_8 font-weight-light">
+                          <span class="keyword">Published</span>&nbsp;
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="far fa-calendar-alt"></i>
+                          Year:
+                        </td>
+                        <td>
+                          2019
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="fas fa-link"></i>
+                          Link:
+                        </td>
+                        <td>
+                          <a href="https://doi.org/10.1093/icvts/ivz152">https://doi.org/10.1093/icvts/ivz152</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="fas fa-book-open"></i>
+                          Journal:
+                        </td>
+                        <td>
+                          <a href="https://academic.oup.com/icvts">Interactive CardioVascular and Thoracic Surgery</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="fas fa-user-edit"></i>
+                          Authors:
+                        </td>
+                        <td>
+                          Xiao-Kun Li, Jing Luo, Wen-Jie Wu, Zhuang-Zhuang Cong, Yang Xu, <span class="font-weight-normal">Tian-Tian Hua</span>, Chen-Ye Shao, Sai-Guang Ji, Yi-Fei Diao, Kai-Chao Liu
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="far fa-comment-dots"></i>
+                          Description:
+                        </td>
+                        <td>
+                          <table class="table table-borderless table-sm">
+                            <tr>
+                              <td>
+                                -Implemented multivariate analysis and provided plots using R.
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12">
+                    <table class="table table-borderless table-sm">
+                      <tr>
+                        <td class="font-size-1_6 font-weight-normal">
+                          <i class="fas fa-caret-right"></i>&nbsp;Application of Latent Class Model in TCM Syndrome Classification of Hypertension
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-size-0_8 font-weight-light">
+                          <span class="keyword">Conference</span>&nbsp;
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="far fa-calendar-alt"></i>
+                          Year:
+                        </td>
+                        <td>
+                          2019
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="fas fa-comments"></i>
+                          Conference:
+                        </td>
+                        <td>
+                          <a href="http://cbc2019.cnbiostat.org/schedule.php">China Health Statistics Annual Conference 2019</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="fas fa-user-edit"></i>
+                          Authors:
+                        </td>
+                        <td>
+                          <span class="font-weight-normal">Tian-Tian Hua</span>, Qing-Qing Yue, Bi-Yun Xu, Chun-Ti Shen, Hua-Qiang Zhang, Bing-Wei Chen
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-ellipsis">
+                          <i class="far fa-comment-dots"></i>
+                          Description:
+                        </td>
+                        <td>
+                          <table class="table table-borderless table-sm">
+                            <tr>
+                              <td>
+                                -Applied latent class model to classify the individual syndromes of hypertension patients.
                               </td>
                             </tr>
                           </table>
@@ -1579,65 +1404,31 @@
           </div>
         </div>
 
-        <!--英语能力-->
+        <!--技能-->
         <div class="row">
           <div class="col-12">
             <div class="section-title">
-              <span class="font-size-2 font-weight-normal">English Language Certificate</span>
+              <span class="font-size-2 font-weight-normal">Relevant Skills</span>
             </div>
             <div class="row">
               <div class="col-12">
-                <div class="row">
-                  <div class="col-12">
-                    <table class="table table-borderless table-sm">
-                      <tr>
-                        <td class="font-size-1_6 font-weight-normal">
-                          <i class="fas fa-caret-right"></i>&nbsp;IELTS (Academic)
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-size-0_8 font-weight-light">
-                          <span class="keyword">Test Report Form Number: 19CN128604FANY004A</span>&nbsp;
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <table class="table table-borderless table-sm font-size-1_2 font-weight-light">
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="far fa-calendar-alt"></i>
-                          Date:
-                        </td>
-                        <td>
-                          2019.10.26
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="text-ellipsis">
-                          <i class="far fa-comment-dots"></i>
-                          Test Results:
-                        </td>
-                        <td>
-                          <table class="table table-borderless table-sm">
-                            <tr>
-                              <td>
-                                -Listening: 8.5; Reading: 8.0; Speaking: 6.0; Writing: 6.5
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                -IELTS Overall Band Score: 7.5
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
+                <span class="font-size-1_2 font-weight-light">
+                  <i class="fas fa-genderless"></i>&nbsp;Statistical programming ability in SPSS, SAS, Stata and R;
+                </span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <span class="font-size-1_2 font-weight-light">
+                  <i class="fas fa-genderless"></i>&nbsp;Experienced in bibliometric softwares (HistCite, VOSviewer, CiteSpace);
+                </span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <span class="font-size-1_2 font-weight-light">
+                  <i class="fas fa-genderless"></i>&nbsp;Learned-by-self experience in Python and HTML.
+                </span>
               </div>
             </div>
           </div>
@@ -1650,7 +1441,7 @@
 
 <script>
   export default {
-    name: 'cv_type3',
+    name: 'cv_type4',
     data: function () {
       return {
 

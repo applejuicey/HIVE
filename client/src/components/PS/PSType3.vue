@@ -122,18 +122,30 @@
           </div>
         </div>
 
+        <div class="row mb-2">
+          <div class="col-12">
+            <div class="text-justify">
+              <span class="font-size-1_2 font-weight-light">
+                P.S. I will apply for
+                <a href="https://www.imperial.ac.uk/study/pg/fees-and-funding/scholarships/international-scholarship-collaborations/csc/">the China Scholarship Council (CSC) Imperial Scholarship</a>
+                as PhD funding.
+              </span>
+            </div>
+          </div>
+        </div>
+
         <!--附加信息-->
         <div class="row mb-2">
           <div class="col-12">
             <table class="table table-borderless table-sm text-right">
               <tr>
                 <td class="font-size-0_8 font-weight-light">
-                  Word Count: 836
+                  Word Count: 859
                 </td>
               </tr>
               <tr>
                 <td class="font-size-0_8 font-weight-light">
-                  Estimated Reading Time: 3 min 20 sec
+                  Estimated Reading Time: 3 min 26 sec
                 </td>
               </tr>
             </table>

@@ -51,6 +51,7 @@
       <p-s-type2 v-if="showType === 'pstype2'"></p-s-type2>
       <p-s-type3 v-if="showType === 'pstype3'"></p-s-type3>
       <p-s-type4 v-if="showType === 'pstype4'"></p-s-type4>
+      <p-s-type6 v-if="showType === 'pstype6'"></p-s-type6>
     </div>
   </div>
 </template>
@@ -60,6 +61,7 @@
   import PSType2 from '@/components/PS/PSType2.vue';
   import PSType3 from '@/components/PS/PSType3.vue';
   import PSType4 from '@/components/PS/PSType4.vue';
+  import PSType6 from '@/components/PS/PSType6.vue';
   export default {
     name: 'ps_view',
     components: {
@@ -67,6 +69,7 @@
       PSType2,
       PSType3,
       PSType4,
+      PSType6,
     },
     data: function () {
       return {
@@ -81,7 +84,8 @@
           // 'NWFQC': 'cvtype5',  // phd workshop
           // 'KRV3Q'
           // htt
-          '8FPQD': 'pstype4',  // KCL
+          '8FPQD': 'pstype4',  // KCL-BH
+          'JK6QM': 'pstype6',  // UCL-CTM
         },
         // accessCodeArray4HTT: ['8FPQD', 'JK6QM', 'HVC8X', 'QFKTQ'],
       };

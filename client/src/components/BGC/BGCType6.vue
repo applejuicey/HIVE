@@ -16,7 +16,7 @@
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      Access Code: 8FPQD
+                      Access Code: JK6QM
                     </td>
                   </tr>
                 </table>
@@ -25,12 +25,12 @@
                 <table class="table table-borderless table-sm text-right">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For '<a href="https://www.kcl.ac.uk/study/postgraduate/research-courses/biostatistics-mdres-mphil-phd">Biostatistics & Health Informatics Research PhD</a>',
+                      For '<a href="https://www.ucl.ac.uk/clinical-trials-and-methodology/study/mphilphd-clinical-trials-methodology/">Clinical Trials Methodology</a>',
                     </td>
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      KING'S College LONDON
+                      University College London
                     </td>
                   </tr>
                 </table>
@@ -110,7 +110,7 @@
 
 <script>
   export default {
-    name: 'bgc_type4',
+    name: 'bgc_type6',
     data: function () {
       return {
         BDgCEngSrc: 'https://i.postimg.cc/BvcCrHPy/htt-degree-bd-en.jpg',

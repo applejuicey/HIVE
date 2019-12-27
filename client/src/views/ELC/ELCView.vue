@@ -48,22 +48,28 @@
           </div>
         </div>
       </div>
+      <e-l-c-type2 v-if="showType === 'elctype2'"></e-l-c-type2>
       <e-l-c-type3 v-if="showType === 'elctype3'"></e-l-c-type3>
       <e-l-c-type4 v-if="showType === 'elctype4'"></e-l-c-type4>
+      <e-l-c-type6 v-if="showType === 'elctype6'"></e-l-c-type6>
     </div>
   </div>
 </template>
 
 <script>
   import BottomCard from '@/components/BottomCard.vue';
+  import ELCType2 from '@/components/ELC/ELCType2.vue';
   import ELCType3 from '@/components/ELC/ELCType3.vue';
   import ELCType4 from '@/components/ELC/ELCType4.vue';
+  import ELCType6 from '@/components/ELC/ELCType6.vue';
   export default {
     name: 'elc_view',
     components: {
       BottomCard,
+      ELCType2,
       ELCType3,
       ELCType4,
+      ELCType6,
     },
     data: function () {
       return {
@@ -78,7 +84,8 @@
           // 'NWFQC': 'cvtype5',  // phd workshop
           // 'KRV3Q'
           // htt
-          '8FPQD': 'elctype4',  // KCL
+          '8FPQD': 'elctype4',  // KCL-BH
+          'JK6QM': 'elctype6',  // UCL-CTM
         },
         // accessCodeArray4HTT: ['8FPQD', 'JK6QM', 'HVC8X', 'QFKTQ'],
       };

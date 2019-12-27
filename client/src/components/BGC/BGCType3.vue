@@ -4,7 +4,7 @@
       <div class="transparent-card">
 
         <!--标题+项目-->
-        <div class="row mb-3">
+        <div class="row mb-3 print-page1-top">
           <div class="col-12">
             <div class="row">
               <div class="col-4">
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div class="row mb-2">
+        <div class="row mb-2 print-page1-bottom">
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div class="row mb-2">
+        <div class="row mb-2 print-page2-top">
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
@@ -89,7 +89,7 @@
           </div>
         </div>
 
-        <div class="row mb-2">
+        <div class="row mb-2 print-page2-bottom">
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
@@ -154,5 +154,20 @@
   }
   .chn-size {
     width: 50%;
+  }
+  @media print {
+    .print-page1-top {
+      margin-top: 0;
+    }
+    .print-page1-bottom {
+      margin-bottom: 25px;
+      page-break-after: always;
+    }
+    .print-page2-top {
+      margin-top: 100px;
+    }
+    .print-page2-bottom {
+      margin-bottom: 0;
+    }
   }
 </style>

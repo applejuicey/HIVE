@@ -16,7 +16,7 @@
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      Access Code: 8FPQD
+                      Access Code: V3WN9
                     </td>
                   </tr>
                 </table>
@@ -25,12 +25,12 @@
                 <table class="table table-borderless table-sm text-right">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For '<a href="https://www.kcl.ac.uk/study/postgraduate/research-courses/biostatistics-mdres-mphil-phd">Biostatistics & Health Informatics Research PhD</a>',
+                      For '<a href="https://www.ucl.ac.uk/prospective-students/graduate/research-degrees/artifical-intelligence-enabled-healthcare-mres-mphil-phd/">AI Enabled Healthcare</a>',
                     </td>
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      KING'S College LONDON
+                      University College London
                     </td>
                   </tr>
                 </table>
@@ -110,13 +110,13 @@
 
 <script>
   export default {
-    name: 'bgc_type4',
+    name: 'bgc_type2',
     data: function () {
       return {
-        BDgCEngSrc: 'https://i.postimg.cc/BvcCrHPy/htt-degree-bd-en.jpg',
-        BDgCChnSrc: 'https://i.postimg.cc/j2xwD3c6/degree-chn.jpg',
-        BDpCEngSrc: 'https://i.postimg.cc/5t1BSyKm/htt-diploma-bd-en.jpg',
-        BDpCChnSrc: 'https://i.postimg.cc/N0SJ1Vzc/htt-diploma-bd-chn.jpg',
+        BDgCEngSrc: 'https://i.postimg.cc/7PCK6CFC/fy-degree-bd-en.png',
+        BDgCChnSrc: 'https://i.postimg.cc/DwHXxgfF/fy-degree-bd-chn.jpg',
+        BDpCEngSrc: 'https://i.postimg.cc/RFWLN8Dr/fy-diploma-bd-en.png',
+        BDpCChnSrc: 'https://i.postimg.cc/pLdq3RNv/fy-diploma-bd-chn.jpg',
       };
     },
     methods: {

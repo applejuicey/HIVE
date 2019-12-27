@@ -48,22 +48,28 @@
           </div>
         </div>
       </div>
+      <t-b-d-type2 v-if="showType === 'tbdtype2'"></t-b-d-type2>
       <t-b-d-type3 v-if="showType === 'tbdtype3'"></t-b-d-type3>
       <t-b-d-type4 v-if="showType === 'tbdtype4'"></t-b-d-type4>
+      <t-b-d-type6 v-if="showType === 'tbdtype6'"></t-b-d-type6>
     </div>
   </div>
 </template>
 
 <script>
   import BottomCard from '@/components/BottomCard.vue';
+  import TBDType2 from '@/components/TBD/TBDType2.vue';
   import TBDType3 from '@/components/TBD/TBDType3.vue';
   import TBDType4 from '@/components/TBD/TBDType4.vue';
+  import TBDType6 from '@/components/TBD/TBDType6.vue';
   export default {
     name: 'tbd_view',
     components: {
       BottomCard,
+      TBDType2,
       TBDType3,
       TBDType4,
+      TBDType6,
     },
     data: function () {
       return {
@@ -78,7 +84,8 @@
           // 'NWFQC': 'cvtype5',  // phd workshop
           // 'KRV3Q'
           // htt
-          '8FPQD': 'tbdtype4',  // KCL
+          '8FPQD': 'tbdtype4',  // KCL-BH
+          'JK6QM': 'tbdtype6',  // UCL-CTM
         },
         // accessCodeArray4HTT: ['8FPQD', 'JK6QM', 'HVC8X', 'QFKTQ'],
       };
