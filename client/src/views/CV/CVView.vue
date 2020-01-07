@@ -52,7 +52,7 @@
       <c-v-type2 v-if="showType === 'cvtype2'"></c-v-type2>
       <c-v-type3 v-if="showType === 'cvtype3'"></c-v-type3>
       <c-v-type4 v-if="showType === 'cvtype4'"></c-v-type4>
-<!--      <c-v-type5 v-if="showType === 'cvtype5'"></c-v-type5>-->
+      <c-v-type5 v-if="showType === 'cvtype5'"></c-v-type5>
       <c-v-type6 v-if="showType === 'cvtype6'"></c-v-type6>
     </div>
   </div>
@@ -64,7 +64,7 @@
   import CVType2 from '@/components/CV/CVType2.vue';
   import CVType3 from '@/components/CV/CVType3.vue';
   import CVType4 from '@/components/CV/CVType4.vue';
-  // import CVType5 from '@/components/CV/CVType5.vue';
+  import CVType5 from '@/components/CV/CVType5.vue';
   import CVType6 from '@/components/CV/CVType6.vue';
   export default {
     name: 'cv_view',
@@ -74,7 +74,7 @@
       CVType2,
       CVType3,
       CVType4,
-      // CVType5,
+      CVType5,
       CVType6,
     },
     data: function () {
@@ -88,7 +88,7 @@
           // fy
           'V3WN9': 'cvtype2',  // UCL-AI
           '43TC5': 'cvtype3',  // ICL-AI
-          'NWFQC': 'cvtype5',  // phd workshop
+          'NWFQC': 'cvtype5',  // UOM-AI
           // 'KRV3Q'
           // htt
           '8FPQD': 'cvtype4',  // KCL-BH

@@ -51,6 +51,7 @@
       <t-b-d-type2 v-if="showType === 'tbdtype2'"></t-b-d-type2>
       <t-b-d-type3 v-if="showType === 'tbdtype3'"></t-b-d-type3>
       <t-b-d-type4 v-if="showType === 'tbdtype4'"></t-b-d-type4>
+      <t-b-d-type5 v-if="showType === 'tbdtype5'"></t-b-d-type5>
       <t-b-d-type6 v-if="showType === 'tbdtype6'"></t-b-d-type6>
     </div>
   </div>
@@ -61,6 +62,7 @@
   import TBDType2 from '@/components/TBD/TBDType2.vue';
   import TBDType3 from '@/components/TBD/TBDType3.vue';
   import TBDType4 from '@/components/TBD/TBDType4.vue';
+  import TBDType5 from '@/components/TBD/TBDType5.vue';
   import TBDType6 from '@/components/TBD/TBDType6.vue';
   export default {
     name: 'tbd_view',
@@ -69,6 +71,7 @@
       TBDType2,
       TBDType3,
       TBDType4,
+      TBDType5,
       TBDType6,
     },
     data: function () {
@@ -81,7 +84,7 @@
           // fy
           'V3WN9': 'tbdtype2',  // UCL-AI
           '43TC5': 'tbdtype3',  // ICL-AI
-          // 'NWFQC': 'cvtype5',  // phd workshop
+          'NWFQC': 'tbdtype5',  // UOM-AI
           // 'KRV3Q'
           // htt
           '8FPQD': 'tbdtype4',  // KCL-BH

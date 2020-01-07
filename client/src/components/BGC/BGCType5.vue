@@ -11,12 +11,12 @@
                 <table class="table table-borderless table-sm text-left">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For an <router-link :to="{ name: 'tbd_view' }">Online Version:</router-link>
+                      For an <router-link :to="{ name: 'bgc_view' }">Online Version:</router-link>
                     </td>
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      Access Code: JK6QM
+                      Access Code: NWFQC
                     </td>
                   </tr>
                 </table>
@@ -25,12 +25,12 @@
                 <table class="table table-borderless table-sm text-right">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For '<a href="https://www.ucl.ac.uk/clinical-trials-and-methodology/study/mphilphd-clinical-trials-methodology/">Clinical Trials Methodology</a>',
+                      For '<a href="https://www.findaphd.com/phds/project/artificial-intelligence-and-machine-learning-to-improve-the-effectiveness-and-efficiency-of-health-care/?p107782/">AI&ML to Improve Health Care</a>',
                     </td>
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      University College London
+                      The University of Manchester
                     </td>
                   </tr>
                 </table>
@@ -39,7 +39,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="text-center">
-                  <span class="font-size-2 font-weight-normal">Transcript for Bachelor Degree</span>
+                  <span class="font-size-2 font-weight-normal">Bachelor Graduation Certificate</span>
                 </div>
               </div>
             </div>
@@ -51,26 +51,26 @@
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
-                <a :href="TBDEngSrc">Scanning Version (English):</a>
+                <a :href="BDgCEngSrc">Bachelor Degree Certificate Scanning Version (English):</a>
               </span>
             </div>
             <div class="text-center mb-1">
-              <img :src="TBDEngSrc" class="img-fluid rounded max-height-300 cursor-pointer"
-                   alt="Transcript for Bachelor Degree Scanning Version English" @click="viewImage(TBDEngSrc)">
+              <img :src="BDgCEngSrc" class="img-fluid rounded eng-size cursor-pointer"
+                   alt="Bachelor Degree Certificate Scanning Version English" @click="viewImage(BDgCEngSrc)">
             </div>
           </div>
-        </div>
+        </div
 
         <div class="row mb-2">
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
-                <a :href="TBDChnSrc">Scanning Version (Chinese):</a>
+                <a :href="BDpCEngSrc">Bachelor Diploma Certificate Scanning Version (English):</a>
               </span>
             </div>
             <div class="text-center mb-1">
-              <img :src="TBDChnSrc" class="img-fluid rounded max-height-300 cursor-pointer"
-                   alt="Transcript for Bachelor Degree Scanning Version Chinese" @click="viewImage(TBDChnSrc)">
+              <img :src="BDpCEngSrc" class="img-fluid rounded eng-size cursor-pointer"
+                   alt="Bachelor Diploma Certificate Scanning Version English" @click="viewImage(BDpCEngSrc)">
             </div>
           </div>
         </div>
@@ -82,11 +82,13 @@
 
 <script>
   export default {
-    name: 'tbd_type6',
+    name: 'bgc_type5',
     data: function () {
       return {
-        TBDEngSrc: 'https://i.postimg.cc/CKvM1r3V/htt-transcript-bd-en.jpg',
-        TBDChnSrc: 'https://i.postimg.cc/MKk6vQFX/htt-transcript-bd-chn.jpg',
+        BDgCEngSrc: 'https://i.postimg.cc/7PCK6CFC/fy-degree-bd-en.png',
+        BDgCChnSrc: 'https://i.postimg.cc/DwHXxgfF/fy-degree-bd-chn.jpg',
+        BDpCEngSrc: 'https://i.postimg.cc/RFWLN8Dr/fy-diploma-bd-en.png',
+        BDpCChnSrc: 'https://i.postimg.cc/pLdq3RNv/fy-diploma-bd-chn.jpg',
       };
     },
     methods: {
@@ -113,7 +115,31 @@
   .font-size-0_8 {
     font-size: 0.8rem;
   }
-  .max-height-300 {
-    max-width: 90%;
+  /*.eng-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  /*.chn-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  .eng-size {
+    width: 50%;
+  }
+  .chn-size {
+    width: 50%;
+  }
+  @media print {
+    .print-page1-top {
+      margin-top: 0;
+    }
+    .print-page1-bottom {
+      margin-bottom: 25px;
+      page-break-after: always;
+    }
+    .print-page2-top {
+      margin-top: 100px;
+    }
+    .print-page2-bottom {
+      margin-bottom: 0;
+    }
   }
 </style>

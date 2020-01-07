@@ -51,6 +51,7 @@
       <b-g-c-type2 v-if="showType === 'bgctype2'"></b-g-c-type2>
       <b-g-c-type3 v-if="showType === 'bgctype3'"></b-g-c-type3>
       <b-g-c-type4 v-if="showType === 'bgctype4'"></b-g-c-type4>
+      <b-g-c-type5 v-if="showType === 'bgctype5'"></b-g-c-type5>
       <b-g-c-type6 v-if="showType === 'bgctype6'"></b-g-c-type6>
     </div>
   </div>
@@ -61,6 +62,7 @@
   import BGCType2 from '@/components/BGC/BGCType2.vue';
   import BGCType3 from '@/components/BGC/BGCType3.vue';
   import BGCType4 from '@/components/BGC/BGCType4.vue';
+  import BGCType5 from '@/components/BGC/BGCType5.vue';
   import BGCType6 from '@/components/BGC/BGCType6.vue';
   export default {
     name: 'bgc_view',
@@ -69,6 +71,7 @@
       BGCType2,
       BGCType3,
       BGCType4,
+      BGCType5,
       BGCType6,
     },
     data: function () {
@@ -81,7 +84,7 @@
           // fy
           'V3WN9': 'bgctype2',  // UCL-AI
           '43TC5': 'bgctype3',  // ICL-AI
-          // 'NWFQC': 'cvtype5',  // phd workshop
+          'NWFQC': 'bgctype5',  // UOM-AI
           // 'KRV3Q'
           // htt
           '8FPQD': 'bgctype4',  // KCL-BH

@@ -11,12 +11,12 @@
                 <table class="table table-borderless table-sm text-left">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For an <router-link :to="{ name: 'tbd_view' }">Online Version:</router-link>
+                      For an <router-link :to="{ name: 'tmd_view' }">Online Version:</router-link>
                     </td>
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      Access Code: JK6QM
+                      Access Code: NWFQC
                     </td>
                   </tr>
                 </table>
@@ -25,12 +25,12 @@
                 <table class="table table-borderless table-sm text-right">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For '<a href="https://www.ucl.ac.uk/clinical-trials-and-methodology/study/mphilphd-clinical-trials-methodology/">Clinical Trials Methodology</a>',
+                      For '<a href="https://www.findaphd.com/phds/project/artificial-intelligence-and-machine-learning-to-improve-the-effectiveness-and-efficiency-of-health-care/?p107782/">AI&ML to Improve Health Care</a>',
                     </td>
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      University College London
+                      The University of Manchester
                     </td>
                   </tr>
                 </table>
@@ -39,7 +39,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="text-center">
-                  <span class="font-size-2 font-weight-normal">Transcript for Bachelor Degree</span>
+                  <span class="font-size-2 font-weight-normal">Transcript for Master Degree</span>
                 </div>
               </div>
             </div>
@@ -51,12 +51,12 @@
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
-                <a :href="TBDEngSrc">Scanning Version (English):</a>
+                <a :href="TMDEngSrc">Scanning Version (English):</a>
               </span>
             </div>
             <div class="text-center mb-1">
-              <img :src="TBDEngSrc" class="img-fluid rounded max-height-300 cursor-pointer"
-                   alt="Transcript for Bachelor Degree Scanning Version English" @click="viewImage(TBDEngSrc)">
+              <img :src="TMDEngSrc" class="img-fluid rounded eng-size cursor-pointer"
+                   alt="Transcript for Master Degree Scanning Version English" @click="viewImage(TMDEngSrc)">
             </div>
           </div>
         </div>
@@ -65,12 +65,12 @@
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
-                <a :href="TBDChnSrc">Scanning Version (Chinese):</a>
+                <a :href="TMDChnSrc">Scanning Version (Chinese):</a>
               </span>
             </div>
             <div class="text-center mb-1">
-              <img :src="TBDChnSrc" class="img-fluid rounded max-height-300 cursor-pointer"
-                   alt="Transcript for Bachelor Degree Scanning Version Chinese" @click="viewImage(TBDChnSrc)">
+              <img :src="TMDChnSrc" class="img-fluid rounded chn-size cursor-pointer"
+                   alt="Transcript for Master Degree Scanning Version Chinese" @click="viewImage(TMDChnSrc)">
             </div>
           </div>
         </div>
@@ -82,11 +82,11 @@
 
 <script>
   export default {
-    name: 'tbd_type6',
+    name: 'tmd_type5',
     data: function () {
       return {
-        TBDEngSrc: 'https://i.postimg.cc/CKvM1r3V/htt-transcript-bd-en.jpg',
-        TBDChnSrc: 'https://i.postimg.cc/MKk6vQFX/htt-transcript-bd-chn.jpg',
+        TMDEngSrc: 'https://i.postimg.cc/SKF4rxJg/fy-transcript-md-en.png',
+        TMDChnSrc: 'https://i.postimg.cc/FHJm3Lsf/fy-transcript-md-chn.png',
       };
     },
     methods: {
@@ -113,7 +113,16 @@
   .font-size-0_8 {
     font-size: 0.8rem;
   }
-  .max-height-300 {
-    max-width: 90%;
+  /*.eng-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  /*.chn-size {*/
+  /*  max-height: 300px;*/
+  /*}*/
+  .eng-size {
+    width: 100%;
+  }
+  .chn-size {
+    width: 50%;
   }
 </style>

@@ -16,7 +16,7 @@
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      Access Code: JK6QM
+                      Access Code: NWFQC
                     </td>
                   </tr>
                 </table>
@@ -25,12 +25,12 @@
                 <table class="table table-borderless table-sm text-right">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For '<a href="https://www.ucl.ac.uk/clinical-trials-and-methodology/study/mphilphd-clinical-trials-methodology/">Clinical Trials Methodology</a>',
+                      For '<a href="https://www.findaphd.com/phds/project/artificial-intelligence-and-machine-learning-to-improve-the-effectiveness-and-efficiency-of-health-care/?p107782/">AI&ML to Improve Health Care</a>',
                     </td>
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      University College London
+                      The University of Manchester
                     </td>
                   </tr>
                 </table>
@@ -82,11 +82,11 @@
 
 <script>
   export default {
-    name: 'tbd_type6',
+    name: 'tbd_type5',
     data: function () {
       return {
-        TBDEngSrc: 'https://i.postimg.cc/CKvM1r3V/htt-transcript-bd-en.jpg',
-        TBDChnSrc: 'https://i.postimg.cc/MKk6vQFX/htt-transcript-bd-chn.jpg',
+        TBDEngSrc: 'https://i.postimg.cc/44BJgGS3/fy-transcript-bd-en.png',
+        TBDChnSrc: 'https://i.postimg.cc/KvWx1NFS/fy-transcript-bd-chn.png',
       };
     },
     methods: {
@@ -114,6 +114,7 @@
     font-size: 0.8rem;
   }
   .max-height-300 {
-    max-width: 90%;
+    /*max-height: 300px;*/
+    max-width: 100%;
   }
 </style>

@@ -16,7 +16,7 @@
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      Access Code: V3WN9
+                      Access Code: NWFQC
                     </td>
                   </tr>
                 </table>
@@ -25,12 +25,12 @@
                 <table class="table table-borderless table-sm text-right">
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      For '<a href="https://www.ucl.ac.uk/prospective-students/graduate/research-degrees/artifical-intelligence-enabled-healthcare-mres-mphil-phd/">AI Enabled Healthcare</a>',
+                      For '<a href="https://www.findaphd.com/phds/project/artificial-intelligence-and-machine-learning-to-improve-the-effectiveness-and-efficiency-of-health-care/?p107782/">AI&ML to Improve Health Care</a>',
                     </td>
                   </tr>
                   <tr>
                     <td class="font-size-0_8 font-weight-light">
-                      University College London
+                      The University of Manchester
                     </td>
                   </tr>
                 </table>
@@ -106,9 +106,8 @@
             </div>
             <div class="text-justify">
               <span class="font-size-1_2 font-weight-light">
-                Seven years ago, when I just started to major in preventive medicine, I had no idea of what it was about and what my career should be, and undoubtedly, I screwed up some exams. With the increment of my knowledge on the discipline, I felt the necessities to re-consolidate the fundamental subjects. During the years, I have been equipping myself with medical and statistical expertise, as well as programming skills and software development experiences. Now I am seeking for an opportunity to complete the AI part for my career and, excitingly, I found your ‘AI Enabled Healthcare PhD Training Programme’. The brief introduction that
-                <a href="https://www.ucl.ac.uk/prospective-students/graduate/research-degrees/artifical-intelligence-enabled-healthcare-mres-mphil-phd/">AI has the potential to transform health and healthcare systems </a>
-                precisely reflects how my cognition and resolution of applying AI to healthcare shapes gradually as I go deep into the domain step by step. Besides, being a cross-disciplinary student, I do believe I will adapt well to the high-demanding training, which features interdisciplinary supervisory team as well as a two-sector research schedule. I know the importance of interaction between subjects to the whole research procedure from idea to application. And I’d be glad if my experiences would be of help to your centre in case of developing AI-enabled healthcare systems. I know there is no highway towards a PhD, but it is the process of pushing on this unpaved track that fascinates me and presents my value. I have faith in achieving my career goals with myself one day but never can I reach the height nor efficiency I would have with the cultivation from your centre and UCL.
+                Seven years ago, when I just started to major in preventive medicine, I had no idea of what it was about and what my career should be, and undoubtedly, I screwed up some exams. With the increment of my knowledge on the discipline, I felt the necessities to re-consolidate the fundamental subjects. During the years, I have been equipping myself with medical and statistical expertise, as well as programming skills and software development experiences. Now I am seeking for an opportunity to complete the AI part for my career and, excitingly, I found your ‘Artificial Intelligence and Machine Learning to Improve the Effectiveness and Efficiency of Health Care’ project.
+                Being a cross-disciplinary student, I do believe I will adapt well to the high-demanding training. I know the importance of interaction between subjects to the whole research procedure from idea to application. And I’d be glad if my experiences would be of help to your projects in case of developing AI-enabled healthcare systems. I know there is no highway towards a PhD, but it is the process of pushing on this unpaved track that fascinates me and presents my value. I have faith in achieving my career goals with myself one day but never can I reach the height nor efficiency I would have with the cultivation from UoM.
               </span>
             </div>
           </div>
@@ -118,9 +117,9 @@
           <div class="col-12">
             <div class="text-justify">
               <span class="font-size-1_2 font-weight-light">
-                P.S. I will apply for
-                <a href="https://www.ucl.ac.uk/scholarships/csc-ucl-joint-research-scholarship/">the China Scholarship Council (CSC)-UCL Joint Research Scholarship</a>
-                as PhD funding.
+                P.S. I will try
+                <a href="https://www.bmh.manchester.ac.uk/study/research/financial-support/csc-scholarship/">The University of Manchester - China Scholarship Council joint scholarship</a>
+                as PhD funding (or others).
               </span>
             </div>
           </div>
@@ -132,12 +131,12 @@
             <table class="table table-borderless table-sm text-right">
               <tr>
                 <td class="font-size-0_8 font-weight-light">
-                  Word Count: 810
+                  Word Count: 791
                 </td>
               </tr>
               <tr>
                 <td class="font-size-0_8 font-weight-light">
-                  Estimated Reading Time: 3 min 14 sec
+                  Estimated Reading Time: 3 min 10 sec
                 </td>
               </tr>
             </table>
@@ -151,7 +150,7 @@
 
 <script>
   export default {
-    name: 'ps_type2',
+    name: 'ps_type5',
     data: function () {
       return {
 

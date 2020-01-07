@@ -4,7 +4,7 @@
       <div class="transparent-card">
 
         <!--标题+项目-->
-        <div class="row mb-3 print-page1-top">
+        <div class="row mb-3">
           <div class="col-12">
             <div class="row">
               <div class="col-4">
@@ -59,23 +59,9 @@
                    alt="Bachelor Degree Certificate Scanning Version English" @click="viewImage(BDgCEngSrc)">
             </div>
           </div>
-        </div>
+        </div
 
-        <div class="row mb-2 print-page1-bottom">
-          <div class="col-12">
-            <div class="text-left mb-1">
-              <span class="font-size-1_2 font-weight-normal">
-                <a :href="BDgCChnSrc">Bachelor Degree Certificate Scanning Version (Chinese):</a>
-              </span>
-            </div>
-            <div class="text-center mb-1">
-              <img :src="BDgCChnSrc" class="img-fluid rounded chn-size cursor-pointer"
-                   alt="Bachelor Degree Certificate Scanning Version Chinese" @click="viewImage(BDgCChnSrc)">
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-2 print-page2-top">
+        <div class="row mb-2">
           <div class="col-12">
             <div class="text-left mb-1">
               <span class="font-size-1_2 font-weight-normal">
@@ -85,20 +71,6 @@
             <div class="text-center mb-1">
               <img :src="BDpCEngSrc" class="img-fluid rounded eng-size cursor-pointer"
                    alt="Bachelor Diploma Certificate Scanning Version English" @click="viewImage(BDpCEngSrc)">
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-2 print-page2-bottom">
-          <div class="col-12">
-            <div class="text-left mb-1">
-              <span class="font-size-1_2 font-weight-normal">
-                <a :href="BDpCChnSrc">Bachelor Diploma Certificate Scanning Version (Chinese):</a>
-              </span>
-            </div>
-            <div class="text-center mb-1">
-              <img :src="BDpCChnSrc" class="img-fluid rounded chn-size cursor-pointer"
-                   alt="Bachelor Diploma Certificate Scanning Version Chinese" @click="viewImage(BDpCChnSrc)">
             </div>
           </div>
         </div>

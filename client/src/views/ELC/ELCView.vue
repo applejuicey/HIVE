@@ -51,6 +51,7 @@
       <e-l-c-type2 v-if="showType === 'elctype2'"></e-l-c-type2>
       <e-l-c-type3 v-if="showType === 'elctype3'"></e-l-c-type3>
       <e-l-c-type4 v-if="showType === 'elctype4'"></e-l-c-type4>
+      <e-l-c-type5 v-if="showType === 'elctype5'"></e-l-c-type5>
       <e-l-c-type6 v-if="showType === 'elctype6'"></e-l-c-type6>
     </div>
   </div>
@@ -61,6 +62,7 @@
   import ELCType2 from '@/components/ELC/ELCType2.vue';
   import ELCType3 from '@/components/ELC/ELCType3.vue';
   import ELCType4 from '@/components/ELC/ELCType4.vue';
+  import ELCType5 from '@/components/ELC/ELCType5.vue';
   import ELCType6 from '@/components/ELC/ELCType6.vue';
   export default {
     name: 'elc_view',
@@ -69,6 +71,7 @@
       ELCType2,
       ELCType3,
       ELCType4,
+      ELCType5,
       ELCType6,
     },
     data: function () {
@@ -81,7 +84,7 @@
           // fy
           'V3WN9': 'elctype2',  // UCL-AI
           '43TC5': 'elctype3',  // ICL-AI
-          // 'NWFQC': 'cvtype5',  // phd workshop
+          'NWFQC': 'elctype5',  // UOM-AI
           // 'KRV3Q'
           // htt
           '8FPQD': 'elctype4',  // KCL-BH

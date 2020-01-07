@@ -51,6 +51,7 @@
       <t-m-d-type2 v-if="showType === 'tmdtype2'"></t-m-d-type2>
       <t-m-d-type3 v-if="showType === 'tmdtype3'"></t-m-d-type3>
       <t-m-d-type4 v-if="showType === 'tmdtype4'"></t-m-d-type4>
+      <t-m-d-type5 v-if="showType === 'tmdtype5'"></t-m-d-type5>
       <t-m-d-type6 v-if="showType === 'tmdtype6'"></t-m-d-type6>
     </div>
   </div>
@@ -61,6 +62,7 @@
   import TMDType2 from '@/components/TMD/TMDType2.vue';
   import TMDType3 from '@/components/TMD/TMDType3.vue';
   import TMDType4 from '@/components/TMD/TMDType4.vue';
+  import TMDType5 from '@/components/TMD/TMDType5.vue';
   import TMDType6 from '@/components/TMD/TMDType6.vue';
   export default {
     name: 'tmd_view',
@@ -69,6 +71,7 @@
       TMDType2,
       TMDType3,
       TMDType4,
+      TMDType5,
       TMDType6,
     },
     data: function () {
@@ -81,7 +84,7 @@
           // fy
           'V3WN9': 'tmdtype2',  // UCL-AI
           '43TC5': 'tmdtype3',  // ICL-AI
-          // 'NWFQC': 'cvtype5',  // phd workshop
+          'NWFQC': 'tmdtype5',   // UOM-AI
           // 'KRV3Q'
           // htt
           '8FPQD': 'tmdtype4',  // KCL-BH
