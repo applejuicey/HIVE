@@ -59,7 +59,7 @@
                    alt="Bachelor Degree Certificate Scanning Version English" @click="viewImage(BDgCEngSrc)">
             </div>
           </div>
-        </div
+        </div>
 
         <div class="row mb-2">
           <div class="col-12">
